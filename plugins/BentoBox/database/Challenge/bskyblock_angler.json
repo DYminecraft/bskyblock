@@ -1,0 +1,44 @@
+{
+  "uniqueId": "bskyblock_angler",
+  "friendlyName": "生蛙鱼",
+  "deployed": true,
+  "description": [
+    "使用生蛙鱼来兑换物品"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: SALMON\n",
+  "order": 4,
+  "challengeType": "INVENTORY_TYPE",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "bskyblock_competent",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: SALMON\n  amount: 32\n"
+      ],
+      "ignoreMetaData": [],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "rewardText": "使用钓上来的鱼来兑换一些海晶碎片",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: PRISMARINE_CRYSTALS\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: KELP\n  amount: 4\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0.0,
+  "rewardCommands": [],
+  "ignoreRewardMetaData": [],
+  "repeatable": true,
+  "timeout": 0,
+  "repeatRewardText": "Some prismarine crystals",
+  "maxTimes": 0,
+  "repeatExperienceReward": 5,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: PRISMARINE_CRYSTALS\n  amount: 4\n"
+  ],
+  "repeatMoneyReward": 0.0,
+  "repeatRewardCommands": []
+}

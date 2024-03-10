@@ -1,0 +1,58 @@
+{
+  "uniqueId": "bskyblock_glassmaker",
+  "friendlyName": "玻璃生产商",
+  "deployed": true,
+  "description": [
+    "制造所有颜色的玻璃"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: GLASS\n",
+  "order": 4,
+  "challengeType": "INVENTORY_TYPE",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "bskyblock_elite",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: WHITE_STAINED_GLASS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: ORANGE_STAINED_GLASS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: MAGENTA_STAINED_GLASS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: LIGHT_BLUE_STAINED_GLASS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: YELLOW_STAINED_GLASS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: LIME_STAINED_GLASS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: PINK_STAINED_GLASS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: GRAY_STAINED_GLASS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: LIGHT_GRAY_STAINED_GLASS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: CYAN_STAINED_GLASS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: PURPLE_STAINED_GLASS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: BLUE_STAINED_GLASS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: BROWN_STAINED_GLASS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: GREEN_STAINED_GLASS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: RED_STAINED_GLASS\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: BLACK_STAINED_GLASS\n  amount: 10\n"
+      ],
+      "ignoreMetaData": [],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "rewardText": "使用各色玻璃兑换奖励",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: SHULKER_BOX\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0.0,
+  "rewardCommands": [],
+  "ignoreRewardMetaData": [],
+  "repeatable": true,
+  "timeout": 0,
+  "repeatRewardText": "使用各色玻璃兑换奖励",
+  "maxTimes": 100,
+  "repeatExperienceReward": 5,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: SHULKER_SHELL\n"
+  ],
+  "repeatMoneyReward": 0.0,
+  "repeatRewardCommands": []
+}

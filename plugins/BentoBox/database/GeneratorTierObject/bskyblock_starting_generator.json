@@ -1,0 +1,33 @@
+{
+  "uniqueId": "bskyblock_starting_generator",
+  "friendlyName": "&r&l初始刷石机",
+  "description": [
+    "&7 为每个人提供的",
+    "&7 初始刷石机。"
+  ],
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: COBBLESTONE\n",
+  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: BARRIER\n",
+  "generatorType": "COBBLESTONE_OR_STONE",
+  "defaultGenerator": true,
+  "priority": 1,
+  "requiredMinIslandLevel": 0,
+  "requiredBiomes": [],
+  "requiredPermissions": [],
+  "generatorTierCost": 0.0,
+  "activationCost": 0.0,
+  "deployed": true,
+  "blockChanceMap": {
+    "10.0": "STONE",
+    "96.0": "COBBLESTONE",
+    "97.0": "GRAVEL",
+    "98.0": "GRANITE",
+    "99.0": "DIORITE",
+    "100.0": "ANDESITE"
+  },
+  "treasureChanceMap": {},
+  "treasureItemChanceMap": {
+    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: COAL\n"
+  },
+  "treasureChance": 0.001,
+  "maxTreasureAmount": 1
+}

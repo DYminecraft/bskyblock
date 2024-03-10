@@ -1,0 +1,45 @@
+{
+  "uniqueId": "bskyblock_milkcollector",
+  "friendlyName": "挤牛奶",
+  "deployed": true,
+  "description": [
+    "去找几头牛来获得一些牛奶"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: MILK_BUCKET\n",
+  "order": 2,
+  "challengeType": "INVENTORY_TYPE",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "bskyblock_expert",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: MILK_BUCKET\n  amount: 9\n"
+      ],
+      "ignoreMetaData": [],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "rewardText": "使用牛奶兑换为一些蘑菇牛",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: BUCKET\n  amount: 9\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: MOOSHROOM_SPAWN_EGG\n  amount: 2\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0.0,
+  "rewardCommands": [],
+  "ignoreRewardMetaData": [],
+  "repeatable": true,
+  "timeout": 0,
+  "repeatRewardText": "使用牛奶兑换为一些铁",
+  "maxTimes": 100,
+  "repeatExperienceReward": 5,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: BUCKET\n  amount: 9\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: IRON_INGOT\n  amount: 5\n"
+  ],
+  "repeatMoneyReward": 0.0,
+  "repeatRewardCommands": []
+}

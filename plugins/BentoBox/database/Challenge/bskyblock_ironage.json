@@ -1,0 +1,51 @@
+{
+  "uniqueId": "bskyblock_ironage",
+  "friendlyName": "铁器时代",
+  "deployed": true,
+  "description": [
+    "制造一批铁质工具"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: IRON_INGOT\n",
+  "order": 4,
+  "challengeType": "INVENTORY_TYPE",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "bskyblock_expert",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: IRON_AXE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: IRON_HOE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: IRON_PICKAXE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: IRON_SHOVEL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: IRON_SWORD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: IRON_BOOTS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: IRON_LEGGINGS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: IRON_CHESTPLATE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: IRON_HELMET\n"
+      ],
+      "ignoreMetaData": [],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "rewardText": "使用铁质工具来兑换一些钻石",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: DIAMOND\n  amount: 4\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0.0,
+  "rewardCommands": [],
+  "ignoreRewardMetaData": [],
+  "repeatable": true,
+  "timeout": 0,
+  "repeatRewardText": "使用铁质工具来兑换一些钻石",
+  "maxTimes": 100,
+  "repeatExperienceReward": 5,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: DIAMOND\n"
+  ],
+  "repeatMoneyReward": 0.0,
+  "repeatRewardCommands": []
+}

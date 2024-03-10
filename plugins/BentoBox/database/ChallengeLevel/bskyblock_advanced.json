@@ -1,0 +1,33 @@
+{
+  "uniqueId": "bskyblock_advanced",
+  "friendlyName": "才识过人",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: BLUE_CONCRETE\n",
+  "world": "bskyblock_world",
+  "order": 4,
+  "waiverAmount": 0,
+  "unlockMessage": "恭喜 - 您已解锁等级 &d才识过人!",
+  "rewardText": "完成所有[才识过人]挑战任务即可获得奖励",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: DIAMOND_HELMET\n  meta:\n    ==: ItemMeta\n    meta-type: ARMOR\n    enchants:\n      PROTECTION_ENVIRONMENTAL: 4\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: DIAMOND_CHESTPLATE\n  meta:\n    ==: ItemMeta\n    meta-type: ARMOR\n    enchants:\n      PROTECTION_ENVIRONMENTAL: 4\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: DIAMOND_LEGGINGS\n  meta:\n    ==: ItemMeta\n    meta-type: ARMOR\n    enchants:\n      PROTECTION_ENVIRONMENTAL: 4\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: DIAMOND_BOOTS\n  meta:\n    ==: ItemMeta\n    meta-type: ARMOR\n    enchants:\n      PROTECTION_FALL: 4\n      PROTECTION_ENVIRONMENTAL: 4\n      DURABILITY: 3\n"
+  ],
+  "rewardExperience": 5345,
+  "rewardMoney": 5000.0,
+  "rewardCommands": [
+    "effect give [player] regeneration 600"
+  ],
+  "challenges": [
+    "bskyblock_waterzoo",
+    "bskyblock_chef",
+    "bskyblock_goldage",
+    "bskyblock_zoomaker",
+    "bskyblock_witherkiller",
+    "bskyblock_advanced",
+    "bskyblock_dj",
+    "bskyblock_icefarmer",
+    "bskyblock_alchemist"
+  ],
+  "ignoreRewardMetaData": []
+}

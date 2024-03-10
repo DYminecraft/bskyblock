@@ -1,0 +1,45 @@
+{
+  "uniqueId": "bskyblock_beaconator",
+  "friendlyName": "信标",
+  "deployed": true,
+  "description": [
+    "建造一个信标"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: BEACON\n",
+  "order": 6,
+  "challengeType": "ISLAND_TYPE",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "bskyblock_elite",
+  "requirements": {
+    "class": "IslandRequirements",
+    "parameters": {
+      "requiredBlocks": {
+        "BEACON": 1,
+        "IRON_BLOCK": 164
+      },
+      "removeBlocks": false,
+      "requiredEntities": {},
+      "removeEntities": false,
+      "searchRadius": 10,
+      "requiredPermissions": []
+    }
+  },
+  "rewardText": "建造一个功能全开的信标来获取奖励",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: DIAMOND\n  amount: 32\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: SHULKER_BOX\n  amount: 2\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0.0,
+  "rewardCommands": [],
+  "ignoreRewardMetaData": [],
+  "repeatable": false,
+  "timeout": 0,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0.0,
+  "repeatRewardCommands": []
+}

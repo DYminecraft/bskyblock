@@ -1,0 +1,35 @@
+{
+  "uniqueId": "bskyblock_novice",
+  "friendlyName": "蜻蜓点水",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: ORANGE_CONCRETE\n",
+  "world": "bskyblock_world",
+  "order": 1,
+  "waiverAmount": 3,
+  "unlockMessage": "",
+  "rewardText": "完成所有新手任务即可获得奖励",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: GRASS_BLOCK\n"
+  ],
+  "rewardExperience": 1395,
+  "rewardMoney": 100.0,
+  "rewardCommands": [
+    "effect give [player] speed 600"
+  ],
+  "challenges": [
+    "bskyblock_crackedmaker",
+    "bskyblock_chiseledmaker",
+    "bskyblock_cobblegenerator",
+    "bskyblock_sugarcanefarm",
+    "bskyblock_pumpkinmaker",
+    "bskyblock_pumpkinfarm",
+    "bskyblock_applecollector",
+    "bskyblock_cactusfarm",
+    "bskyblock_papermaker",
+    "bskyblock_mushroomfarm",
+    "bskyblock_melonmaker",
+    "bskyblock_melonfarm",
+    "bskyblock_stonesmelter",
+    "bskyblock_treefarm"
+  ],
+  "ignoreRewardMetaData": []
+}

@@ -1,0 +1,43 @@
+{
+  "uniqueId": "bskyblock_melonfarm",
+  "friendlyName": "西瓜农场",
+  "deployed": true,
+  "description": [
+    "建造一个西瓜农场"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: MELON\n",
+  "order": 2,
+  "challengeType": "ISLAND_TYPE",
+  "environment": [],
+  "removeWhenCompleted": true,
+  "level": "bskyblock_novice",
+  "requirements": {
+    "class": "IslandRequirements",
+    "parameters": {
+      "requiredBlocks": {
+        "MELON_STEM": 8
+      },
+      "removeBlocks": false,
+      "requiredEntities": {},
+      "removeEntities": false,
+      "searchRadius": 10,
+      "requiredPermissions": []
+    }
+  },
+  "rewardText": "种植一些西瓜来获取奖励",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: DIRT\n  amount: 16\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0.0,
+  "rewardCommands": [],
+  "ignoreRewardMetaData": [],
+  "repeatable": false,
+  "timeout": 0,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0.0,
+  "repeatRewardCommands": []
+}

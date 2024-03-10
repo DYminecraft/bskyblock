@@ -1,0 +1,42 @@
+{
+  "uniqueId": "bskyblock_elite",
+  "friendlyName": "空岛等级奖励",
+  "deployed": true,
+  "description": [
+    "空岛等级达到Lv.10000"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: MAGENTA_CONCRETE\n",
+  "order": 10,
+  "challengeType": "OTHER_TYPE",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "bskyblock_elite",
+  "requirements": {
+    "class": "OtherRequirements",
+    "parameters": {
+      "requiredExperience": 0,
+      "takeExperience": false,
+      "requiredMoney": 0.0,
+      "takeMoney": false,
+      "requiredIslandLevel": 10000,
+      "requiredPermissions": []
+    }
+  },
+  "rewardText": "空岛等级奖励",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: DIAMOND\n  amount: 64\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: SHULKER_BOX\n  amount: 5\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0.0,
+  "rewardCommands": [],
+  "ignoreRewardMetaData": [],
+  "repeatable": false,
+  "timeout": 0,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0.0,
+  "repeatRewardCommands": []
+}

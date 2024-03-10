@@ -1,0 +1,59 @@
+{
+  "uniqueId": "bskyblock_enderkiller",
+  "friendlyName": "怪物乐园",
+  "deployed": true,
+  "description": [
+    "注意！危险！"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: IRON_BARS\n",
+  "order": 6,
+  "challengeType": "ISLAND_TYPE",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "bskyblock_elite",
+  "requirements": {
+    "class": "IslandRequirements",
+    "parameters": {
+      "requiredBlocks": {},
+      "removeBlocks": false,
+      "requiredEntities": {
+        "WITHER_SKELETON": 1,
+        "HUSK": 1,
+        "CREEPER": 1,
+        "SKELETON": 1,
+        "SPIDER": 1,
+        "ZOMBIE": 1,
+        "SLIME": 1,
+        "GHAST": 1,
+        "ZOMBIFIED_PIGLIN": 1,
+        "ENDERMAN": 1,
+        "BLAZE": 1,
+        "MAGMA_CUBE": 1,
+        "WITCH": 1,
+        "ENDERMITE": 1,
+        "PHANTOM": 1,
+        "DROWNED": 1
+      },
+      "removeEntities": false,
+      "searchRadius": 20,
+      "requiredPermissions": []
+    }
+  },
+  "rewardText": "建造一个怪物乐园来获取奖励",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: DIAMOND\n  amount: 32\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: SHULKER_BOX\n  amount: 5\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0.0,
+  "rewardCommands": [],
+  "ignoreRewardMetaData": [],
+  "repeatable": false,
+  "timeout": 0,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0.0,
+  "repeatRewardCommands": []
+}

@@ -1,0 +1,48 @@
+{
+  "uniqueId": "bskyblock_cobblegenerator",
+  "friendlyName": "圆石生成器",
+  "deployed": true,
+  "description": [
+    "建造一个圆石制作机"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: COBBLESTONE\n",
+  "order": 1,
+  "challengeType": "ISLAND_TYPE",
+  "environment": [],
+  "removeWhenCompleted": true,
+  "level": "bskyblock_novice",
+  "requirements": {
+    "class": "IslandRequirements",
+    "parameters": {
+      "requiredBlocks": {
+        "COBBLESTONE": 1,
+        "LAVA": 1,
+        "WATER": 1
+      },
+      "removeBlocks": false,
+      "requiredEntities": {},
+      "removeEntities": false,
+      "searchRadius": 5,
+      "requiredPermissions": []
+    }
+  },
+  "rewardText": "建造一个圆石制作机来获取奖励",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: STONE_PICKAXE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DIG_SPEED: 5\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: STONE_AXE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DIG_SPEED: 5\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: STONE_SHOVEL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DIG_SPEED: 5\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: STONE_HOE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0.0,
+  "rewardCommands": [],
+  "ignoreRewardMetaData": [],
+  "repeatable": false,
+  "timeout": 0,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0.0,
+  "repeatRewardCommands": []
+}

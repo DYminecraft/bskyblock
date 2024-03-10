@@ -1,0 +1,44 @@
+{
+  "uniqueId": "bskyblock_slimefarm",
+  "friendlyName": "史莱姆",
+  "deployed": true,
+  "description": [
+    "建造一个史莱姆刷怪场"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: SLIME_BLOCK\n",
+  "order": 1,
+  "challengeType": "ISLAND_TYPE",
+  "environment": [],
+  "removeWhenCompleted": true,
+  "level": "bskyblock_expert",
+  "requirements": {
+    "class": "IslandRequirements",
+    "parameters": {
+      "requiredBlocks": {},
+      "removeBlocks": false,
+      "requiredEntities": {
+        "SLIME": 5
+      },
+      "removeEntities": false,
+      "searchRadius": 10,
+      "requiredPermissions": []
+    }
+  },
+  "rewardText": "建造一个史莱姆刷怪场来获得奖励",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: ENCHANTED_BOOK\n  meta:\n    ==: ItemMeta\n    meta-type: ENCHANTED\n    stored-enchants:\n      MENDING: 1\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: NETHER_QUARTZ_ORE\n  amount: 16\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0.0,
+  "rewardCommands": [],
+  "ignoreRewardMetaData": [],
+  "repeatable": false,
+  "timeout": 0,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0.0,
+  "repeatRewardCommands": []
+}

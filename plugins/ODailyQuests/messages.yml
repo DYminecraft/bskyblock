@@ -1,0 +1,61 @@
+# NEVER DELETE A %variable%
+# Messages support HEX colours codes.
+
+player_help: |
+  &a&n玩家命令：
+  &e/dq me &a：查看你自己的任务
+  &e/dq reroll <索引> &a：重新抽取一个任务（需要权限）
+  &e/dq show <global/easy/medium/hard> &a：查看某一类别的任务
+admin_help: |
+  &c&n管理员命令：
+  &e/dqa complete <玩家> <索引> &a：完成玩家的一个任务
+  &e/dqa reset <quests/total> <玩家> &a：为玩家抽取新任务，或重置他已完成的任务总数。
+  &e/dqa add total <玩家> <数量> &a：为玩家增加已完成的任务数量。
+  &e/dqa reroll <玩家> <索引> &a：为玩家在特定索引处抽取新任务。
+  &e/dqa show <玩家> &a：查看玩家的任务
+no_permission: '&c你没有权限。'
+no_permission_category: '&c你没有查看此类别的权限。'
+player_only: '&c只有玩家才能执行此命令。'
+invalid_category: '&c无效的任务类别。'
+invalid_player: '&c此玩家不存在，或处于离线状态。'
+invalid_quest_id: '&c你必须指定一个有效的任务ID。'
+invalid_quest_index: '&c指定的索引无效。'
+invalid_amount: '&c指定的数量无效。'
+categorized_enabled: '&c已启用分类任务，全局菜单不可用。'
+categorized_disabled: '&c已禁用分类任务，仅全局菜单可用。'
+global_disabled: '&c全局任务已禁用，仅分类菜单可用。'
+already_achieved: '&c此任务已经完成。'
+hologram_categorized_enabled: '&c已启用分类任务，无法创建全局hologram.'
+hologram_categorized_disabled: '&c已禁用分类任务，无法创建分类hologram.'
+hologram_deleted: '&aHologram已成功删除.'
+hologram_invalid_index: '&cHologram的索引无效.'
+quests_in_progress: '&e你还有日常任务未完成！'
+all_quests_achieved_connect: '&a你已完成所有日常任务！'
+quests_renewed: '&a你有新的日常任务需要完成！'
+quests_renewed_admin: '&e你已重置了%target%的任务。'
+quest_rerolled: '&a你已重新抽取了编号为%index%的任务！'
+quest_rerolled_admin: '&e你已为%target%重新抽取了编号为%index%的任务。'
+add_total_admin: '&e你已为%target%的已完成任务总数增加了%amount%。'
+add_total_target: '&e管理员已为你的已完成任务总数增加了%amount%。'
+quest_achieved: '&a你已完成任务&e%questName%&a，干得好！'
+all_quests_achieved: '&a你已完成所有日常任务，干得好！'
+easy_reward: '&a你已完成所有简单任务！'
+medium_reward: '&a你已完成所有中等任务！'
+hard_reward: '&a你已完成所有困难任务！'
+not_enough_items: '&c你没有足够的物品来完成此任务。'
+total_amount_reset: '&e你的已完成任务总数已被管理员重置。'
+total_amount_reset_admin: '&e%target%的已完成任务总数已被管理员重置。'
+world_disabled: '&c你无法在这个世界中完成任务。'
+not_required_world: '&c你无法在这个世界中完成此任务。'
+reward_command: '&a你收到了一些奖励命令。'
+reward_exp_levels: '&a你获得了&e%rewardAmount%&b经验&a等级。'
+reward_exp_points: '&a你获得了&e%rewardAmount%&b经验&a点。'
+reward_money: '&a你获得了&e%rewardAmount%&b$&a。'
+reward_points: '&a你获得了&e%rewardAmount%&b点数&a。'
+reward_coins_engine: '&a你获得了&e%rewardAmount%&b%currencyName%&a。'
+new_day: '&6新的一天开始了！'
+too_far: '&c你离所需位置太远了。'
+bad_world: '&c你在错误的世界中。'
+placeholder_api_not_enabled: '&cPlaceholderAPI插件未启用。请通知管理员。'
+placeholder_not_number: '&c占位符%placeholder%不是一个数字。请通知管理员。'
+cannot_complete_quest_with_off_hand: '&c所有所需物品必须在你的物品栏中，而不是在你的副手上。'

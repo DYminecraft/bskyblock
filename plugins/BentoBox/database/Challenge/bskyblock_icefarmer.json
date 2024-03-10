@@ -1,0 +1,45 @@
+{
+  "uniqueId": "bskyblock_icefarmer",
+  "friendlyName": "冰块收集者",
+  "deployed": true,
+  "description": [
+    "去搜集一些冰块"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: ICE\n",
+  "order": 3,
+  "challengeType": "INVENTORY_TYPE",
+  "environment": [],
+  "removeWhenCompleted": false,
+  "level": "bskyblock_advanced",
+  "requirements": {
+    "class": "InventoryRequirements",
+    "parameters": {
+      "requiredItems": [
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: ICE\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: ICE\n  amount: 64\n"
+      ],
+      "ignoreMetaData": [],
+      "takeItems": true,
+      "requiredPermissions": []
+    }
+  },
+  "rewardText": "使用冰块来兑换一些奖励|",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: DIAMOND\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: SHULKER_BOX\n  amount: 2\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0.0,
+  "rewardCommands": [],
+  "ignoreRewardMetaData": [],
+  "repeatable": true,
+  "timeout": 0,
+  "repeatRewardText": "使用冰块来兑换一些奖励|",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: DIAMOND\n  amount: 2\n"
+  ],
+  "repeatMoneyReward": 0.0,
+  "repeatRewardCommands": []
+}

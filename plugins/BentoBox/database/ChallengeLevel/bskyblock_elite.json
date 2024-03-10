@@ -1,0 +1,32 @@
+{
+  "uniqueId": "bskyblock_elite",
+  "friendlyName": "才华横溢",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: MAGENTA_CONCRETE\n",
+  "world": "bskyblock_world",
+  "order": 5,
+  "waiverAmount": 0,
+  "unlockMessage": "恭喜 - 您已解锁等级 &d才识过人!",
+  "rewardText": "完成所有[才识过人]挑战任务即可获得奖励",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: DIAMOND_SWORD\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      LOOT_BONUS_MOBS: 3\n      DAMAGE_ALL: 5\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: BOW\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      ARROW_FIRE: 1\n      ARROW_INFINITE: 1\n      ARROW_DAMAGE: 5\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: ELYTRA\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: TRIDENT\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n"
+  ],
+  "rewardExperience": 8670,
+  "rewardMoney": 0.0,
+  "rewardCommands": [
+    "effect give [player] luck 600"
+  ],
+  "challenges": [
+    "bskyblock_beaconator",
+    "bskyblock_terracottamaker",
+    "bskyblock_diamondage",
+    "bskyblock_engineer",
+    "bskyblock_visitend",
+    "bskyblock_enderkiller",
+    "bskyblock_glassmaker",
+    "bskyblock_elite"
+  ],
+  "ignoreRewardMetaData": []
+}

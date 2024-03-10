@@ -1,0 +1,46 @@
+{
+  "uniqueId": "bskyblock_visitend",
+  "friendlyName": "前往末地",
+  "deployed": true,
+  "description": [
+    "前往末地尽情探索！"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: END_STONE\n",
+  "order": 3,
+  "challengeType": "ISLAND_TYPE",
+  "environment": [
+    "THE_END"
+  ],
+  "removeWhenCompleted": true,
+  "level": "bskyblock_elite",
+  "requirements": {
+    "class": "IslandRequirements",
+    "parameters": {
+      "requiredBlocks": {
+        "END_STONE": 1
+      },
+      "removeBlocks": false,
+      "requiredEntities": {},
+      "removeEntities": false,
+      "searchRadius": 20,
+      "requiredPermissions": []
+    }
+  },
+  "rewardText": "完成指定条件领取奖励",
+  "rewardItems": [
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: DIAMOND_ORE\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 3700\n  type: ELYTRA\n"
+  ],
+  "rewardExperience": 50,
+  "rewardMoney": 0.0,
+  "rewardCommands": [],
+  "ignoreRewardMetaData": [],
+  "repeatable": false,
+  "timeout": 0,
+  "repeatRewardText": "",
+  "maxTimes": 0,
+  "repeatExperienceReward": 0,
+  "repeatItemReward": [],
+  "repeatMoneyReward": 0.0,
+  "repeatRewardCommands": []
+}

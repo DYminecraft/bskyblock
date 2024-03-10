@@ -1,0 +1,164 @@
+# All intervals are in ticks (20 ticks = 1 second)
+BalanceTopTimerInterval: 1200
+
+currencyNameSingular: "Dollar"
+currencyNamePlural: "Dollars"
+startingBalance: 100.00
+# Changing the locale will change wht format the money is in, see 
+# https://www.techonthenet.com/js/language_tags.php for examples.
+locale: "zh-CN"
+# Note: The custom symbol may not work if minecraft doesn't allow that symbol.
+#       The custom symbol may need to be in unicode format (e.g. \u26C3 for 
+#       dollar sign) to be able to work.
+customSymbolEnabled: false
+customSymbol: ""
+
+mysql:
+  use-mysql: false
+  host: "localhost"
+  port: 1111
+  database: "database"
+  username: "username"
+  password: "password"
+
+suffixes:
+  # amount is multiplied by 10^number.
+  # e.g. for k, the amount is multiplied by 10^3 (1,000)
+  k: 3
+  K: 3
+  m: 6
+  M: 6
+  b: 9
+  B: 9
+  t: 12
+  T: 12
+  q: 15
+  Q: 15
+
+messages:  
+  
+  prefix: "&b经济系统 &f>> "  
+  nopermission:  
+    - "%prefix%&4您没有执行此操作的权限！"  
+  playersOnly:  
+    - "%prefix%&c只有玩家才能运行该指令！"  
+        
+  balance:  
+    usage:  
+      - "%prefix%&c用法：/balance"  
+      - "%prefix%&c用法：/balance {玩家}"  
+    noAccount:  
+      - "%prefix%&c您没有账户！"  
+    balance:  
+      - "%prefix%&a您的余额是&e%balance%&a。"  
+    otherNoAccount:  
+      - "%prefix%&5%player%&c没有账户！"  
+    otherBalance:  
+      - "%prefix%&5%player%&a的余额是&e%balance%&a。"  
+    
+  money:  
+    
+    invalidSubCommand:  
+      - "%prefix%&c该子指令不存在！"  
+      
+    give:  
+      usage:  
+        - "%prefix%&c用法：/money give {玩家} {金额}"  
+      otherDoesntExist:  
+        - "%prefix%&5%player% &c不存在！"  
+      otherNoAccount:  
+        - "%prefix%&5%player%&c没有账户！"  
+      invalidAmount:  
+        - "%prefix%&5%amount%&c无效！"  
+      sent:  
+        - "%prefix%&a您给&5%player%&a发送了&e%amount%&a。"  
+      sentMultiple:  
+        - "%prefix%&a您给&b%total%&a个玩家发送了&e%amount%&a。"  
+      received:  
+        - "%prefix%&a您收到了&e%amount%&a。"  
+          
+    help:  
+      usage:  
+        - "%prefix%&c用法：/money help"  
+      message:  
+        - "%prefix%&e指令列表："  
+        - "%prefix%&b/money help"  
+        - "%prefix%&b/balancetop"  
+        - "%prefix%&b/balance"  
+        - "%prefix%&b/balance {玩家}"  
+        - "%prefix%&b/pay {玩家} {金额}"  
+      
+    reload:  
+      usage:  
+        - "%prefix%&c用法：/money reload"  
+      reloaded:  
+        - "%prefix%&a您已重新加载了经济系统。"  
+      
+    set:  
+      usage:  
+        - "%prefix%&c用法：/money set {玩家} {金额}"  
+      otherDoesntExist:  
+        - "%prefix%&5%player%&c不存在！"  
+      otherNoAccount:  
+        - "%prefix%&5%player%&c没有账户！"  
+      invalidAmount:  
+        - "%prefix%&5%amount%&c无效！"  
+      setter:  
+        - "%prefix%&5%player%&a的余额已设置为&e%balance%&a。"  
+      setterMultiple:  
+        - "%prefix%&b%total%个玩家的余额已设置为&e%balance%&a。"  
+      set:  
+        - "%prefix%&a您的余额已设置为&e%amount%&a。"  
+      
+    take:  
+      usage:  
+        - "%prefix%&c用法：/money take {玩家} {金额}"  
+      otherDoesntExist:  
+        - "%prefix%&5%player%&c不存在！"  
+      otherNoAccount:  
+        - "%prefix%&5%player%&c没有账户！"  
+      invalidAmount:  
+        - "%prefix%&5%amount%&c无效！"  
+      insufficientFunds:  
+        - "%prefix%&5%player%&c余额不足！"  
+      take:  
+        - "%prefix%&e%amount%&a已从&5%player%&a 的账户中扣除。"  
+      takeMultiple:  
+        - "%prefix%&e%amount%&a已从&b%total%&a 个玩家的账户中扣除。"  
+      taken:  
+        - "%prefix%&e%amount%&a已从您的账户中扣除。"  
+    
+  pay:  
+    usage:  
+      - "%prefix%&c用法：/pay {玩家} {金额}"  
+    otherDoesntExist:  
+      - "%prefix%&5%player% &c不存在！"  
+    noAccount:  
+      - "%prefix%&c您没有账户！"  
+    otherNoAccount:  
+      - "%prefix%&5%player%&c没有账户！"  
+    cannotPaySelf:  
+      - "%prefix%&c您不能给自己转账！"  
+    invalidAmount:  
+      - "%prefix%&5%amount%&c无效！"  
+    insufficientFunds:  
+      - "%prefix%&c您的余额不足！"  
+    paid:  
+      - "%prefix%&a您已支付&5%player%&e%amount%&a。"  
+    received:  
+      - "%prefix%&a您已收到来自&5%player%&a的&e%amount%&a。"  
+      
+  top:  
+    usage:  
+      - "%prefix%&c用法：/balancetop"  
+      - "%prefix%&c用法：/balancetop {数字}"  
+    noAccounts:  
+      - "%prefix%&c没有账户！"  
+    invalidTop:  
+      - "%prefix%&5%top%&c无效！"  
+    notEnoughPlayers:  
+      - "%prefix%&c玩家数量不足！"  
+    message:  
+      - "%prefix%&b%rank%.&a%player%：&b%balance%"  
+    self:  
+      - "%prefix%&b%rank%.&a%player%：&b%balance%（您自己）"
