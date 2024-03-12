@@ -4,30 +4,30 @@ meta:
   - shaokeyibb
   banner: RED_BANNER:1:SQUARE_TOP_RIGHT:YELLOW:CROSS:RED:CURLY_BORDER:RED:MOJANG:YELLOW:HALF_HORIZONTAL_MIRROR:RED:HALF_VERTICAL:RED
 prefixes:
-  bentobox: '&6 BentoBox&7 &l > &r '
+  bentobox: '&6地方BentoBox&7 &l>&r '
 general:
   success: '&a成功！'
   invalid: 无效
   errors:
     command-cancelled: '&c命令已取消。'
-    no-permission: '&c您无权执行此命令（&7[permission]&c）。'
-    insufficient-rank: '&c您的阶衔没有达到要求（&7[rank]&c）！'
+    no-permission: '&c你无权执行此命令（&7[permission]&c）。'
+    insufficient-rank: '&c你的阶衔没有达到要求（&7[rank]&c）！'
     use-in-game: '&c这个命令只能在游戏中使用。'
     use-in-console: '&c该命令仅在控制台中可用。'
-    no-team: '&c您目前没有团队！'
-    no-island: '&c您现在没有岛屿！'
+    no-team: '&c你目前没有团队！'
+    no-island: '&c你现在没有岛屿！'
     player-has-island: '&c该玩家原本已经有岛屿了！'
     player-has-no-island: '&c该玩家没有岛屿！'
-    already-have-island: '&c您已经有岛屿了，不能重复创建！'
-    no-safe-location-found: '&c试图将您传送到岛屿上时找不到安全的落脚点。'
-    not-owner: '&c您不是该岛屿的主人！'
+    already-have-island: '&c你已经有岛屿了，不能重复创建！'
+    no-safe-location-found: '&c试图将你传送到岛屿上时找不到安全的落脚点。'
+    not-owner: '&c你不是该岛屿的主人！'
     player-is-not-owner: '&b[name]&c不是岛屿的主人！'
-    not-in-team: '&c该玩家不在您的队伍中！'
+    not-in-team: '&c该玩家不在你的队伍中！'
     offline-player: '&c该玩家不存在或已离线。'
     unknown-player: '&b[name]&c是未知玩家！'
     general: '&c该命令尚未就绪，请联系管理员。'
     unknown-command: '&c未知命令。请使用&b/[label] help&c查看帮助。'
-    wrong-world: '&c在您现在所处的世界里不能这么做！'
+    wrong-world: '&c在你现在所处的世界里不能这么做！'
     you-must-wait: '&c该命令冷却中，剩余：&b[number]&c秒。'
     must-be-positive-number: '&c“[number]”不是有效的正数。'
     not-on-island: '&c你不在岛上！'
@@ -37,7 +37,7 @@ general:
     the-end: 末地
 commands:
   help:
-    header: '&7===========&c[label]帮助&7 ==========='
+    header: '&7=========== &c[label]帮助&7 ==========='
     syntax: '&b[usage] &a[parameters]&7：&e[description]'
     syntax-no-parameters: '&b[usage]&7：&e[description]'
     end: '&7================================='
@@ -83,7 +83,7 @@ commands:
       no-purge-in-progress: '&c没有正在进行的清理工作。'
       protect:
         description: 开启/关闭岛屿清理保护，开启清理保护的岛屿不会被清理。
-        move-to-island: '&c您身处的位置并没有岛屿，请到要操作的岛上再试！'
+        move-to-island: '&c你身处的位置并没有岛屿，请到要操作的岛上再试！'
         protecting: '&a已为该岛屿开启清理保护。'
         unprotecting: '&e已关闭该岛屿的清理保护。'
       stop:
@@ -107,7 +107,7 @@ commands:
         parameters: <owner>
         description: 解散某岛屿所有成员
         use-disband-owner: '&c他不是岛屿主人！请使用“disband [owner]” 。'
-        disbanded: '&c管理员解散了您的岛屿成员！'
+        disbanded: '&c管理员解散了你的岛屿成员！'
         success: '&b[name]&a的岛屿成员已被解散。'
       fix:
         description: 扫描数据库，并修复跨岛屿成员（某些玩家错误地拥有或归属于多个岛屿）。
@@ -121,10 +121,10 @@ commands:
       kick:
         parameters: <team player>
         description: 将玩家踢出岛屿
-        cannot-kick-owner: '&c您不能踢岛屿主人，请先踢出岛屿成员。'
+        cannot-kick-owner: '&c你不能踢岛屿主人，请先踢出岛屿成员。'
         not-in-team: '&c该玩家不是岛屿成员。'
-        admin-kicked: '&c管理员将您踢出了岛屿。'
-        success: '&a您已将&b[name]&a从&b[owner]&a的岛屿里踢出。'
+        admin-kicked: '&c管理员将你踢出了岛屿。'
+        success: '&a你已将&b[name]&a从&b[owner]&a的岛屿里踢出。'
       setowner:
         parameters: <player>
         description: 将玩家提升为所在岛屿的岛主
@@ -157,11 +157,11 @@ commands:
       add:
         description: 增加岛屿保护范围
         parameters: <player> <range>
-        success: '&a已将&b[name]&a 的岛屿保护范围增加到&b[total]&7（&b+[number]&7）&a。'
+        success: '&a已将&b[name]&a的岛屿保护范围增加到&b[total]&7（&b+[number]&7）&a。'
       remove:
         description: 减少岛屿保护范围
         parameters: <player> <range>
-        success: '&a已将&b[name]&a 的岛屿保护范围减少到&b[total]&7（&b-[number]&7）&a。'
+        success: '&a已将&b[name]&a的岛屿保护范围减少到&b[total]&7（&b-[number]&7）&a。'
     register:
       parameters: <player>
       description: 将玩家注册到您所处的无人岛
@@ -181,7 +181,7 @@ commands:
     info:
       parameters: '[player]'
       description: 获取所在位置或给定玩家的岛屿信息
-      no-island: '&c您所处位置没有岛屿。'
+      no-island: '&c你所处位置没有岛屿。'
       title: '&b&l========== 岛屿信息 ============'
       island-uuid: '&d岛屿编号：&f[uuid]'
       owner: '&d岛屿主人：&f[owner]&7（&f[uuid]&7）'
@@ -243,7 +243,7 @@ commands:
     tp:
       parameters: <player> [player to teleport]
       description: 传送到玩家的岛屿上
-      manual: '&c没有找到安全落脚点！ 请手动传送到&b[location]&c附近检查原因。'
+      manual: '&c没有找到安全落脚点！请手动传送到&b[location]&c附近检查原因。'
     getrank:
       parameters: <player> [island owner]
       description: 获取玩家在岛屿上的阶衔
@@ -269,12 +269,12 @@ commands:
       description: 将一个岛屿设置为该游戏模式的出生岛屿（主城）
       already-spawn: '&c这个岛屿本来就是出生岛屿（主城）！'
       no-island-here: '&c这里没有岛屿。'
-      confirmation: '&c您确定要将这个岛屿设置为出生岛屿（主城）吗？'
+      confirmation: '&c你确定要将这个岛屿设置为出生岛屿（主城）吗？'
       success: '&a已成功将该岛屿设置为出生岛屿（主城）。'
     setspawnpoint:
       description: 将当前位置设置为岛屿出生点
       no-island-here: '&c这里没有岛屿。'
-      confirmation: '&c您确定要把所处位置设置为该岛屿的出生点？'
+      confirmation: '&c你确定要把所处位置设置为该岛屿的出生点？'
       success: '&a成功将所处位置设置为该岛屿的出生点。'
       island-spawnpoint-changed: '&b[user]&a更改了岛屿出生点。'
     settings:
@@ -296,7 +296,7 @@ commands:
       need-pos1-pos2: '&c请先设置两个对角点！'
       copying: '&b正在复制方块……'
       copied-blocks: '&b复制了&f[number]&b个方块到剪贴板中。'
-      look-at-a-block: '&c要设置的位置必须位于视线所指方向 20 格以内！'
+      look-at-a-block: '&c要设置的位置必须位于视线所指方向20格以内！'
       mid-copy: '&c已有一个复制动作正在进行，请稍等。'
       copied-percent: '&6复制了&b[number]%'
       copy:
@@ -306,7 +306,7 @@ commands:
         parameters: <name>
         description: 删除蓝图
         no-blueprint: '&c蓝图&b[name]&c不存在！'
-        confirmation: '&c请注意，蓝图删除后将无法恢复！ 您确定要删除吗？'
+        confirmation: '&c请注意，蓝图删除后将无法恢复！您确定要删除吗？'
         success: '&a成功删除了蓝图&b[name]&a。'
       load:
         parameters: <name>
@@ -325,10 +325,10 @@ commands:
       pos2:
         description: 设置剪贴板的第2个对角点
       save:
-        parameters: <blueprint name>
+        parameters: <蓝图文件>
         description: 将剪贴板中的内容保存为蓝图文件
       rename:
-        parameters: <blueprint name> <new name>
+        parameters: <蓝图文件> <新文件名>
         description: 重命名蓝图文件
         success: '&a蓝图文件&b[old]&a已被重命名为&b[name]&a。'
         pick-different-name: '&c该蓝图名称已存在，请指定一个不同的名称。'
@@ -372,7 +372,7 @@ commands:
           pick-a-unique-name: '&c这个名称已存在，请另选一个不同的名称！'
           stripped-char-in-unique-name: '&c一些字符被删除，因为它们是不允许的。&a新ID将为&b[name]&a。'
           success: '&a成功！'
-          conversation-prefix: '&3> &r'
+          conversation-prefix: '&3>&r '
         description:
           quit: quit
           instructions: |-
@@ -400,7 +400,7 @@ commands:
     deletehomes:
       parameters: <玩家>
       description: 从岛上删除所有命名的房屋
-      warning: '&c 所有已命名的房屋将从岛上删除！'
+      warning: '&c所有已命名的房屋将从岛上删除！'
     why:
       parameters: <player>
       description: 为玩家开启/关闭控制台调试报告
@@ -472,7 +472,7 @@ commands:
       players: '[prefix_bentobox]&6迁移玩家数据库'
       names: '[prefix_bentobox]&6迁移玩家名称数据库'
       addons: '[prefix_bentobox]&6迁移附加组件'
-      class: '[prefix_bentobox]&6迁移 [description]'
+      class: '[prefix_bentobox]&6迁移[description]'
       migrated: '[prefix_bentobox]&a迁移完成'
   confirmation:
     confirm: '&c请在&b[seconds]&c秒内再次输入命令以确认。'
@@ -480,8 +480,8 @@ commands:
     request-cancelled: '&c确认超时&7-&b请求已取消。'
   delay:
     previous-command-cancelled: '&c上一个命令已取消。'
-    stand-still: '&6请不要移动！ 将在&b[seconds]&6秒后传送。'
-    moved-so-command-cancelled: '&c您移动了，传送已取消。'
+    stand-still: '&6请不要移动！将在&b[seconds]&6秒后传送。'
+    moved-so-command-cancelled: '&c你移动了，传送已取消。'
   island:
     about:
       description: 显示许可信息
@@ -510,7 +510,7 @@ commands:
         blocks: '&b正在构建：&a总共需要构建&e[number]&a个方块……'
         entities: '&b填充实体：&a总共需要填充&e[number]&a个实体……'
         dimension-done: '[world]中的一座岛屿已建成。'
-        done: '&a完成！ 您的岛屿已准备就绪！'
+        done: '&a完成！您的岛屿已准备就绪！'
       pick: '&9&l选择岛屿方案'
       unknown-blueprint: '&c该蓝图方案尚未加载。'
       on-first-login: '&a欢迎！我们将在几秒钟内开始创建您的岛屿！'
@@ -524,45 +524,45 @@ commands:
       description: 显示所处岛屿或给定玩家的岛屿信息
       parameters: <player>
     near:
-      description: 显示您附近的岛屿的名称
-      the-following-islands: '&a这些岛屿在您附近：'
+      description: 显示你附近的岛屿的名称
+      the-following-islands: '&a这些岛屿在你附近：'
       syntax: '&6- [direction]：&a[name]'
       north: 北方
       south: 南方
       east: 东方
       west: 西方
-      no-neighbors: '&c您附近没有岛屿！'
+      no-neighbors: '&你附近没有岛屿！'
     reset:
-      description: 重新开始您的岛屿生涯
+      description: 重新开始你的岛屿生涯
       parameters: <blueprint>
-      none-left: '&c您没有重置机会了！'
-      resets-left: '&c您还有&b[number]&c次重置机会。'
+      none-left: '&c你没有重置机会了！'
+      resets-left: '&c你还有&b[number]&c次重置机会。'
       confirmation: |-
-        &c您确定要重新开始吗？
-        &c岛上所有成员都会被踢出岛屿，之后如果您需要他们，必须重新邀请他们。
+        &c你确定要重新开始吗？
+        &c岛上所有成员都会被踢出岛屿，之后如果你需要他们，必须重新邀请他们。
         &c没有回头路：一旦删除了岛屿就再也不能恢复了。
-      kicked-from-island: '&c您被踢出了&b[gamemode]&c的岛屿，因为岛主正在重置岛屿。'
+      kicked-from-island: '&c你被踢出了&b[gamemode]&c的岛屿，因为岛主正在重置岛屿。'
     sethome:
       description: 设置岛屿传送点
-      must-be-on-your-island: '&c您必须在自己的岛上才能设置传送点！'
-      too-many-homes: '&c无法设置 - 您的岛屿最多只能有&b[number]&c个传送点。'
-      home-set: '&6您已在所处位置设置了岛屿传送点。'
-      homes-are: '&6您的岛屿传送点有：'
+      must-be-on-your-island: '&c你必须在自己的岛上才能设置传送点！'
+      too-many-homes: '&c无法设置 - 你的岛屿最多只能有&b[number]&c个传送点。'
+      home-set: '&6你已在所处位置设置了岛屿传送点。'
+      homes-are: '&6你的岛屿传送点有：'
       home-list-syntax: '&6- [name]'
       nether:
         not-allowed: '&c不允许在下界设置岛屿传送点。'
-        confirmation: '&c您确定要在下界设置岛屿传送点吗？'
+        confirmation: '&c你确定要在下界设置岛屿传送点吗？'
       the-end:
         not-allowed: '&c不允许在末地设置岛屿传送点。'
-        confirmation: '&c您确定要在末地设置岛屿传送点吗？'
+        confirmation: '&c你确定要在末地设置岛屿传送点吗？'
       parameters: '[home number]'
     setname:
-      description: 为您的岛屿取一个好听的名字
+      description: 为你的岛屿取一个好听的名字
       name-too-short: '&c太短了，名字至少应该有&b[number]&c个字符。'
       name-too-long: '&c太长了，名字最多只能有&b[number]&c个字符。'
       name-already-exists: '&c已经有一个该名称的岛屿了。'
       parameters: <name>
-      success: '&a成功为您的岛屿取名为&b[name]&a。'
+      success: '&a成功为你的岛屿取名为&b[name]&a。'
     renamehome:
       description: 重命名岛屿传送点
       parameters: '[home name]'
@@ -572,27 +572,27 @@ commands:
       description: 重置岛屿名称
       success: '&a已成功重置岛屿名称。'
     team:
-      description: 管理您的岛屿团队
+      description: 管理你的岛屿团队
       info:
-        description: 显示您的岛屿团队详细信息
+        description: 显示你的岛屿团队详细信息
         member-layout:
-          online: '&a&l  o&f[name]'
-          offline: '&7&l  o&7[name]([last_seen])'
-          offline-not-last-seen: '&7&l  o&7[name]'
+          online: '&a&l o&f[name]'
+          offline: '&7&l o&7[name]([last_seen])'
+          offline-not-last-seen: '&7&l o&7[name]'
         last-seen:
           layout: '&b[number]&7[unit]前'
           days: 天
           hours: 小时
           minutes: 分钟
         header: |
-          &f---&a团队信息&f---
+          &f--- &a团队信息&f ---
           &a成员：&b[total]&7/&b[max]
           &a在线：&b[online]
         rank-layout:
-          owner: '&6[rank]:'
+          owner: '&6[rank]：'
           generic: '&6[rank]&7(&b[number]&7)&6：'
       coop:
-        description: 请求玩家成为您的协作者
+        description: 请求玩家成为你的协作者
         parameters: <player>
         cannot-coop-yourself: '&c您不能与自己建立协作关系。'
         already-has-rank: '&c该玩家已经与您建立了协作关系。'
