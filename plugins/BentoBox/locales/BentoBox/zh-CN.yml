@@ -307,7 +307,7 @@ commands:
         parameters: <name>
         description: 删除蓝图
         no-blueprint: '&c蓝图&b[name]&c不存在！'
-        confirmation: '&c请注意，蓝图删除后将无法恢复！您确定要删除吗？'
+        confirmation: '&c请注意，蓝图删除后将无法恢复！你确定要删除吗？'
         success: '&a成功删除了蓝图&b[name]&a。'
       load:
         parameters: <name>
@@ -317,9 +317,9 @@ commands:
         no-blueprints: '&c蓝图文件夹中没有蓝图文件！'
         available-blueprints: '&a这些蓝图可以加载：'
       origin:
-        description: 将蓝图的原点设置为您所处的位置
+        description: 将蓝图的原点设置为你所处的位置
       paste:
-        description: 将剪贴板中的方块粘贴到您的位置
+        description: 将剪贴板中的方块粘贴到你的位置
         pasting: '&a正在粘贴……'
       pos1:
         description: 设置剪贴板的第1个对角点
@@ -394,7 +394,7 @@ commands:
     world:
       description: 管理世界设置
     delete:
-      parameters: <player>
+      parameters: <玩家>
       description: 删除玩家的岛屿
       cannot-delete-owner: '&c删除岛屿之前，必须将所有岛屿成员踢出该岛。'
       deleted-island: '&a位于&e[xyz]&a的岛屿已成功删除。'
@@ -403,7 +403,7 @@ commands:
       description: 从岛上删除所有命名的房屋
       warning: '&c所有已命名的房屋将从岛上删除！'
     why:
-      parameters: <player>
+      parameters: <玩家>
       description: 为玩家开启/关闭控制台调试报告
       turning-on: '&a已为&b[name]&a打开控制台调试报告。'
       turning-off: '&e已为&b[name]&e关闭控制台调试报告。'
@@ -411,21 +411,21 @@ commands:
       description: 调整玩家的死亡次数
       reset:
         description: 重置玩家的死亡次数
-        parameters: <player>
+        parameters: <玩家>
         success: '&a成功重置玩家&b[name]&a的死亡次数。'
       set:
         description: 设置玩家的死亡次数
-        parameters: <player> <deaths>
+        parameters: <玩家> <死亡次数>
         success: '&a成功将玩家&b[name]&a的死亡次数设置为&b[number]&a次。'
       add:
         description: 增加玩家的死亡次数
-        parameters: <player> <deaths>
+        parameters: <玩家> <死亡次数>
         success: |-
           &a成功将玩家&b[name]&a的死亡次数增加&b[number]次。
           &a他现在的死亡次数为：&b[total]&a次。"
       remove:
         description: 减少玩家的死亡次数
-        parameters: <player> <deaths>
+        parameters: <玩家> <死亡次数>
         success: |-
           &a成功将玩家&b[name]&a的死亡次数减少&b[number]次。
           &a他现在的死亡次数为：&b[total]&a次。"
