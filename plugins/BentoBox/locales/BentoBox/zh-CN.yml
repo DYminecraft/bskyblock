@@ -2,6 +2,7 @@ meta:
   authors:
   - DuckSoft
   - shaokeyibb
+  - DYminecraft
   banner: RED_BANNER:1:SQUARE_TOP_RIGHT:YELLOW:CROSS:RED:CURLY_BORDER:RED:MOJANG:YELLOW:HALF_HORIZONTAL_MIRROR:RED:HALF_VERTICAL:RED
 prefixes:
   bentobox: '&6地方BentoBox&7 &l>&r '
@@ -121,7 +122,7 @@ commands:
       kick:
         parameters: <team player>
         description: 将玩家踢出岛屿
-        cannot-kick-owner: '&c你不能踢岛屿主人，请先踢出岛屿成员。'
+        cannot-kick-owner: '&c你不能踢出岛屿主人，请先踢出岛屿成员。'
         not-in-team: '&c该玩家不是岛屿成员。'
         admin-kicked: '&c管理员将你踢出了岛屿。'
         success: '&a你已将&b[name]&a从&b[owner]&a的岛屿里踢出。'
@@ -172,7 +173,7 @@ commands:
       in-deletion: '&c所处位置正在执行清理工作，请稍后再试。'
       cannot-make-island: '&c抱歉，不能在这里创建岛屿。请参阅控制台以获取详细信息。'
       island-is-spawn: |-
-        &c所处位置为出生点岛屿，您确定要将玩家注册到这个岛屿上？
+        &c所处位置为出生点岛屿，你确定要将玩家注册到这个岛屿上？
         &6请再次输入命令以确认。
     unregister:
       parameters: <owner> [x,y,z]
