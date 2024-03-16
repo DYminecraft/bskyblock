@@ -36,6 +36,9 @@
 /plugins/QuickShop/qs.log
 /plugins/QuickShop/shops.db
 
+/plugins/Slimefun/world-settings
+/plugins/Slimefun/block-storage.yml
+/plugins/Slimefun/item-models.yml
 /plugins/Slimefun/profile-storage.yml
 /plugins/Slimefun/Researches.yml
 /plugins/Slimefun/resources.yml
