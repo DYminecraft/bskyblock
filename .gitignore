@@ -23,6 +23,27 @@
 /version_history.json
 /whitelist.json
 
+/plugins/BentoBox/database
+/plugins/BentoBox/database_backup
+/plugins/BentoBox/locales/Bank/*
+!/plugins/BentoBox/locales/Bank/zh-CN.yml
+/plugins/BentoBox/locales/BentoBox/*
+/plugins/BentoBox/locales/BentoBox/zh-CN.yml
+/plugins/BentoBox/locales/Biomes/*
+/plugins/BentoBox/locales/Biomes/zh-CN.yml
+/plugins/BentoBox/locales/BSkyBlock/*
+/plugins/BentoBox/locales/BSkyBlock/zh-CN.yml
+/plugins/BentoBox/locales/Challenges/*
+/plugins/BentoBox/locales/Challenges/zh-CN.yml
+/plugins/BentoBox/locales/ControlPanel/*
+/plugins/BentoBox/locales/ControlPanel/zh-CN.yml
+/plugins/BentoBox/locales/Level/*
+/plugins/BentoBox/locales/Level/zh-CN.yml
+/plugins/BentoBox/locales/MagicCobblestoneGenerator/*
+/plugins/BentoBox/locales/MagicCobblestoneGenerator/zh-CN.yml
+/plugins/BentoBox/locales/Warps/*
+/plugins/BentoBox/locales/Warps/zh-CN.yml
+
 /plugins/bStats
 
 /plugins/Economy/data
