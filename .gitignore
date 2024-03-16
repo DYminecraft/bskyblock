@@ -52,11 +52,15 @@
 /plugins/ODailyQuests/holograms.yml
 /plugins/ODailyQuests/progression.yml
 
+/plugins/QuickShop/cache
 /plugins/QuickShop/overrides/*
 !/plugins/QuickShop/overrides/zh_cn
 /plugins/QuickShop/qs.log
 /plugins/QuickShop/shops.db
 
+/plugins/Slimefun/cache
+/plugins/Slimefun/error-reports
+/plugins/Slimefun/scripts
 /plugins/Slimefun/world-settings
 /plugins/Slimefun/block-storage.yml
 /plugins/Slimefun/item-models.yml
