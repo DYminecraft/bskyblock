@@ -60,8 +60,7 @@ messages:
     connection-throttle: Connection throttled! Please wait before reconnecting.
     flying-player: <lang:multiplayer.disconnect.flying>
     flying-vehicle: <lang:multiplayer.disconnect.flying>
-  no-permission: <red>很抱歉，但你没有执行此命令的权限。
-    如果你认为这是一个错误，请联系服务器管理员。
+  no-permission: <red>很抱歉，但你没有执行此命令的权限。 如果你认为这是一个错误，请联系服务器管理员。
   use-display-name-in-quit-message: false
 misc:
   chat-threads:
