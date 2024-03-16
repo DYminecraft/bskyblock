@@ -36,6 +36,11 @@
 /plugins/QuickShop/qs.log
 /plugins/QuickShop/shops.db
 
+/plugins/Slimefun/profile-storage.yml
+/plugins/Slimefun/Researches.yml
+/plugins/Slimefun/resources.yml
+/plugins/Slimefun/sounds.yml
+
 /plugins/update
 
 /plugins/Vault
