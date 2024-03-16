@@ -1,13 +1,3 @@
-banned-ips.json
-banned-players.json
-commands.yml
-help.yml
-ops.json
-permissions.yml
-usercache.json
-version_history.json
-whitelist.json
-
 .console_history
 
 cache
@@ -23,8 +13,22 @@ bskyblock_world_the_end
 
 data-storage
 
-
+banned-ips.json
+banned-players.json
+commands.yml
+help.yml
+ops.json
+permissions.yml
+usercache.json
+version_history.json
+whitelist.json
 
 plugins/bStats
-plugins/Vault
+plugins/Economy/data
+plugins/ODailyQuests/database.mv.db
+plugins/ODailyQuests/holograms.yml
+plugins/ODailyQuests/progression.yml
+plugins/QuickShop/overrides/*
+!plugins/QuickShop/overrides/zh-cn
 plugins/update
+plugins/Vault
