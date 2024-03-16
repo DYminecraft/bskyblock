@@ -29,6 +29,6 @@ plugins/ODailyQuests/database.mv.db
 plugins/ODailyQuests/holograms.yml
 plugins/ODailyQuests/progression.yml
 plugins/QuickShop/overrides/*
-!plugins/QuickShop/overrides/zh-cn
+!plugins/QuickShop/overrides/zh_cn
 plugins/update
 plugins/Vault
