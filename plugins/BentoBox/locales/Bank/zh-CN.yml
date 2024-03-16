@@ -53,7 +53,11 @@ bank:
     latest: 按最新排序
     oldest: 按最旧排序
     set: 管理员集
-    syntax: "&9[date]\n&9[time]\n&7[name]\n&6[number]"
+    syntax: |-
+      &9[date]
+      &9[time]
+      &7[name]
+      &6[number]
     take: 管理员请
     title: 账户历史
     unknown: 未知类型

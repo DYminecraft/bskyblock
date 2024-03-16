@@ -33,12 +33,12 @@ settings:
     attackDamage:
       max: 2048.0
 messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  whitelist: 您不在此服务器的白名单上！
+  unknown-command: 未知命令。如需帮助，请输入“/help”。
+  server-full: 服务器已满！
+  outdated-client: 客户端版本过旧！请使用{0}。
+  outdated-server: 服务器版本过旧！我仍在 {0} 版本上。
+  restart: 服务器正在重启……
 advancements:
   disable-saving: false
   disabled:
