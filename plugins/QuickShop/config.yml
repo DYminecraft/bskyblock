@@ -11,7 +11,7 @@ config-version: 163
 #And other default language related text.
 #Set it to default will use your system language.
 #You can find the valid language code in your client language settings, like en_us
-game-language: default
+game-language: zh-CN
 
 #Choose which languages should be enabled
 #All clients connect to server that using disabled language using following fallback logic:
@@ -25,7 +25,7 @@ game-language: default
 #If you want custom the language file, use language override system:
 #https://github.com/PotatoCraft-Studio/QuickShop-Reremake/wiki/Use-translation-override-system
 enabled-languages:
-- '*'
+- 'zh-CN'
 
 #Setting the game language file download channel, like item name, effect translations etc.
 #We will get those files from mojang resources server:
@@ -64,7 +64,7 @@ respect-item-flag: true
 #The currency used to create shops.
 #Set this to "" to use default currency.
 #Only required if you use multiple currencies.
-currency: ''
+currency: '¥'
 
 logging:
   #Enable logging?
@@ -126,7 +126,7 @@ use-decimal-format: false
 
 #The decimal format to display money in.
 #The default is #,###.##
-decimal-format: '#,###.##'
+decimal-format: '####亿####万####.##元'
 
 #Allow QuickShop to send alerts when someone tries to make a displayItem exploit.
 send-display-item-protection-alert: false
@@ -843,4 +843,3 @@ custom-commands:
 #Let this stay false, DO NOT TOUCH IT!
 config-damaged: false
 server-uuid: 62eb7a4f-687a-479a-948a-8875f72ace7c
-

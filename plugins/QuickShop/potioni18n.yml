@@ -1,6 +1,5 @@
 potioni18n:
-  comment: This is quickshop potion effect i18n file, you can add plugin potion effect
-    you saw in-game as key and give correct value to it or change value there.
+  comment: 这是Quickshop的药水效果i18n文件，你可以将服务期内其他插件的药水效果名称及其翻译作为键值对添加进去，或者更改已有的附魔名称及其翻译。
   FIRE_RESISTANCE: 抗火
   WATER_BREATHING: 水下呼吸
   JUMP: 跳跃提升

@@ -1,6 +1,5 @@
 itemi18n:
-  comment: This is quickshop item i18n file, you can add plugin item you saw in-game
-    as key and give correct value to it or change value there.
+  comment: 这是Quickshop的物品i18n文件，你可以将服务期内的其他物品名称及其翻译作为键值对添加进去，或者更改已有的附魔名称及其翻译。
   AIR: 空气
   STONE: 石头
   GRANITE: 花岗岩

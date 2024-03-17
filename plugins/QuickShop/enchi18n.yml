@@ -1,6 +1,5 @@
 enchi18n:
-  comment: This is quickshop enchantment i18n file, you can add plugin enchantment
-    you saw in-game as key and give correct value to it or change value there.
+  comment: 这是Quickshop的附魔i18n文件，你可以将服务期内其他插件的附魔名称及其翻译作为键值对添加进去，或者更改已有的附魔名称及其翻译。
   swift_sneak: 迅捷潜行
   feather_falling: 摔落缓冲
   infinity: 无限
