@@ -1,2780 +1,2780 @@
 GRANDMAS_WALKING_STICK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GRANDPAS_WALKING_STICK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PORTABLE_CRAFTER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FORTUNE_COOKIE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 DIET_COOKIE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 OUTPUT_CHEST:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENHANCED_CRAFTING_TABLE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PORTABLE_DUSTBIN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BEEF_JERKY:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PORK_JERKY:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHICKEN_JERKY:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MUTTON_JERKY:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RABBIT_JERKY:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FISH_JERKY:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 KELP_COOKIE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GRIND_STONE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ARMOR_FORGE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ORE_CRUSHER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 COMPRESSOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAGIC_LUMP_1:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAGIC_LUMP_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAGIC_LUMP_3:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_LUMP_1:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_LUMP_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_LUMP_3:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_BACKPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_HELMET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_CHESTPLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_LEGGINGS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_BOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAGIC_EYE_OF_ENDER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAGIC_SUGAR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MONSTER_JERKY:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SLIME_HELMET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SLIME_CHESTPLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SLIME_LEGGINGS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SLIME_BOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SWORD_OF_BEHEADING:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAGICAL_BOOK_COVER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAGICAL_GLASS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BASIC_CIRCUIT_BOARD:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ADVANCED_CIRCUIT_BOARD:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_PAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 NETHER_GOLD_PAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SIFTED_ORE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAKESHIFT_SMELTERY:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SMELTERY:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 IGNITION_CHAMBER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PRESSURE_CHAMBER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BATTERY:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GLOWSTONE_HELMET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GLOWSTONE_CHESTPLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GLOWSTONE_LEGGINGS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GLOWSTONE_BOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_HELMET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_CHESTPLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_LEGGINGS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_BOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 DAMASCUS_STEEL_HELMET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 DAMASCUS_STEEL_CHESTPLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 DAMASCUS_STEEL_LEGGINGS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 DAMASCUS_STEEL_BOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REINFORCED_ALLOY_HELMET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REINFORCED_ALLOY_CHESTPLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REINFORCED_ALLOY_LEGGINGS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REINFORCED_ALLOY_BOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CACTUS_HELMET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CACTUS_CHESTPLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CACTUS_LEGGINGS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CACTUS_BOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REINFORCED_ALLOY_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 HARDENED_METAL_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 DAMASCUS_STEEL_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 STEEL_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BRONZE_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 DURALUMIN_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BILLON_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BRASS_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ALUMINUM_BRASS_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ALUMINUM_BRONZE_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CORINTHIAN_BRONZE_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOLDER_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SYNTHETIC_SAPPHIRE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SYNTHETIC_DIAMOND:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAW_CARBONADO:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 NICKEL_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 COBALT_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARBONADO:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FERROSILICON:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 IRON_DUST:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_DUST:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 COPPER_DUST:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 TIN_DUST:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SILVER_DUST:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 LEAD_DUST:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ALUMINUM_DUST:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ZINC_DUST:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAGNESIUM_DUST:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 COPPER_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 TIN_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SILVER_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 LEAD_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ALUMINUM_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ZINC_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAGNESIUM_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SULFATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARBON:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 WHEAT_FLOUR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 STEEL_PLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 COMPRESSED_CARBON:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARBON_CHUNK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 STEEL_THRUSTER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 POWER_CRYSTAL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 DURALUMIN_JETPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOLDER_JETPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BILLON_JETPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 STEEL_JETPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 DAMASCUS_STEEL_JETPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REINFORCED_ALLOY_JETPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARBONADO_JETPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ARMORED_JETPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PARACHUTE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 HOLOGRAM_PROJECTOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHAIN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 HOOK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GRAPPLING_HOOK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAGIC_WORKBENCH:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 STAFF_ELEMENTAL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 STAFF_ELEMENTAL_WIND:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 STAFF_ELEMENTAL_WATER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 STAFF_ELEMENTAL_FIRE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 DURALUMIN_MULTI_TOOL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOLDER_MULTI_TOOL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BILLON_MULTI_TOOL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 STEEL_MULTI_TOOL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 DAMASCUS_STEEL_MULTI_TOOL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REINFORCED_ALLOY_MULTI_TOOL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARBONADO_MULTI_TOOL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ORE_WASHER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_24K:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_22K:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_20K:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_18K:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_16K:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_14K:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_12K:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_10K:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_8K:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_6K:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_4K:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 STONE_CHUNK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SILICON:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOLAR_PANEL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOLAR_HELMET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 LAVA_CRYSTAL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 STAFF_ELEMENTAL_STORM:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAGICAL_ZOMBIE_PILLS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SMELTERS_PICKAXE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 COMMON_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANVIL_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_ANVIL_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MINER_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_MINER_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FARMER_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_FARMER_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 HUNTER_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_HUNTER_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 LAVA_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_LAVA_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 WATER_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_WATER_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANGEL_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_ANGEL_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FIRE_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_FIRE_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAGICIAN_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_MAGICIAN_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 TRAVELLER_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_TRAVELLER_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 WARRIOR_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_WARRIOR_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 KNIGHT_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_KNIGHT_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CAVEMAN_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_CAVEMAN_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 WISE_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_WISE_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GILDED_IRON:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SYNTHETIC_EMERALD:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHAIN_HELMET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHAIN_CHESTPLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHAIN_LEGGINGS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHAIN_BOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 WHIRLWIND_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_WHIRLWIND_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 WIZARD_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENDER_WIZARD_TALISMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 LUMBER_AXE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SALT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 HEAVY_CREAM:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHEESE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BUTTER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GILDED_IRON_HELMET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GILDED_IRON_CHESTPLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GILDED_IRON_LEGGINGS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GILDED_IRON_BOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REINFORCED_CLOTH:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SCUBA_HELMET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 HAZMAT_CHESTPLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 HAZMAT_LEGGINGS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RUBBER_BOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CRUSHED_ORE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PULVERIZED_ORE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PURE_ORE_CLUSTER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 TINY_URANIUM:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SMALL_URANIUM:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 URANIUM:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REDSTONE_ALLOY:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_12K_HELMET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_12K_CHESTPLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_12K_LEGGINGS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_12K_BOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CLOTH:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAG:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BANDAGE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SPLINT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 VITAMINS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MEDICINE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 NIGHT_VISION_GOGGLES:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PICKAXE_OF_CONTAINMENT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 TABLE_SAW:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SLIME_STEEL_HELMET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SLIME_STEEL_CHESTPLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SLIME_STEEL_LEGGINGS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SLIME_STEEL_BOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BLADE_OF_VAMPIRES:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLD_24K_BLOCK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 COMPOSTER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FARMER_SHOES:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 EXPLOSIVE_PICKAXE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 EXPLOSIVE_SHOVEL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 AUTOMATED_PANNING_MACHINE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 INDUSTRIAL_MINER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ADVANCED_INDUSTRIAL_MINER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BOOTS_OF_THE_STOMPER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PICKAXE_OF_THE_SEEKER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SMALL_BACKPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MEDIUM_BACKPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 LARGE_BACKPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 WOVEN_BACKPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CRUCIBLE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GILDED_BACKPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RADIANT_BACKPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RESTORED_BACKPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAGNET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 INFUSED_MAGNET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 COBALT_PICKAXE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 NECROTIC_SKULL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ESSENCE_OF_AFTERLIFE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SYNTHETIC_SHULKER_SHELL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BOUND_BACKPACK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 DURALUMIN_JETBOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOLDER_JETBOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BILLON_JETBOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 STEEL_JETBOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 DAMASCUS_STEEL_JETBOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REINFORCED_ALLOY_JETBOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARBONADO_JETBOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ARMORED_JETBOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SEISMIC_AXE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PICKAXE_OF_VEIN_MINING:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CLIMBING_PICK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOULBOUND_SWORD:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOULBOUND_TRIDENT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOULBOUND_BOW:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOULBOUND_PICKAXE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOULBOUND_AXE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOULBOUND_SHOVEL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOULBOUND_HOE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOULBOUND_HELMET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOULBOUND_CHESTPLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOULBOUND_LEGGINGS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOULBOUND_BOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 JUICER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 APPLE_JUICE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARROT_JUICE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MELON_JUICE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PUMPKIN_JUICE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SWEET_BERRY_JUICE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GOLDEN_APPLE_JUICE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENCHANTED_GOLDEN_APPLE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BROKEN_SPAWNER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REINFORCED_SPAWNER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENHANCED_FURNACE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENHANCED_FURNACE_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENHANCED_FURNACE_3:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENHANCED_FURNACE_4:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENHANCED_FURNACE_5:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENHANCED_FURNACE_6:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENHANCED_FURNACE_7:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENHANCED_FURNACE_8:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENHANCED_FURNACE_9:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENHANCED_FURNACE_10:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENHANCED_FURNACE_11:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REINFORCED_FURNACE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARBONADO_EDGED_FURNACE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRO_MAGNET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_MOTOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 HEATING_COIL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 COPPER_WIRE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BLOCK_PLACER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SCROLL_OF_DIMENSIONAL_TELEPOSITION:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 EXPLOSIVE_BOW:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ICY_BOW:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 TOME_OF_KNOWLEDGE_SHARING:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FLASK_OF_KNOWLEDGE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FILLED_FLASK_OF_KNOWLEDGE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BIRTHDAY_CAKE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHRISTMAS_MILK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHRISTMAS_CHOCOLATE_MILK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHRISTMAS_EGG_NOG:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHRISTMAS_APPLE_CIDER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHRISTMAS_COOKIE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHRISTMAS_FRUIT_CAKE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHRISTMAS_APPLE_PIE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHRISTMAS_HOT_CHOCOLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHRISTMAS_CAKE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHRISTMAS_CARAMEL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHRISTMAS_CARAMEL_APPLE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHRISTMAS_CHOCOLATE_APPLE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHRISTMAS_PRESENT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARROT_PIE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 EASTER_APPLE_PIE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 EASTER_EGG:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REINFORCED_PLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 HARDENED_GLASS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 COOLING_UNIT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 COOLER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 WITHER_PROOF_OBSIDIAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANCIENT_PEDESTAL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANCIENT_ALTAR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENERGY_REGULATOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENERGY_CONNECTOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 DUCT_TAPE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SMALL_CAPACITOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MEDIUM_CAPACITOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BIG_CAPACITOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 LARGE_CAPACITOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARBONADO_EDGED_CAPACITOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENERGIZED_CAPACITOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOLAR_GENERATOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOLAR_GENERATOR_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOLAR_GENERATOR_3:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOLAR_GENERATOR_4:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CHARGING_BENCH:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_FURNACE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_FURNACE_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_FURNACE_3:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_GOLD_PAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_GOLD_PAN_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_GOLD_PAN_3:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_DUST_WASHER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_DUST_WASHER_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_DUST_WASHER_3:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_INGOT_FACTORY:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_INGOT_FACTORY_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_INGOT_FACTORY_3:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIFIED_CRUCIBLE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIFIED_CRUCIBLE_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIFIED_CRUCIBLE_3:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_ORE_GRINDER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_ORE_GRINDER_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_ORE_GRINDER_3:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 HEATED_PRESSURE_CHAMBER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 HEATED_PRESSURE_CHAMBER_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_INGOT_PULVERIZER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 COAL_GENERATOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 COAL_GENERATOR_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BIO_REACTOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 AUTO_DRIER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 AUTO_BREWER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_PRESS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_PRESS_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAGNESIUM_SALT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MAGNESIUM_GENERATOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 AUTO_ENCHANTER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 AUTO_ENCHANTER_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 AUTO_DISENCHANTER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 AUTO_DISENCHANTER_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 AUTO_ANVIL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 AUTO_ANVIL_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BOOK_BINDER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 MULTIMETER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PLASTIC_SHEET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANDROID_MEMORY_CORE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GPS_TRANSMITTER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GPS_TRANSMITTER_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GPS_TRANSMITTER_3:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GPS_TRANSMITTER_4:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GPS_CONTROL_PANEL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GPS_MARKER_TOOL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GPS_EMERGENCY_TRANSMITTER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANDROID_INTERFACE_ITEMS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANDROID_INTERFACE_FUEL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PROGRAMMABLE_ANDROID:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PROGRAMMABLE_ANDROID_MINER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PROGRAMMABLE_ANDROID_FARMER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PROGRAMMABLE_ANDROID_WOODCUTTER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PROGRAMMABLE_ANDROID_FISHERMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PROGRAMMABLE_ANDROID_BUTCHER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PROGRAMMABLE_ANDROID_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PROGRAMMABLE_ANDROID_2_FISHERMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PROGRAMMABLE_ANDROID_2_BUTCHER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PROGRAMMABLE_ANDROID_2_FARMER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PROGRAMMABLE_ANDROID_3:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PROGRAMMABLE_ANDROID_3_FISHERMAN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PROGRAMMABLE_ANDROID_3_BUTCHER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BLANK_RUNE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANCIENT_RUNE_AIR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANCIENT_RUNE_EARTH:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANCIENT_RUNE_FIRE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANCIENT_RUNE_WATER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANCIENT_RUNE_ENDER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANCIENT_RUNE_LIGHTNING:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANCIENT_RUNE_RAINBOW:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANCIENT_RUNE_SOULBOUND:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANCIENT_RUNE_ENCHANTMENT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 INFERNAL_BONEMEAL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELYTRA_SCALE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELYTRA:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 INFUSED_ELYTRA:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 SOULBOUND_ELYTRA:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 TRIDENT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 TOTEM_OF_UNDYING:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_WOOL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_GLASS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_GLASS_PANE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_CLAY:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_CONCRETE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_GLAZED_TERRACOTTA:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_WOOL_XMAS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_GLASS_XMAS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_GLASS_PANE_XMAS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_CLAY_XMAS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_CONCRETE_XMAS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_GLAZED_TERRACOTTA_XMAS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_WOOL_VALENTINE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_GLASS_VALENTINE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_GLASS_PANE_VALENTINE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_CLAY_VALENTINE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_CONCRETE_VALENTINE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_GLAZED_TERRACOTTA_VALENTINE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_WOOL_HALLOWEEN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_GLASS_HALLOWEEN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_GLASS_PANE_HALLOWEEN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_CLAY_HALLOWEEN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_CONCRETE_HALLOWEEN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_GLAZED_TERRACOTTA_HALLOWEEN:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 WITHER_PROOF_GLASS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GPS_GEO_SCANNER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PORTABLE_GEO_SCANNER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 OIL_PUMP:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GEO_MINER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BUCKET_OF_OIL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BUCKET_OF_FUEL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 NETHER_ICE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REFINERY:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 LAVA_GENERATOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 LAVA_GENERATOR_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 COMBUSTION_REACTOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GPS_TELEPORTER_PYLON:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GPS_TELEPORTATION_MATRIX:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PORTABLE_TELEPORTER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GPS_ACTIVATION_DEVICE_SHARED:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GPS_ACTIVATION_DEVICE_PERSONAL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 INFUSED_HOPPER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BLISTERING_INGOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BLISTERING_INGOT_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BLISTERING_INGOT_3:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENRICHED_NETHER_ICE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELEVATOR_PLATE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FOOD_FABRICATOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FOOD_FABRICATOR_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ORGANIC_FOOD_WHEAT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ORGANIC_FOOD_CARROT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ORGANIC_FOOD_POTATO:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ORGANIC_FOOD_SEEDS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ORGANIC_FOOD_BEETROOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ORGANIC_FOOD_MELON:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ORGANIC_FOOD_APPLE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ORGANIC_FOOD_SWEET_BERRIES:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ORGANIC_FOOD_KELP:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ORGANIC_FOOD_COCOA:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ORGANIC_FOOD_SEAGRASS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 AUTO_BREEDER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANIMAL_GROWTH_ACCELERATOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 TREE_GROWTH_ACCELERATOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 XP_COLLECTOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FOOD_COMPOSTER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FOOD_COMPOSTER_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FERTILIZER_WHEAT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FERTILIZER_CARROT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FERTILIZER_POTATO:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FERTILIZER_SEEDS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FERTILIZER_BEETROOT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FERTILIZER_MELON:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FERTILIZER_APPLE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FERTILIZER_SWEET_BERRIES:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FERTILIZER_KELP:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FERTILIZER_COCOA:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FERTILIZER_SEAGRASS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CROP_GROWTH_ACCELERATOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CROP_GROWTH_ACCELERATOR_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FREEZER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FREEZER_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FREEZER_3:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REACTOR_COLLANT_CELL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 NETHER_ICE_COOLANT_CELL:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 NEPTUNIUM:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PLUTONIUM:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BOOSTED_URANIUM:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 NUCLEAR_REACTOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 NETHERSTAR_REACTOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARGO_MOTOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARGO_MANAGER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARGO_NODE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARGO_NODE_INPUT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARGO_NODE_OUTPUT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARGO_NODE_OUTPUT_ADVANCED:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 REACTOR_ACCESS_PORT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 FLUID_PUMP:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 TRASH_CAN_BLOCK:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARBON_PRESS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARBON_PRESS_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CARBON_PRESS_3:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_SMELTERY:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELECTRIC_SMELTERY_2:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 IRON_GOLEM_ASSEMBLER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 WITHER_ASSEMBLER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 TAPE_MEASURE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BEE_HELMET:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BEE_WINGS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BEE_LEGGINGS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 BEE_BOOTS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ANCIENT_RUNE_VILLAGERS:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 STRANGE_NETHER_GOO:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 GLOW_BERRY_JUICE:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ELYTRA_CAP:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 RAINBOW_LEATHER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CRAFTING_MOTOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 VANILLA_AUTO_CRAFTER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ENHANCED_AUTO_CRAFTER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 ARMOR_AUTO_CRAFTER:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 PRODUCE_COLLECTOR:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
 CRAFTER_SMART_PORT:
   permission: none
   lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
+  - '&r你没有权限'
+  - '&r使用此物品。'
