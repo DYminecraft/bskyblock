@@ -57,7 +57,7 @@ logging:
 messages:
   kick:
     authentication-servers-down: <lang:multiplayer.disconnect.authservers_down>
-    connection-throttle: Connection throttled! Please wait before reconnecting.
+    connection-throttle: 连接已节流！请稍候再重新连接。
     flying-player: <lang:multiplayer.disconnect.flying>
     flying-vehicle: <lang:multiplayer.disconnect.flying>
   no-permission: <red>很抱歉，但你没有执行此命令的权限。 如果你认为这是一个错误，请联系服务器管理员。
