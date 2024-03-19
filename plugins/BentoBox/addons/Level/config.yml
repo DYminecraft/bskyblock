@@ -26,21 +26,21 @@ zero-new-island-levels: true
 # Calculate island level on login
 # This silently calculates the player's island level when they login
 # This applies to all islands the player has on the server, e.g., BSkyBlock, AcidIsland
-login: false
+login: true
 # 
 # Include nether island in level calculations.
 # Warning: Enabling this mid-game will give players with an island a jump in
 # island level. New islands will be correctly zeroed.
-nether: false
+nether: true
 # 
 # Include end island in level calculations.
 # Warning: Enabling this mid-game will give players with an island a jump in
 # island level. New islands will be correctly zeroed.
-end: false
+end: true
 # 
 # Include chest contents in level calculations.
 # Will count blocks in chests or containers.
-include-chests: false
+include-chests: ture
 # 
 # Underwater block multiplier
 # If blocks are below sea-level, they can have a higher value. e.g. 2x

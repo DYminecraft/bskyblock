@@ -1,5 +1,5 @@
 warps_panel:
-  title: "地标一览"
+  title: "地标一览。"
   type: INVENTORY
   background:
     icon: BLACK_STAINED_GLASS_PANE
@@ -70,7 +70,7 @@ warps_panel:
     warp_button:
       icon: PLAYER_HEAD
       title: warps.gui.buttons.warp.name
-      description: "&e点击&e传送"
+      description: "&e点击&e传送。"
       data:
         type: WARP
       actions:

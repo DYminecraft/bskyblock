@@ -5,7 +5,7 @@ debug: false
 version: 2.2.4
 
 # plugin prefix for messaging
-prefix: '&7[O''DailyQuests&7]'
+prefix: '&7[每日任务&7]'
 
 # disable the logs when player quests are saved
 # NEVER ask for support with this option enabled
@@ -121,7 +121,7 @@ title:
   fadeIn: 10 # The default number of ticks for the title to fade in.
   stay: 70 # The default number of ticks for the title to stay.
   fadeOut: 20 # The default number of ticks for the title to fade out.
-  text: '&a干得好，%player%'
+  text: '&a干得好，%player%。'
   subtitle: '&a你已完成任务%questName%&a！' # Leave this field blank if you do not want a subtitle
 
 # Set a message that will be displayed in the actionbar when a player completes a quest.
@@ -188,19 +188,19 @@ use_custom_furnace_results: false
 
 # interfaces settings
 interfaces:
-  next_item_name: '&a&lNext Page'
-  previous_item_name: '&e&lPrevious Page'
+  next_item_name: '&a&l下一页。'
+  previous_item_name: '&e&l前一页'
   global_quests:
-    inventory_name: Quests - Global
+    inventory_name: 全局任务
     empty_item: BLACK_STAINED_GLASS_PANE
   easy_quests:
-    inventory_name: Quests - Easy
+    inventory_name: 简单任务
     empty_item: GREEN_STAINED_GLASS_PANE
   medium_quests:
-    inventory_name: Quests - Medium
+    inventory_name: 中等任务
     empty_item: YELLOW_STAINED_GLASS_PANE
   hard_quests:
-    inventory_name: Quests - Hard
+    inventory_name: 困难任务
     empty_item: RED_STAINED_GLASS_PANE
 
 # You can disable quest progression in certain worlds.
@@ -218,11 +218,11 @@ disabled_worlds:
 # Here you can select NPCs names for each category.
 # The player have to interact with the NPC to open an interface.
 npcs:
-  name_player: '&7Player Quests'
-  name_global: '&4Global Quests'
-  name_easy: '&a&lEasy &mQuests'
-  name_medium: '&e&lMedium &rQuests'
-  name_hard: '&cHard &b&lQuests'
+  name_player: '&7玩家任务'
+  name_global: '&4全局任务'
+  name_easy: '&a&l简单&m任务'
+  name_medium: '&e&l中等&r任务'
+  name_hard: '&c困难&b&l任务'
 
 # If you use WildStacker on your server to group mobs, set this parameter to "true".
 use_wildstacker: false

@@ -3,16 +3,16 @@
 
 player_help: |
   &a&n玩家命令：
-  &e/dq me &a：查看你自己的任务
-  &e/dq reroll <索引> &a：重新抽取一个任务（需要权限）
-  &e/dq show <global/easy/medium/hard> &a：查看某一类别的任务
+  &e/dq me &a：查看你自己的任务。
+  &e/dq reroll <索引> &a：重新抽取一个任务（需要权限）。
+  &e/dq show <global/easy/medium/hard> &a：查看某一类别的任务。
 admin_help: |
   &c&n管理员命令：
-  &e/dqa complete <玩家> <索引> &a：完成玩家的一个任务
+  &e/dqa complete <玩家> <索引> &a：完成玩家的一个任务。
   &e/dqa reset <quests/total> <玩家> &a：为玩家抽取新任务，或重置他已完成的任务总数。
   &e/dqa add total <玩家> <数量> &a：为玩家增加已完成的任务数量。
   &e/dqa reroll <玩家> <索引> &a：为玩家在特定索引处抽取新任务。
-  &e/dqa show <玩家> &a：查看玩家的任务
+  &e/dqa show <玩家> &a：查看玩家的任务。
 no_permission: '&c你没有权限。'
 no_permission_category: '&c你没有查看此类别的权限。'
 player_only: '&c只有玩家才能执行此命令。'
@@ -25,10 +25,10 @@ categorized_enabled: '&c已启用分类任务，全局菜单不可用。'
 categorized_disabled: '&c已禁用分类任务，仅全局菜单可用。'
 global_disabled: '&c全局任务已禁用，仅分类菜单可用。'
 already_achieved: '&c此任务已经完成。'
-hologram_categorized_enabled: '&c已启用分类任务，无法创建全局hologram.'
-hologram_categorized_disabled: '&c已禁用分类任务，无法创建分类hologram.'
-hologram_deleted: '&aHologram已成功删除.'
-hologram_invalid_index: '&cHologram的索引无效.'
+hologram_categorized_enabled: '&c已启用分类任务，无法创建全局hologram。'
+hologram_categorized_disabled: '&c已禁用分类任务，无法创建分类hologram。'
+hologram_deleted: '&aHologram已成功删除。'
+hologram_invalid_index: '&cHologram的索引无效。'
 quests_in_progress: '&e你还有日常任务未完成！'
 all_quests_achieved_connect: '&a你已完成所有日常任务！'
 quests_renewed: '&a你有新的日常任务需要完成！'

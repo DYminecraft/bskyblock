@@ -28,7 +28,7 @@
 # ==============================================================
 quests:
   1:
-    name: "&a挖掘煤矿"
+    name: "&a挖掘煤矿。"
     menu_item: COAL_ORE
     description:
       - "&b挖掘32个煤矿。"
@@ -40,7 +40,7 @@ quests:
       reward_type: MONEY
       amount: 250
   2:
-    name: "&a挖掘铁矿"
+    name: "&a挖掘铁矿。"
     menu_item: IRON_ORE
     description:
       - "&b挖掘32个铁矿。"
@@ -52,7 +52,7 @@ quests:
       reward_type: MONEY
       amount: 250
   3:
-    name: "&a挖掘金矿"
+    name: "&a挖掘金矿。"
     menu_item: GOLD_ORE
     description:
       - "&b挖掘32个金矿。"
@@ -64,7 +64,7 @@ quests:
       reward_type: MONEY
       amount: 250
   4:
-    name: "&a挖掘红石矿"
+    name: "&a挖掘红石矿。"
     menu_item: REDSTONE_ORE
     description:
       - "&b挖掘32个红石矿。"

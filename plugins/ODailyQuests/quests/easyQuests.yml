@@ -28,7 +28,7 @@
 # ==============================================================
 quests:
   1:
-    name: "&a挖掘圆石"
+    name: "&a挖掘圆石。"
     menu_item: COBBLESTONE
     description:
       - "&b挖掘32个圆石。"
@@ -40,7 +40,7 @@ quests:
       reward_type: MONEY
       amount: 75
   2:
-    name: "&a挖掘石头"
+    name: "&a挖掘石头。"
     menu_item: STONE
     description:
       - "&b挖掘32个石头。"
@@ -52,7 +52,7 @@ quests:
       reward_type: MONEY
       amount: 75
   3:
-    name: "&a砍伐橡木原木"
+    name: "&a砍伐橡木原木。"
     menu_item: OAK_LOG
     description:
       - "&b砍伐32个橡木原木。"
@@ -64,7 +64,7 @@ quests:
       reward_type: MONEY
       amount: 75
   4:
-    name: "&a铲雪"
+    name: "&a铲雪。"
     menu_item: SNOW
     description:
       - "&b铲掉32片雪。"
@@ -76,7 +76,7 @@ quests:
       reward_type: MONEY
       amount: 75
   5:
-    name: "处决僵尸"
+    name: "处决僵尸。"
     menu_item: ZOMBIE_HEAD
     description:
       - "&c杀死32只僵尸。"
@@ -88,7 +88,7 @@ quests:
       reward_type: MONEY
       amount: 75
   6:
-    name: "处决骷髅"
+    name: "处决骷髅。"
     menu_item: SKELETON_SKULL
     description:
       - "&c杀死32只骷髅。"
@@ -100,7 +100,7 @@ quests:
       reward_type: MONEY
       amount: 75
   7:
-    name: "处决苦力怕"
+    name: "处决苦力怕。"
     menu_item: CREEPER_HEAD
     description:
       - "&c杀死32只苦力怕。"
@@ -112,7 +112,7 @@ quests:
       reward_type: MONEY
       amount: 75
   8:
-    name: "&a收获胡萝卜"
+    name: "&a收获胡萝卜。"
     menu_item: CARROT
     description:
       - "&e收获32个完全成熟的胡萝卜。"
@@ -124,7 +124,7 @@ quests:
       reward_type: MONEY
       amount: 75
   9:
-    name: "&a收获土豆"
+    name: "&a收获土豆。"
     menu_item: POTATO
     description:
       - "&e收获32个完全成熟的土豆。"
@@ -136,7 +136,7 @@ quests:
       reward_type: MONEY
       amount: 75
   10:
-    name: "&a收获甜菜根"
+    name: "&a收获甜菜根。"
     menu_item: BEETROOT
     description:
       - "&e收获32个完全成熟的甜菜根。"
@@ -148,7 +148,7 @@ quests:
       reward_type: MONEY
       amount: 75
   11:
-    name: "&a收获小麦"
+    name: "&a收获小麦。"
     menu_item: WHEAT
     description:
       - "&e收获32个完全成熟的小麦。"

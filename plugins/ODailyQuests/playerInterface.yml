@@ -7,23 +7,23 @@
 # ======================================================
 player_interface:
   size: 36
-  inventory_name: "&b我的任务"
+  inventory_name: "&b我的任务。"
   # disable the status of the quest if you want to handle it manually by placeholders
   disable_status: false
   # the 3 following lines will not be used if disable_status is set to true
   status: "&e状态："
-  progress: "&e进行中 (&a%progress%&e/&c%required%&e)"
-  achieved: "&a已完成"
+  progress: "&e进行中…… (&a%progress%&e/&c%required%&e)"
+  achieved: "&a已完成。"
   # if you want to glow the item when the quest is achieved
   glowing_if_achieved: true
   complete_get_type: "&e点击完成此任务！"
   player_head:
     enabled: true
     slot: 5
-    item_name: "&b你的任务"
+    item_name: "&b你的任务。"
     item_description:
-      - "&e已完成的任务：&b%achieved%&e/&69"
-      - "&e下一次刷新：&c%drawIn%"
+      - "&e已完成的任务：&b%achieved%&e/&69。"
+      - "&e下一次刷新：&c%drawIn%。"
 
   # ========================================================
   # Available types : FILL, PLAYER_COMMAND, CONSOLE_COMMAND
@@ -45,14 +45,14 @@ player_interface:
       type: CLOSE
       item:
         material: REDSTONE_BLOCK
-        name: "&c关闭"
+        name: "&c关闭。"
         lore: []
         slot: 36
     1:
       type: PLAYER_COMMAND
       item:
         material: REDSTONE
-        name: "&c返回"
+        name: "&c返回。"
         lore:
           - "&e返回菜单。"
         slot: 28

@@ -1,6 +1,6 @@
 options:
   auto-update: true
-  chat-prefix: '&a&lSlimefun 4 &7> '
+  chat-prefix: '&a&l粘液科技4 &7> '
   armor-update-interval: 10
   enable-armor-effects: true
   enable-radiation: true

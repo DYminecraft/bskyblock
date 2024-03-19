@@ -1,8 +1,8 @@
 # All intervals are in ticks (20 ticks = 1 second)
 BalanceTopTimerInterval: 1200
 
-currencyNameSingular: "Yuan"
-currencyNamePlural: "Yuan"
+currencyNameSingular: "元"
+currencyNamePlural: "元"
 startingBalance: 100.00
 # Changing the locale will change wht format the money is in, see 
 # https://www.techonthenet.com/js/language_tags.php for examples.
@@ -24,9 +24,9 @@ mysql:
 suffixes:
   # amount is multiplied by 10^number.
   # e.g. for k, the amount is multiplied by 10^3 (1,000)
-  万: 4
-  亿：8
-  兆：12
+  '万': 4
+  '亿': 8
+  '兆': 12
 
 messages:  
   
@@ -38,8 +38,8 @@ messages:
         
   balance:  
     usage:  
-      - "%prefix%&c用法：/balance"  
-      - "%prefix%&c用法：/balance {玩家}"  
+      - "%prefix%&c用法：/balance。"  
+      - "%prefix%&c用法：/balance {玩家}。"  
     noAccount:  
       - "%prefix%&c你没有账户！"  
     balance:  
@@ -58,7 +58,7 @@ messages:
       usage:  
         - "%prefix%&c用法：/money give {玩家} {金额}。"  
       otherDoesntExist:  
-        - "%prefix%&5%player% &c不存在！"  
+        - "%prefix%&5%player%&c不存在！"  
       otherNoAccount:  
         - "%prefix%&5%player%&c没有账户！"  
       invalidAmount:  
@@ -89,7 +89,7 @@ messages:
       
     set:  
       usage:  
-        - "%prefix%&c用法：/money set {玩家} {金额}"  
+        - "%prefix%&c用法：/money set {玩家} {金额}。"  
       otherDoesntExist:  
         - "%prefix%&5%player%&c不存在！"  
       otherNoAccount:  
@@ -115,9 +115,9 @@ messages:
       insufficientFunds:  
         - "%prefix%&5%player%&c余额不足！"  
       take:  
-        - "%prefix%&e%amount%&a已从&5%player%&a 的账户中扣除。"  
+        - "%prefix%&e%amount%&a已从&5%player%&a的账户中扣除。"  
       takeMultiple:  
-        - "%prefix%&e%amount%&a已从&b%total%&a 个玩家的账户中扣除。"  
+        - "%prefix%&e%amount%&a已从&b%total%&a个玩家的账户中扣除。"  
       taken:  
         - "%prefix%&e%amount%&a已从你的账户中扣除。"  
     

@@ -45,7 +45,7 @@ commands:
   reload:
     description: 重载Slimefun配置文件。
     success: '&a成功重载配置文件。'
-    failed: '&c重载配置文件失败！ 你可能需要重启服务器以应用更改，查看后台输出信息了解更多。'
+    failed: '&c重载配置文件失败！你可能需要重启服务器以应用更改，查看后台输出信息了解更多。'
   migrate:
     description: 迁移旧数据。
     confirm: |-
@@ -240,7 +240,7 @@ messages:
     anchor-set: '&a成功在&e%anchor%&a设置了测量起点。'
   climbing-pick:
     dual-wielding: '&4你需要双手拿着攀岩镐才能使用！'
-    wrong-material: '&c你不能爬上这个平面. 查看指南书了解详情！'
+    wrong-material: '&c你不能爬上这个平面。查看指南书了解详情！'
   fire-extinguish: '&7你灭掉了身上的火。'
   cannot-place: '&c你不能在这里放置方块！'
   no-pvp: '&c你不能在这里攻击其他玩家！'
