@@ -33,7 +33,7 @@ settings:
     attackDamage:
       max: 2048.0
 messages:
-  whitelist: 您不在此服务器的白名单上！
+  whitelist: 你不在此服务器的白名单上！
   unknown-command: 未知命令。如需帮助，请输入“/help”。
   server-full: 服务器已满！
   outdated-client: 客户端版本过旧！请使用{0}。

@@ -13,6 +13,6 @@
 2. Bentobox/locales/
   1. biomes
   2. challenges
-  3. magiccobblestonegenerator
 
 有的参数用<>括起来，有的用[]，不知道有什么区别。
+(?<!。)(?<! )'
