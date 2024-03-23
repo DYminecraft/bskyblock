@@ -20,7 +20,7 @@ admin:
 island:
   level:
     parameters: '[player]'
-    description: '计算你或指定玩家[player]的岛屿等级。'
+    description: 计算你或指定玩家[player]的岛屿等级。
     calculating: '&a等级计算中……'
     estimated-wait: '&a预计等待时间：[number]秒。'
     in-queue: '&a你处于队列中第[number]个。'
@@ -49,7 +49,7 @@ level:
   commands:
     value:
       parameters: '[hand|<material>]'
-      description: '显示方块的价值。在末尾添加“hand”可显示手中方块的价值。'
+      description: 显示方块的价值。在末尾添加“hand”可显示手中方块的价值。
   gui:
     titles:
       top: '&0&l岛屿排行榜。'

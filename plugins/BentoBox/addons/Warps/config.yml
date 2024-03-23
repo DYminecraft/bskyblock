@@ -15,7 +15,7 @@ removeExistingWarpsWhenFlagChanges: true
 # 
 # Text that player must put on sign to make it a warp sign
 # Not case sensitive!
-welcomeLine: '【欢迎】'
+welcomeLine: 【欢迎】
 # 
 # This list stores GameModes in which Level addon should not work.
 # To disable addon it is necessary to write its name in new line that starts with -. Example:

@@ -8,7 +8,7 @@ prefixes:
   bentobox: '&6BentoBox&7 &l>&r '
 general:
   success: '&a成功！'
-  invalid: '无效。'
+  invalid: 无效。
   errors:
     command-cancelled: '&c命令已取消。'
     no-permission: '&c你无权执行此命令（&7[permission]&c）。'
@@ -199,7 +199,7 @@ commands:
       islands-in-trash: '&d这个岛屿在垃圾桶中。'
       protection-range: '&d保护范围：&f[range]。'
       protection-range-bonus-title: '&b包括以下奖励：'
-      protection-range-bonus: '奖金：[number]。'
+      protection-range-bonus: 奖金：[number]。
       purge-protected: '&d清理保护：&a已开启。'
       max-protection-range: '&d历史最大保护范围：&f[range]。'
       protection-coords: '&d保护界线：&f[xz1]到[xz2]。'

@@ -62,6 +62,7 @@ bank:
     title: 账户历史。
     unknown: 未知类型。
     withdraw: 取款。
+    withdrawal: 退出
   user:
     description: 岛屿银行命令。
   withdraw:

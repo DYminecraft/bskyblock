@@ -39,7 +39,7 @@ messages:
   outdated-client: 客户端版本过旧！请使用{0}。
   outdated-server: 服务器版本过旧！我仍在{0}版本上。
   restart: 服务器正在重启……
-advancements: 
+advancements:
   disable-saving: false
   disabled:
   - minecraft:story/disabled

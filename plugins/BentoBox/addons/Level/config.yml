@@ -40,7 +40,7 @@ end: true
 # 
 # Include chest contents in level calculations.
 # Will count blocks in chests or containers.
-include-chests: ture
+include-chests: false
 # 
 # Underwater block multiplier
 # If blocks are below sea-level, they can have a higher value. e.g. 2x

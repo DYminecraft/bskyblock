@@ -91,7 +91,7 @@ guide:
     settings: 返回设置面板。
   languages:
     updated: '&a成功修改语言为: &b%lang%。'
-    selected-language: '目前使用的语言：'
+    selected-language: 目前使用的语言：
     select: 单击选中此语言。
     select-default: 单击选中默认语言。
     change: 单击选择要更改的语言。

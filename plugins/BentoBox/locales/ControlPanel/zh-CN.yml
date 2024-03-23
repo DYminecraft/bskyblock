@@ -1,6 +1,6 @@
 controlpanel:
   messages:
-    import-count: '导入[number]控制面板。'
+    import-count: 导入[number]控制面板。
     control-panels-wiped: '&2所有在[gamemode]模式下的控制面板均已移除。'
   errors:
     no-load: '&4无法加载[file]文件：[message]。'
@@ -14,8 +14,8 @@ controlpanel:
         description: 显示管理员帮助指令。
       import:
         parameters: '[file-name] - 需要导入的文件名。如果为空, 则导入模板。'
-        description: '从[file]导入控制面板。'
-        confirmation: '请确认你想要从[gamemode]模式中，移除现有的控制面板并从[file]导入一个控制面板。'
+        description: 从[file]导入控制面板。
+        confirmation: 请确认你想要从[gamemode]模式中，移除现有的控制面板并从[file]导入一个控制面板。
     help:
       parameters: ''
       description: 打开控制面板。

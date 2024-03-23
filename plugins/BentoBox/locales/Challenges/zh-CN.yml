@@ -77,8 +77,7 @@ challenges:
         description: '&7增加&e[number]。'
       accept:
         name: '&f&l完成。'
-        description: |-
-          &7完成挑战&e[number]次。
+        description: '&7完成挑战&e[number]次。'
       quit:
         name: '&f&l退出。'
         description: '&7退出GUI。'
@@ -104,8 +103,7 @@ challenges:
           &7创造了一个新的级别。
       edit_challenge:
         name: '&f&l编辑挑战。'
-        description: |-
-          &7允许选择和编辑挑战。
+        description: '&7允许选择和编辑挑战。'
       edit_level:
         name: '&f&l编辑级别。'
         description: |-
@@ -113,8 +111,7 @@ challenges:
           &7一个级别。
       delete_challenge:
         name: '&f&l删除挑战。'
-        description: |-
-          &7允许选择和删除挑战。
+        description: '&7允许选择和删除挑战。'
       delete_level:
         name: '&f&l删除级别。'
         description: |-
@@ -913,8 +910,8 @@ challenges:
         status:
           completed: '&2&l已完成。'
           completed-challenges-of: |-
-           &2已完成 &7&l[number]&r&2出
-            &7&l[max]&r&2挑战。
+            &2已完成 &7&l[number]&r&2出
+             &7&l[max]&r&2挑战。
           locked: '&c&l锁定。'
           missing-challenges: |-
             &7[number] 更多的挑战必须是
