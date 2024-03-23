@@ -24,10 +24,10 @@ bank:
   baltop:
     description: 显示余额排名。
     description-syntax: '&d[number]'
-    highest: 按最高排序
-    lowest: 最低排序
+    highest: 按最高排序。
+    lowest: 最低排序。
     name-syntax: '&d[name]'
-    title: 最高余额
+    title: 最高余额。
   deposit:
     description: 将金额存入你的岛屿账户。
     parameters: <金额>
@@ -44,28 +44,28 @@ bank:
     too-long: '&c金额数值必须小于10位。'
   statement:
     balance:
-      name: '&9银行存款余额:'
+      name: '&9银行存款余额：'
       description: '&6[number]'
-    deposit: 存款
+    deposit: 存款。
     description: 显示你的岛屿银行历史记录。
-    give: 管理员给
-    interest: 银行利息
-    latest: 按最新排序
-    oldest: 按最旧排序
-    set: 管理员集
+    give: 岛屿银行管理员命令，增加金额到玩家岛屿账户。
+    interest: 银行利息。
+    latest: 按最新排序。
+    oldest: 按最旧排序。
+    set: 岛屿银行管理员命令，设置玩家岛屿账户的金额。
     syntax: |-
       &9[date]
       &9[time]
       &7[name]
       &6[number]
-    take: 管理员请
-    title: 账户历史
-    unknown: 未知类型
-    withdrawal: 退出
+    take: 岛屿银行管理员命令，增加金额到玩家岛屿账户。管理员请
+    title: 账户历史。
+    unknown: 未知类型。
+    withdraw: 取款。
   user:
     description: 岛屿银行命令。
   withdraw:
-    description: 从你的岛屿账户中提款。
+    description: 从你的岛屿账户中取款。
     parameters: <金额>
     success: '&a成功！你的新岛屿银行余额为[number]。'
 protection:

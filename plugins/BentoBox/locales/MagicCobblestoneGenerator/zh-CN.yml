@@ -2,54 +2,54 @@ stone-generator:
   commands:
     admin:
       main:
-        description: 魔法刷石机的管理命令
+        description: 魔法刷石机的管理命令。
       import:
-        description: 导入刷石机
-        confirmation: 将从[gamemode]中删除现有刷石机，并从模板文件中导入新刷石机-请确认
+        description: 导入刷石机。
+        confirmation: 将从[gamemode]中删除现有刷石机，并从模板文件中导入新刷石机——请确认。
       why:
-        parameters: <player>
-        description: 开关调试信息
+        parameters: <玩家>
+        description: 开关调试信息。
       database:
-        description: 数据库操作命令
+        description: 数据库操作命令。
       import-database:
-        parameters: <file>
-        description: 从文件导入刷石机数据
-        confirmation: 将删除[gamemode]的现有刷石机，并从数据库文件中导入刷石机-请确认
+        parameters: <文件>
+        description: 从文件导入刷石机数据。
+        confirmation: 将删除[gamemode]的现有刷石机，并从数据库文件中导入刷石机——请确认。
       export:
-        parameters: <file>
-        description: 将刷石机数据导出到文件
+        parameters: <文件>
+        description: 将刷石机数据导出到文件。
     player:
       main:
-        description: 打开刷石机控制面板
+        description: 打开刷石机控制面板。
       view:
-        description: 打开某个刷石机的详细面板
-        parameters: <generator-id>
+        description: 打开某个刷石机的详细面板。
+        parameters: <刷石机ID>
       buy:
-        description: 购买一个刷石机
-        parameters: <generator-id>
+        description: 购买一个刷石机。
+        parameters: <刷石机ID>
       activate:
-        description: 启用/禁用 某个刷石机
-        parameters: <generator-id> <true/false>
+        description: 启用/禁用某个刷石机。
+        parameters: <刷石机ID> <true/false>
   gui:
     titles:
-      player-panel: '&8&l刷石机'
-      view-generator: '&r[generator]'
-      admin-panel: '&8&l刷石机管理'
-      select-biome: '&8&l选择生物群系'
-      select-block: '&8&l选择方块'
-      select-bundle: '&8&l选择捆绑包'
-      select-type: '&8&l选择刷石机类型'
-      view-bundle: '&8&l捆绑包: &r[bundle]'
-      manage-bundles: '&8&l管理捆绑包'
-      manage-generators: '&8&l管理刷石机'
-      view-island: '&8&l岛屿: &r[island]'
-      manage-islands: '&8&l管理岛屿刷石机'
-      library: '&8&l刷石机库'
-      settings: '&8&l插件设置'
+      player-panel: '&8&l刷石机。'
+      view-generator: '&r[generator]。'
+      admin-panel: '&8&l刷石机管理。'
+      select-biome: '&8&l选择生物群系。'
+      select-block: '&8&l选择方块。'
+      select-bundle: '&8&l选择捆绑包。'
+      select-type: '&8&l选择刷石机类型。'
+      view-bundle: '&8&l捆绑包：&r[bundle]。'
+      manage-bundles: '&8&l管理捆绑包。'
+      manage-generators: '&8&l管理刷石机。'
+      view-island: '&8&l岛屿：&r[island]。'
+      manage-islands: '&8&l管理岛屿刷石机。'
+      library: '&8&l刷石机库。'
+      settings: '&8&l插件设置。'
     buttons:
       default:
-        name: '&f&l默认刷石机'
-        description: '&7 默认刷石机总是被激活的。'
+        name: '&f&l默认刷石机。'
+        description: '&7默认刷石机总是被激活的。'
         enabled: '&b 这 &a是默认 &b刷石机。'
         disabled: '&b 这 &c不是默认 &b刷石机。'
       priority:
