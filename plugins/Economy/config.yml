@@ -30,7 +30,7 @@ suffixes:
 
 messages:  
   
-  prefix: "&b经济系统 &f>> "  
+  prefix: "&b经济系统 &f> "  
   nopermission:  
     - "%prefix%&4你没有执行此操作的权限！"  
   playersOnly:  
@@ -39,7 +39,7 @@ messages:
   balance:  
     usage:  
       - "%prefix%&c用法：/balance。"  
-      - "%prefix%&c用法：/balance {玩家}。"  
+      - "%prefix%&c用法：/balance <玩家>。"  
     noAccount:  
       - "%prefix%&c你没有账户！"  
     balance:  
@@ -56,7 +56,7 @@ messages:
       
     give:  
       usage:  
-        - "%prefix%&c用法：/money give {玩家} {金额}。"  
+        - "%prefix%&c用法：/money give <玩家> <金额>。"  
       otherDoesntExist:  
         - "%prefix%&5%player%&c不存在！"  
       otherNoAccount:  
@@ -78,8 +78,8 @@ messages:
         - "%prefix%&b/money help。"  
         - "%prefix%&b/balancetop。"  
         - "%prefix%&b/balance。"  
-        - "%prefix%&b/balance {玩家}。"  
-        - "%prefix%&b/pay {玩家} {金额}。"  
+        - "%prefix%&b/balance <玩家>。"  
+        - "%prefix%&b/pay <玩家> <金额>。"  
       
     reload:  
       usage:  
@@ -89,7 +89,7 @@ messages:
       
     set:  
       usage:  
-        - "%prefix%&c用法：/money set {玩家} {金额}。"  
+        - "%prefix%&c用法：/money set <玩家> <金额>。"  
       otherDoesntExist:  
         - "%prefix%&5%player%&c不存在！"  
       otherNoAccount:  
@@ -105,7 +105,7 @@ messages:
       
     take:  
       usage:  
-        - "%prefix%&c用法：/money take {玩家} {金额}。"  
+        - "%prefix%&c用法：/money take <玩家> <金额>。"  
       otherDoesntExist:  
         - "%prefix%&5%player%&c不存在！"  
       otherNoAccount:  
@@ -123,7 +123,7 @@ messages:
     
   pay:  
     usage:  
-      - "%prefix%&c用法：/pay {玩家} {金额}。"  
+      - "%prefix%&c用法：/pay <玩家> <金额>。"  
     otherDoesntExist:  
       - "%prefix%&5%player% &c不存在！"  
     noAccount:  
@@ -144,7 +144,7 @@ messages:
   top:  
     usage:  
       - "%prefix%&c用法：/balancetop。"  
-      - "%prefix%&c用法：/balancetop {数字}。"  
+      - "%prefix%&c用法：/balancetop <数字>。"  
     noAccounts:  
       - "%prefix%&c没有账户！"  
     invalidTop:  

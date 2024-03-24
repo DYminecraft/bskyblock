@@ -2736,7 +2736,7 @@ AUTO_ENCHANTER:
   use-enchant-limit: false
   use-ignored-lores: false
   ignored-lores:
-  - '&7-&c无法被使用在§5自动附魔机上。'
+  - '&7 - &c无法被使用在§5自动附魔机上。'
   enchant-limit: 10
   enchant-level-limit: 10
   override-existing-enchants-lvl: false
@@ -2752,7 +2752,7 @@ AUTO_ENCHANTER_2:
   use-ignored-lores: false
   enchant-level-limit: 10
   ignored-lores:
-  - '&7-&c无法被使用在§5自动附魔机§7-§eII上。'
+  - '&7 - &c无法被使用在§5自动附魔机§7-§eII上。'
   enchant-limit: 10
   use-enchant-limit: false
 AUTO_DISENCHANTER:
@@ -2763,7 +2763,7 @@ AUTO_DISENCHANTER:
   allow-disenchanting: true
   use-enchant-level-limit: false
   ignored-lores:
-  - '&7-&c无法被使用在§5自动祛魔机上。'
+  - '&7 - &c无法被使用在§5自动祛魔机上。'
   use-enchant-limit: false
   use-ignored-lores: false
   enchant-limit: 10
@@ -2778,7 +2778,7 @@ AUTO_DISENCHANTER_2:
   use-enchant-level-limit: false
   enchant-limit: 10
   ignored-lores:
-  - '&7-&c无法被使用在§5自动祛魔机§7-§eII上。'
+  - '&7 - &c无法被使用在§5自动祛魔机§7-§eII上。'
   use-ignored-lores: false
   use-enchant-limit: false
 AUTO_ANVIL:

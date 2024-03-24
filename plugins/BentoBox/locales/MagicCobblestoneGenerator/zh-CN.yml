@@ -372,7 +372,7 @@ stone-generator:
           &7边框图标显示的标题。
           &7如果将其设置为空，则会显示默认名称。
           &7要设置为空白，请设置为“empty”。
-        value: '&b标题：`&r[name]&r&b`。'
+        value: '&b标题：“&r[name]&r&b”。'
       unlock_notify:
         name: '&f&l解锁时通知。'
         description: '&7当可以解锁新的刷石机时，向用户发送一条消息。'

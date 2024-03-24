@@ -422,13 +422,13 @@ commands:
         parameters: <玩家> <数量>
         success: |-
           &a成功将玩家&b[name]&a的死亡次数增加&b[number]次。
-          &a他现在的死亡次数为：&b[total]&a次。"
+          &a他现在的死亡次数为：&b[total]&a次。
       remove:
         description: 减少玩家的死亡次数。
         parameters: <玩家> <数量>
         success: |-
           &a成功将玩家&b[name]&a的死亡次数减少&b[number]次。
-          &a他现在的死亡次数为：&b[total]&a次。"
+          &a他现在的死亡次数为：&b[total]&a次。
     resetname:
       description: 重置玩家空岛名称。
       success: '&a成功重置[name]的空岛名称。'
@@ -1164,7 +1164,7 @@ protection:
       name: '&a&l矿车交互。'
       description: |-
         &7允许/禁止放置、摧毁
-        &7和进入矿车"
+        &7和进入矿车。
       hint: '&c已被禁止与矿车交互。'
     MONSTER_NATURAL_SPAWN:
       description: 允许/禁止怪物自然生成。

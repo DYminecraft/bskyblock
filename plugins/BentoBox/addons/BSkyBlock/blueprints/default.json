@@ -1,18 +1,18 @@
 {
-  "uniqueId": "default",
-  "icon": "GRASS_BLOCK",
-  "displayName": "&e原始空岛",
-  "description": [
-    "&b标准岛屿，带有一头牛————哞！",  
-    "&a包含主世界岛屿",  
-    "&c包含下界岛屿",  
-    "&6包含末地岛屿"  
+  'uniqueId': 'default',
+  'icon': 'GRASS_BLOCK',
+  'displayName': '&e原始空岛',
+  'description': [
+    '&b标准岛屿，带有一头牛————哞！',  
+    '&a包含主世界岛屿',  
+    '&c包含下界岛屿',  
+    '&6包含末地岛屿'  
   ],
-  "requirePermission": false,
-  "blueprints": {
-    "NORMAL": "island",
-    "NETHER": "nether-island",
-    "THE_END": "end-island"
+  'requirePermission': false,
+  'blueprints': {
+    'NORMAL': 'island',
+    'NETHER': 'nether-island',
+    'THE_END': 'end-island'
   },
-  "slot": 0
+  'slot': 0
 }

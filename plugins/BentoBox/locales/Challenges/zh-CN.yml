@@ -20,7 +20,7 @@ challenges:
         description: 完成一个玩家的挑战。
         parameters: <玩家> <挑战ID>
       reset:
-        description: 重设玩家的挑战。如果将参数<挑战ID>设置为 "all"，则将重置该玩家所有挑战。
+        description: 重设玩家的挑战。如果将参数<挑战ID>设置为 “all”，则将重置该玩家所有挑战。
         parameters: <玩家> <挑战ID>
       migrate:
         description: 迁移当前游戏世界的挑战数据到0.8.0存储格式。
@@ -878,92 +878,6 @@ challenges:
     not-hooked: '&cChallenges Addon找不到任何游戏模式。'
     timeout: '&c此挑战需要在完成之间等待[timeout]。你必须等待[wait-time]才能再次完成。'
     requirement-not-met: '&c这个挑战需要[statistic]有[number]，但你只有[value]。'
-#    # Showcase for manual material translation
-#    materials:
-#        # Names should be lowercase.
-#        cobblestone: "Cobblestone"
-#        # Also supports descriptions.
-#        stone:
-#            name: "Stone"
-#            description: ""
-#    item-stacks:
-#        # Non-specific item meta translations.
-#        # TYPE is the item type
-#        # META is a content of item meta.
-#        generic: "[type] [meta]"
-#        # Non-specific meta translations. Will replace [meta]
-#        meta:
-#            upgraded: "Upgraded"
-#            extended: "Extended"
-#            potion-meta: "&e[type] [upgraded] [extended]"
-#            # Be aware, enchants are always listed below item in separate line.
-#            enchant-meta: "  &7 - &e[type] [level]"
-#            skull-meta: ":&e[player-name]"
-#            book-meta: "&e[title] [author]"
-#        # Custom Enchantment Translation.
-#        enchant:
-#            menting: "Mending"
-#            unbreaking: "Unbreaking"
-#        # Custom Potion Translation.
-#        potion-type:
-#            water_breathing: "Water Breathing"
-#        # You can also create specific item translations
-#        # Like translate all potions.
-#        potion:
-#            # This will overwrite generic translation.
-#            name: "[type] [upgraded] [extended]"
-#            # Type is either specific translation or potion effect.
-#            uncraftable: "Uncraftable"
-#            water: "Water"
-#            mundane: "Mundane"
-#            thick: "Thick"
-#            awkward: "Awkward"
-#            night_vision: "Potion of Night Vision"
-#            invisibility: "Potion of Invisibility"
-#            jump: "Potion of Leaping"
-#            fire_resistance: "Potion of Fire Resistance"
-#            speed: "Potion of Swiftness"
-#            slowness: "Potion of Slowness"
-#            water_breathing: "Potion of Water Breathing"
-#            instant_heal: "Potion of Healing"
-#            instant_damage: "Potion of Harming"
-#            poison: "Potion of Poison"
-#            regen: "Potion of Regeneration"
-#            strength: "Potion of Strength"
-#            weakness: "Potion of Weakness"
-#            luck: "Potion of Luck"
-#            turtle_master: "Potion of Turtle Master"
-#            slow_falling: "Potion of Slow Falling"
-#        stone_shovel:
-#            # This will mean that only stone shovels will not show
-#            # meta information.
-#            name: "[type]"
-#
-#    # Showcase how to support multi-linguistic challenges
-#    challenges:
-#        # Database ID name.
-#        example_challenge_id:
-#            name: "&2Translated Name"
-#            description: |-
-#                &7Translated Custom
-#                &7description
-#            reward-text: |-
-#                &7Translated Reward
-#                &7text
-#            repeat-reward-text: |-
-#                &7Translated Repeat
-#                &7Reward text
-#    levels:
-#        # Database ID name.
-#        example_level_id:
-#            name: "&2Translated Name"
-#            description: |-
-#                &7Translated Custom
-#                &7description
-#            reward-text: |-
-#                &7Translated Reward
-#                &7text
-protection:
   flags:
     CHALLENGES_ISLAND_PROTECTION:
       description: |-

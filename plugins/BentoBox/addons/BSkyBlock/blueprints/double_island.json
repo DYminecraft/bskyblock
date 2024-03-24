@@ -1,16 +1,16 @@
 {
-  "uniqueId": "double_island",
-  "icon": "FURNACE",
-  "displayName": "&c双空岛",
-  "description": [
-    "&b一岛双用!",
-    "&b你能到达另一座沙漠岛屿吗？"
+  'uniqueId': 'double_island',
+  'icon': 'FURNACE',
+  'displayName': '&c双空岛',
+  'description': [
+    '&b一岛双用！',
+    '&b你能到达另一座沙漠岛屿吗？'
   ],
-  "requirePermission": false,
-  "blueprints": {
-    "NORMAL": "double",
-    "NETHER": "nether-island",
-    "THE_END": "end-island"
+  'requirePermission': false,
+  'blueprints': {
+    'NORMAL': 'double',
+    'NETHER': 'nether-island',
+    'THE_END': 'end-island'
   },
-  "slot": 1
+  'slot': 1
 }
