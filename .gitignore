@@ -1,16 +1,16 @@
 /.console_history
 
 /config/paper-world-defaults.yml
-/logs
+/logs/
 
-/world
-/world_nether
-/world_the_end
-/bskyblock_world
-/bskyblock_world_nether
-/bskyblock_world_the_end
+/world/
+/world_nether/
+/world_the_end/
+/bskyblock_world/
+/bskyblock_world_nether/
+/bskyblock_world_the_end/
 
-/data-storage
+/data-storage/
 
 /banned-ips.json
 /banned-players.json
@@ -22,7 +22,7 @@
 /version_history.json
 /whitelist.json
 
-/plugins/BentoBox/addons/Bank
+/plugins/BentoBox/addons/Bank/
 /plugins/BentoBox/addons/Biomes/*
 !/plugins/BentoBox/addons/Biomes/biomesTemplate.yml
 /plugins/BentoBox/addons/BSkyBlock/blueprints/*
@@ -30,16 +30,16 @@
 !/plugins/BentoBox/addons/BSkyBlock/blueprints/default.json
 !/plugins/BentoBox/addons/BSkyBlock/blueprints/double_island.json
 !/plugins/BentoBox/addons/BSkyBlock/blueprints/harder_island.json
-/plugins/BentoBox/addons/Challenges
+/plugins/BentoBox/addons/Challenges/
 /plugins/BentoBox/addons/ControlPanel/config.yml
 /plugins/BentoBox/addons/Level/*
 !/plugins/BentoBox/addons/Level/config.yml
 /plugins/BentoBox/addons/MagicCobblestoneGenerator/*
 !/plugins/BentoBox/addons/MagicCobblestoneGenerator/generatorTemplate.yml
-/plugins/BentoBox/addons/Warps/panels
+/plugins/BentoBox/addons/Warps/panels/
 
-/plugins/BentoBox/database
-/plugins/BentoBox/database_backup
+/plugins/BentoBox/database/
+/plugins/BentoBox/database_backup/
 
 /plugins/BentoBox/locales/Bank/*
 !/plugins/BentoBox/locales/Bank/zh-CN.yml
@@ -60,26 +60,26 @@
 /plugins/BentoBox/locales/Warps/*
 !/plugins/BentoBox/locales/Warps/zh-CN.yml
 
-/plugins/BentoBox/panels
+/plugins/BentoBox/panels/
 
-/plugins/bStats
+/plugins/bStats/
 
-/plugins/Economy/data
+/plugins/Economy/data/
 
 /plugins/ODailyQuests/database.mv.db
 /plugins/ODailyQuests/holograms.yml
 /plugins/ODailyQuests/progression.yml
 
-/plugins/QuickShop/cache
+/plugins/QuickShop/cache/
 /plugins/QuickShop/overrides/*
-!/plugins/QuickShop/overrides/zh_cn
+!/plugins/QuickShop/overrides/zh_cn/
 /plugins/QuickShop/qs.log
 /plugins/QuickShop/shops.db
 
-/plugins/Slimefun/cache
-/plugins/Slimefun/error-reports
-/plugins/Slimefun/scripts
-/plugins/Slimefun/world-settings
+/plugins/Slimefun/cache/
+/plugins/Slimefun/error-reports/
+/plugins/Slimefun/scripts/
+/plugins/Slimefun/world-settings/
 /plugins/Slimefun/block-storage.yml
 /plugins/Slimefun/item-models.yml
 /plugins/Slimefun/profile-storage.yml
@@ -87,6 +87,6 @@
 /plugins/Slimefun/resources.yml
 /plugins/Slimefun/sounds.yml
 
-/plugins/update
+/plugins/update/
 
-/plugins/Vault
+/plugins/Vault/
