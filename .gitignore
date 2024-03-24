@@ -22,8 +22,21 @@
 /version_history.json
 /whitelist.json
 
-/plugins/BentoBox/addons/Challenges/default.json
-/plugins/BentoBox/addons/Challenges/template.yml
+/plugins/BentoBox/addons/Bank
+/plugins/BentoBox/addons/Biomes/*
+!/plugins/BentoBox/addons/Biomes/biomesTemplate.yml
+/plugins/BentoBox/addons/BSkyBlock/blueprints/*
+!/plugins/BentoBox/addons/BSkyBlock/blueprints/classic-island.json
+!/plugins/BentoBox/addons/BSkyBlock/blueprints/default.json
+!/plugins/BentoBox/addons/BSkyBlock/blueprints/double_island.json
+!/plugins/BentoBox/addons/BSkyBlock/blueprints/harder_island.json
+/plugins/BentoBox/addons/Challenges
+/plugins/BentoBox/addons/ControlPanel/config.yml
+/plugins/BentoBox/addons/Level/*
+!/plugins/BentoBox/addons/Level/config.yml
+/plugins/BentoBox/addons/MagicCobblestoneGenerator/*
+!/plugins/BentoBox/addons/MagicCobblestoneGenerator/generatorTemplate.yml
+/plugins/BentoBox/addons/Warps/panels
 
 /plugins/BentoBox/database
 /plugins/BentoBox/database_backup
@@ -46,6 +59,8 @@
 !/plugins/BentoBox/locales/MagicCobblestoneGenerator/zh-CN.yml
 /plugins/BentoBox/locales/Warps/*
 !/plugins/BentoBox/locales/Warps/zh-CN.yml
+
+/plugins/BentoBox/panels
 
 /plugins/bStats
 
