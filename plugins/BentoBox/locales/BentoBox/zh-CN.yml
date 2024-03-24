@@ -487,7 +487,7 @@ commands:
     about:
       description: 显示许可信息。
     go:
-      parameters: '<空岛>'
+      parameters: <空岛>
       description: 传送到空岛上。
       teleport: '&a正在传送到空岛……'
       teleported: '&a正在传送到空岛传送点&e[number]&a。'
@@ -518,7 +518,7 @@ commands:
       you-can-teleport-to-your-island: '&a你可以在任何时传送到你的空岛。'
     deletehome:
       description: 删除空岛传送点。
-      parameters: '<空岛>'
+      parameters: <空岛>
     homes:
       description: 列出你的家。
     info:
@@ -566,7 +566,7 @@ commands:
       success: '&a成功为你的空岛取名为&b[name]&a。'
     renamehome:
       description: 重命名空岛传送点。
-      parameters: '<空岛>'
+      parameters: <空岛>
       enter-new-name: '&6输入新名称。'
       already-exists: '&c该名称已存在，请输入一个不同的名称。'
     resetname:
@@ -725,7 +725,7 @@ commands:
       description: 显示空岛设置。
     language:
       description: 选择语言。
-      parameters: '<语言>'
+      parameters: <语言>
       not-available: '&c这不是可用的语言。'
       already-selected: '&c你原本已经在使用这种语言了。'
     expel:

@@ -713,8 +713,7 @@ biomes:
     admin-not-on-island: '&c你不在[user]的空岛上。'
     incorrect-object: '&c无法找到指定名称的生物群系：[biome]。'
     missing-biome: '&c未指定生物群系名称。'
-    incorrect-mode: '&c更新模式“[mode]”&c不存在。有效值须为“ISLAND”（空岛模式），”CHUNK”（区块模式）
-      或者“SQUARE”（范围模式）。'
+    incorrect-mode: '&c更新模式“[mode]”&c不存在。有效值须为“ISLAND”（空岛模式），“CHUNK”（区块模式） 或者“SQUARE”（范围模式）。'
     incorrect-range: '&c给定的值“[number]”不是有效的整数。'
     no-file: '&cBiomes目录中无法找到文件[file]。'
     no-load: '&c无法从[file]中导入生物群系。原因：[description]。'
