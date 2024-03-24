@@ -1,2 +1,2 @@
 @echo off
-java -Xmx2G -Xms128M -jar paper-1.20.4-451.jar
+java -Xmx4G -Xms4G -jar paper-1.20.4-451.jar

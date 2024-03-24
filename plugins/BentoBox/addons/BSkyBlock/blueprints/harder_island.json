@@ -1,11 +1,11 @@
 {
   "uniqueId": "harder_island",
   "icon": "SNOWBALL",
-  "displayName": "&7Harder Island",
+  "displayName": "&7更难的岛屿",
   "description": [
-    "&fThis island is",
-    "&fmuch harder and cold.",
-    "&fBeware the &6lava&f!"
+    "&f这座岛屿",  
+    "&f更加困难且寒冷。",  
+    "&f小心&6岩浆&f！"  
   ],
   "requirePermission": false,
   "blueprints": {

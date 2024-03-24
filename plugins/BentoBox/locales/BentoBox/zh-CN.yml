@@ -16,13 +16,13 @@ general:
     use-in-game: '&c这个命令只能在游戏中使用。'
     use-in-console: '&c该命令仅在控制台中可用。'
     no-team: '&c你目前没有团队！'
-    no-island: '&c你现在没有岛屿！'
-    player-has-island: '&c该玩家原本已经有岛屿了！'
-    player-has-no-island: '&c该玩家没有岛屿！'
-    already-have-island: '&c你已经有岛屿了，不能重复创建！'
-    no-safe-location-found: '&c试图将你传送到岛屿上时找不到安全的落脚点。'
-    not-owner: '&c你不是该岛屿的主人！'
-    player-is-not-owner: '&b[name]&c不是岛屿的主人！'
+    no-island: '&c你现在没有空岛！'
+    player-has-island: '&c该玩家原本已经有空岛了！'
+    player-has-no-island: '&c该玩家没有空岛！'
+    already-have-island: '&c你已经有空岛了，不能重复创建！'
+    no-safe-location-found: '&c试图将你传送到空岛上时找不到安全的落脚点。'
+    not-owner: '&c你不是该空岛的主人！'
+    player-is-not-owner: '&b[name]&c不是空岛的主人！'
     not-in-team: '&c该玩家不在你的队伍中！'
     offline-player: '&c该玩家不存在或已离线。'
     unknown-player: '&b[name]&c是未知玩家！'
@@ -38,7 +38,7 @@ general:
     the-end: 末地。
 commands:
   help:
-    header: '&7=========== &c[label]帮助&7 ==========='
+    header: '&7=========== &c[label]帮助 &7==========='
     syntax: '&b[usage] &a[parameters]&7：&e[description]'
     syntax-no-parameters: '&b[usage]&7：&e[description]'
     end: '&7================================='
@@ -49,29 +49,29 @@ commands:
     help:
       description: 管理员命令。
     resets:
-      description: 修改玩家的岛屿已重置次数。
+      description: 修改玩家的空岛已重置次数。
       set:
-        description: 设置玩家的岛屿已重置次数。
+        description: 设置玩家的空岛已重置次数。
         parameters: <玩家> <数量>
-        success: '&a已将玩家&b[name]&a的岛屿已重置次数设置为&b[number]&a。'
+        success: '&a已将玩家&b[name]&a的空岛已重置次数设置为&b[number]&a。'
       reset:
-        description: 将玩家的岛屿已重置次数重置为0。
+        description: 将玩家的空岛已重置次数重置为0。
         parameters: <玩家>
-        success-everyone: '&a已将&b所有玩家&a的岛屿已重置次数重置为&b0&a。'
-        success: '&a已将玩家&b[name]&a的岛屿已重置次数重置为&b0&a。'
+        success-everyone: '&a已将&b所有玩家&a的空岛已重置次数重置为&b0&a。'
+        success: '&a已将玩家&b[name]&a的空岛已重置次数重置为&b0&a。'
       add:
-        description: 增加玩家的岛屿已重置次数。
+        description: 增加玩家的空岛已重置次数。
         parameters: <玩家> <数量>
-        success: '&a已将玩家&b[name]&a的岛屿已重置次数增加了&b[number]&a，现在为&b[total]&a。'
+        success: '&a已将玩家&b[name]&a的空岛已重置次数增加了&b[number]&a，现在为&b[total]&a。'
       remove:
-        description: 减少玩家的岛屿已重置次数。
+        description: 减少玩家的空岛已重置次数。
         parameters: <玩家> <数量>
-        success: '&a已将玩家&b[name]&a的岛屿已重置次数减少了&b[number]&a，现在为&b[total]&a。'
+        success: '&a已将玩家&b[name]&a的空岛已重置次数减少了&b[number]&a，现在为&b[total]&a。'
     purge:
       parameters: '[days]'
-      description: 清理不活动超过[days]天的岛屿。
+      description: 清理不活动超过[days]天的空岛。
       days-one-or-more: '&c天数必须大于等于1。'
-      purgable-islands: '&a找到&b[number]&a个不活动可以被清理的岛屿。'
+      purgable-islands: '&a找到&b[number]&a个不活动可以被清理的空岛。'
       purge-in-progress: |-
         &c清理正在进行中。
         &c使用&b/[label] purge stop&c来取消清理。
@@ -83,56 +83,56 @@ commands:
         &a请参阅控制台或使用&b/[label] purge status&a来查看清理状态。
       no-purge-in-progress: '&c没有正在进行的清理工作。'
       protect:
-        description: 开启/关闭岛屿清理保护，开启清理保护的岛屿不会被清理。
-        move-to-island: '&c你身处的位置并没有岛屿，请到要操作的岛上再试！'
-        protecting: '&a已为该岛屿开启清理保护。'
-        unprotecting: '&e已关闭该岛屿的清理保护。'
+        description: 开启/关闭空岛清理保护，开启清理保护的空岛不会被清理。
+        move-to-island: '&c你身处的位置并没有空岛，请到要操作的岛上再试！'
+        protecting: '&a已为该空岛开启清理保护。'
+        unprotecting: '&e已关闭该空岛的清理保护。'
       stop:
         description: 停止正在进行的清理工作。
         stopping: '&e正在停止清理。'
       unowned:
-        description: 清理被遗弃（无主）的岛屿。
-        unowned-islands: '&a找到&b[number]&a个被遗弃（无主）的岛屿。'
+        description: 清理被遗弃（无主）的空岛。
+        unowned-islands: '&a找到&b[number]&a个被遗弃（无主）的空岛。'
       status:
         description: 显示清理状态。
         status: '&a共有&b[purgeable]&a个可清理，已清理&b[purged]&a个&7(&b[percentage]%&7)&a。'
     team:
       description: 管理团队。
       add:
-        parameters: <岛屿主人> <玩家>
-        description: 将玩家添加到某个岛屿。
-        name-not-owner: '&c[name]不是岛屿主人。'
-        name-has-island: '&c[name]已经有岛屿了！'
-        success: '&a已将&b[name]&a加入到&b[owner]&a的岛屿。'
+        parameters: <空岛主人> <玩家>
+        description: 将玩家添加到某个空岛。
+        name-not-owner: '&c[name]不是空岛主人。'
+        name-has-island: '&c[name]已经有空岛了！'
+        success: '&a已将&b[name]&a加入到&b[owner]&a的空岛。'
       disband:
-        parameters: <岛屿主人>
-        description: 解散某岛屿所有成员。
-        use-disband-owner: '&c他不是岛屿主人！请使用disband [owner] 。'
-        disbanded: '&c管理员解散了你的岛屿成员！'
-        success: '&b[name]&a的岛屿成员已被解散。'
+        parameters: <空岛主人>
+        description: 解散某空岛所有成员。
+        use-disband-owner: '&c他不是空岛主人！请使用disband [owner] 。'
+        disbanded: '&c管理员解散了你的空岛成员！'
+        success: '&b[name]&a的空岛成员已被解散。'
       fix:
-        description: 扫描数据库，并修复跨岛屿成员（某些玩家错误地拥有或归属于多个岛屿）。
+        description: 扫描数据库，并修复跨空岛成员（某些玩家错误地拥有或归属于多个空岛）。
         scanning: '&e正在扫描数据库……'
-        duplicate-owner: '&c玩家&b[name]&c拥有多个岛屿。'
-        player-has: '&c玩家&b[name]&c拥有&b[number]个岛屿。'
-        duplicate-member: '&c玩家&b[name]&c是多个岛屿的成员。'
+        duplicate-owner: '&c玩家&b[name]&c拥有多个空岛。'
+        player-has: '&c玩家&b[name]&c拥有&b[number]个空岛。'
+        duplicate-member: '&c玩家&b[name]&c是多个空岛的成员。'
         rank-on-island: '&c[rank]在[xyz]。'
         fixed: '&a已修复。'
         done: '&a扫描完毕。'
       kick:
         parameters: <玩家>
-        description: 将玩家踢出岛屿。
-        cannot-kick-owner: '&c你不能踢出岛屿主人，请先踢出岛屿成员。'
-        not-in-team: '&c该玩家不是岛屿成员。'
-        admin-kicked: '&c管理员将你踢出了岛屿。'
-        success: '&a你已将&b[name]&a从&b[owner]&a的岛屿里踢出。'
+        description: 将玩家踢出空岛。
+        cannot-kick-owner: '&c你不能踢出空岛主人，请先踢出空岛成员。'
+        not-in-team: '&c该玩家不是空岛成员。'
+        admin-kicked: '&c管理员将你踢出了空岛。'
+        success: '&a你已将&b[name]&a从&b[owner]&a的空岛里踢出。'
       setowner:
         parameters: <玩家>
-        description: 将玩家提升为所在岛屿的岛主。
+        description: 将玩家提升为所在空岛的岛主。
         already-owner: '&c[name]本身已经是岛主！'
         success: '&a已将&b[name]&a提升为岛主。'
     range:
-      description: 岛屿范围管理命令。
+      description: 空岛范围管理命令。
       invalid-value:
         too-low: '&c保护范围必需大于&b1&c！'
         too-high: '&c保护范围应等于或小于&b[number]&c！'
@@ -140,147 +140,147 @@ commands:
       display:
         already-off: '&c范围指示器已关闭。'
         already-on: '&c范围指示器已打开。'
-        description: 开启/关闭岛屿范围指示器。
-        hiding: '&2正在隐藏岛屿范围指示器。'
+        description: 开启/关闭空岛范围指示器。
+        hiding: '&2正在隐藏空岛范围指示器。'
         hint: |-
-          &c红色屏障&f显示所处岛屿的当前保护范围。
-          &7灰色粒子&f显示所处岛屿的最大保护范围。
-          &a绿色粒子&f显示所处岛屿的默认保护范围。
-        showing: '&2正在显示岛屿范围指示器。'
+          &c红色屏障&f显示所处空岛的当前保护范围。
+          &7灰色粒子&f显示所处空岛的最大保护范围。
+          &a绿色粒子&f显示所处空岛的默认保护范围。
+        showing: '&2正在显示空岛范围指示器。'
       set:
         parameters: <玩家> <范围>
-        description: 设置岛屿保护范围。
-        success: '&a给定岛屿保护范围被设置为&b[number]&a。'
+        description: 设置空岛保护范围。
+        success: '&a给定空岛保护范围被设置为&b[number]&a。'
       reset:
         parameters: <玩家>
-        description: 将岛屿保护范围重置为默认值。
-        success: '&a给定岛屿保护范围已被重置为&b[number]&a。'
+        description: 将空岛保护范围重置为默认值。
+        success: '&a给定空岛保护范围已被重置为&b[number]&a。'
       add:
-        description: 增加岛屿保护范围。
+        description: 增加空岛保护范围。
         parameters: <玩家> <范围>
-        success: '&a已将&b[name]&a的岛屿保护范围增加到&b[total]&7（&b+[number]&7）&a。'
+        success: '&a已将&b[name]&a的空岛保护范围增加到&b[total]&7（&b+[number]&7）&a。'
       remove:
-        description: 减少岛屿保护范围。
+        description: 减少空岛保护范围。
         parameters: <玩家> <范围>
-        success: '&a已将&b[name]&a的岛屿保护范围减少到&b[total]&7（&b-[number]&7）&a。'
+        success: '&a已将&b[name]&a的空岛保护范围减少到&b[total]&7（&b-[number]&7）&a。'
     register:
       parameters: <玩家>
       description: 将玩家注册到你所处的无人岛。
       registered-island: '&a已将&b[name]&a注册到位于&b[xyz]&a的无人岛。'
-      reserved-island: '&a已为&b[name]&a预留了位于&b[xyz]&a的岛屿。'
-      already-owned: '&c所处位置为另一位玩家的岛屿范围！'
-      no-island-here: '&c这里没有岛屿，确定要创建一个吗？'
+      reserved-island: '&a已为&b[name]&a预留了位于&b[xyz]&a的空岛。'
+      already-owned: '&c所处位置为另一位玩家的空岛范围！'
+      no-island-here: '&c这里没有空岛，确定要创建一个吗？'
       in-deletion: '&c所处位置正在执行清理工作，请稍后再试。'
-      cannot-make-island: '&c抱歉，不能在这里创建岛屿。请参阅控制台以获取详细信息。'
+      cannot-make-island: '&c抱歉，不能在这里创建空岛。请参阅控制台以获取详细信息。'
       island-is-spawn: |-
-        &c所处位置为出生点岛屿，你确定要将玩家注册到这个岛屿上？
+        &c所处位置为出生点空岛，你确定要将玩家注册到这个空岛上？
         &6请再次输入命令以确认。
     unregister:
-      parameters: <岛屿主人> [x,y,z]（译：这里我不清楚是什么意思，为什么用的是中括号而不是braket）
-      description: 注销岛主身份，但保留岛屿资源。
-      unregistered-island: '&a已将岛主&b[name]&a从位于&b[xyz]&a的岛屿注销。'
+      parameters: <空岛主人> [x,y,z]（译：这里我不清楚是什么意思，为什么用的是中括号而不是braket）
+      description: 注销岛主身份，但保留空岛资源。
+      unregistered-island: '&a已将岛主&b[name]&a从位于&b[xyz]&a的空岛注销。'
     info:
       parameters: '[player]'
-      description: 获取所在位置或给定玩家的岛屿信息。
-      no-island: '&c你所处位置没有岛屿。'
-      title: '&b&l========== 岛屿信息 ============'
-      island-uuid: '&d岛屿编号：&f[uuid]。'
-      owner: '&d岛屿主人：&f[owner]&7（&f[uuid]&7）。'
+      description: 获取所在位置或给定玩家的空岛信息。
+      no-island: '&c你所处位置没有空岛。'
+      title: '&b&l========== 空岛信息 ============'
+      island-uuid: '&d空岛编号：&f[uuid]。'
+      owner: '&d空岛主人：&f[owner]&7（&f[uuid]&7）。'
       last-login: '&d最后登录：&f[date]。'
       last-login-date-time-format: EEE MMM dd HH:mm:ss zzz yyyy。
       deaths: '&d死亡次数：&f[number]次。'
       resets-left: '&d重置次数：&f[number]次，最多：[total]次。'
-      team-members-title: '&d岛屿成员：'
+      team-members-title: '&d空岛成员：'
       team-owner-format: '&f- [name] [rank]。'
       team-member-format: '&7- [name] [rank]。'
       island-protection-center: '&d保护中心：&f[xyz]。'
-      island-center: '&d岛屿中心：&f[xyz]。'
-      island-coords: '&d岛屿界线：&f[xz1]到[xz2]。'
-      islands-in-trash: '&d这个岛屿在垃圾桶中。'
+      island-center: '&d空岛中心：&f[xyz]。'
+      island-coords: '&d空岛界线：&f[xz1]到[xz2]。'
+      islands-in-trash: '&d这个空岛在垃圾桶中。'
       protection-range: '&d保护范围：&f[range]。'
       protection-range-bonus-title: '&b包括以下奖励：'
       protection-range-bonus: 奖金：[number]。
       purge-protected: '&d清理保护：&a已开启。'
       max-protection-range: '&d历史最大保护范围：&f[range]。'
       protection-coords: '&d保护界线：&f[xz1]到[xz2]。'
-      is-spawn: '&d岛屿类别：&a出生点。'
+      is-spawn: '&d空岛类别：&a出生点。'
       banned-players: '&d封禁玩家：'
       banned-format: '&7- &c[name]。'
       unowned: '&c无人岛。'
     switch:
       description: 开启/关闭保护规避机制。
-      op: '&c运维人员始终可以规避岛屿保护。除非将他们开除。'
+      op: '&c运维人员始终可以规避空岛保护。除非将他们开除。'
       removing: '&c正在删除保护规避……'
       adding: '&a正在添加保护规避……'
     switchto:
       parameters: <玩家> <序号>
-      description: 将玩家的岛屿扔进垃圾桶指定的位置
+      description: 将玩家的空岛扔进垃圾桶指定的位置
       out-of-range: |-
         &c数字必须介于&b1&c到&b[number]&c之间。
-        &c使用&b[label] trash [player]&c来查看岛屿在垃圾桶中的位置。
+        &c使用&b[label] trash [player]&c来查看空岛在垃圾桶中的位置。
       cannot-switch: '&c切换失败。请参阅控制台以获取详细信息。'
-      success: '&a成功将玩家的岛屿切换到垃圾桶指定的位置。'
+      success: '&a成功将玩家的空岛切换到垃圾桶指定的位置。'
     trash:
       no-unowned-in-trash: '&c垃圾桶中没有无人岛。'
-      no-islands-in-trash: '&c垃圾桶中没有玩家岛屿。'
+      no-islands-in-trash: '&c垃圾桶中没有玩家空岛。'
       parameters: '[player]'
-      description: 显示垃圾桶中的无人岛或玩家岛屿。
-      title: '&d=========== 岛屿垃圾桶 ==========='
-      count: '&d&l岛屿：[number]。'
-      use-switch: '&a使用&b[label] switchto <玩家> <序号>&a将玩家岛屿扔到垃圾桶中指定的位置。'
-      use-emptytrash: '&a使用&b[label] emptytrash [player]&a来永久删除岛屿。'
+      description: 显示垃圾桶中的无人岛或玩家空岛。
+      title: '&d=========== 空岛垃圾桶 ==========='
+      count: '&d&l空岛：[number]。'
+      use-switch: '&a使用&b[label] switchto <玩家> <序号>&a将玩家空岛扔到垃圾桶中指定的位置。'
+      use-emptytrash: '&a使用&b[label] emptytrash [player]&a来永久删除空岛。'
     emptytrash:
       parameters: '[player]'
-      description: 永久删除垃圾桶中的岛屿。
+      description: 永久删除垃圾桶中的空岛。
       success: '&a垃圾桶已清空。'
     version:
       description: 显示BentoBox和附加组件的版本。
     setrange:
       parameters: <玩家> <范围>
-      description: 设置玩家岛屿的范围。
-      range-updated: '&a岛屿范围已更新为&b[number]&a。'
+      description: 设置玩家空岛的范围。
+      range-updated: '&a空岛范围已更新为&b[number]&a。'
     reload:
       description: 重载本附加组件。
     tp:
       parameters: <玩家> [player to teleport]
-      description: 传送到玩家的岛屿上。
+      description: 传送到玩家的空岛上。
       manual: '&c没有找到安全落脚点！请手动传送到&b[location]&c附近检查原因。'
     getrank:
       parameters: <玩家> [island owner]
-      description: 获取玩家在岛屿上的阶衔。
-      rank-is: '&a玩家&b[name]&a在岛屿上的阶衔是&b[rank]&a。'
+      description: 获取玩家在空岛上的阶衔。
+      rank-is: '&a玩家&b[name]&a在空岛上的阶衔是&b[rank]&a。'
     setrank:
       parameters: <玩家> <阶衔> [island owner]
-      description: 设置岛屿玩家的阶衔。
+      description: 设置空岛玩家的阶衔。
       unknown-rank: '&c未知阶衔！'
       not-possible: '&c要设置的阶衔必须比 “访客” 高。'
       rank-set: '&a已将玩家&b[name]&a的阶衔从&b[from]&a设置为&b[to]&a。'
     setprotectionlocation:
       parameters: '[x y z]'
-      description: 将所处位置或给定坐标设置为岛屿保护区的中心点。
-      island: '&c这将影响玩家&b[name]&c位于&b[xyz]&c的岛屿。'
-      confirmation: '&c你确定将&b[xyz]&c设置为该岛屿的保护区中心点吗？'
-      success: '&a成功将&b[xyz]&a设置为该岛屿的保护区中心点。'
+      description: 将所处位置或给定坐标设置为空岛保护区的中心点。
+      island: '&c这将影响玩家&b[name]&c位于&b[xyz]&c的空岛。'
+      confirmation: '&c你确定将&b[xyz]&c设置为该空岛的保护区中心点吗？'
+      success: '&a成功将&b[xyz]&a设置为该空岛的保护区中心点。'
       fail: |-
-        &c未能将&b[xyz]&c设置为该岛屿的保护区中心点！
+        &c未能将&b[xyz]&c设置为该空岛的保护区中心点！
         &c请参阅控制台以获得详细错误信息。
-      island-location-changed: '&a[user]将岛屿保护区中心点更改为[xyz]。'
+      island-location-changed: '&a[user]将空岛保护区中心点更改为[xyz]。'
       xyz-error: '&c坐标应该为三个整数，例如：“&b100 120 100&c”。'
     setspawn:
-      description: 将一个岛屿设置为该游戏模式的出生岛屿（主城）。
-      already-spawn: '&c这个岛屿本来就是出生岛屿（主城）！'
-      no-island-here: '&c这里没有岛屿。'
-      confirmation: '&c你确定要将这个岛屿设置为出生岛屿（主城）吗？'
-      success: '&a已成功将该岛屿设置为出生岛屿（主城）。'
+      description: 将一个空岛设置为该游戏模式的出生空岛（主城）。
+      already-spawn: '&c这个空岛本来就是出生空岛（主城）！'
+      no-island-here: '&c这里没有空岛。'
+      confirmation: '&c你确定要将这个空岛设置为出生空岛（主城）吗？'
+      success: '&a已成功将该空岛设置为出生空岛（主城）。'
     setspawnpoint:
-      description: 将当前位置设置为岛屿出生点。
-      no-island-here: '&c这里没有岛屿。'
-      confirmation: '&c你确定要把所处位置设置为该岛屿的出生点？'
-      success: '&a成功将所处位置设置为该岛屿的出生点。'
-      island-spawnpoint-changed: '&b[user]&a更改了岛屿出生点。'
+      description: 将当前位置设置为空岛出生点。
+      no-island-here: '&c这里没有空岛。'
+      confirmation: '&c你确定要把所处位置设置为该空岛的出生点？'
+      success: '&a成功将所处位置设置为该空岛的出生点。'
+      island-spawnpoint-changed: '&b[user]&a更改了空岛出生点。'
     settings:
       parameters: '[player]/[world flag] [flag/active/disable] [rank/active/disable]'
-      description: 打开设置面板或使用命令调整岛屿设置。
+      description: 打开设置面板或使用命令调整空岛设置。
       unknown-setting: '&c未知设置项。'
     blueprint:
       parameters: <load/copy/paste/pos1/pos2/save>
@@ -365,7 +365,7 @@ commands:
           &7右键点击来创建一个新的蓝图方案。
           &7蓝图方案是指包含适用于主世界、下界、末地
           &7三个世界的蓝图的捆绑包。
-          &7它将出现在玩家创建岛屿界面中。
+          &7它将出现在玩家创建空岛界面中。
         name:
           quit: 退出编辑。
           prompt: '&e请输入新名称，或“&bquit&e”来退出编辑。'
@@ -387,17 +387,17 @@ commands:
           &e右键点击 &7- &b减少（往前移）。
     resetflags:
       parameters: '[flag]'
-      description: 将所有岛屿的保护标志设置为config.yml中默认的状态。
-      confirm: '&4这将把所有岛屿的保护标志重置为默认值！'
-      success: '&a已成功将所有岛屿的保护标志重置为默认设置。'
-      success-one: '&a所有岛屿的“&b[name]&a”保护标志已重置为默认值。'
+      description: 将所有空岛的保护标志设置为config.yml中默认的状态。
+      confirm: '&4这将把所有空岛的保护标志重置为默认值！'
+      success: '&a已成功将所有空岛的保护标志重置为默认设置。'
+      success-one: '&a所有空岛的“&b[name]&a”保护标志已重置为默认值。'
     world:
       description: 管理世界设置。
     delete:
       parameters: <玩家>
-      description: 删除玩家的岛屿。
-      cannot-delete-owner: '&c删除岛屿之前，必须将所有岛屿成员踢出该岛。'
-      deleted-island: '&a位于&e[xyz]&a的岛屿已成功删除。'
+      description: 删除玩家的空岛。
+      cannot-delete-owner: '&c删除空岛之前，必须将所有空岛成员踢出该岛。'
+      deleted-island: '&a位于&e[xyz]&a的空岛已成功删除。'
     deletehomes:
       parameters: <玩家>
       description: 从岛上删除所有命名的家（home）传送点。
@@ -430,8 +430,8 @@ commands:
           &a成功将玩家&b[name]&a的死亡次数减少&b[number]次。
           &a他现在的死亡次数为：&b[total]&a次。"
     resetname:
-      description: 重置玩家岛屿名称。
-      success: '&a成功重置[name]的岛屿名称。'
+      description: 重置玩家空岛名称。
+      success: '&a成功重置[name]的空岛名称。'
   bentobox:
     description: BentoBox管理员命令。
     perms:
@@ -487,95 +487,95 @@ commands:
     about:
       description: 显示许可信息。
     go:
-      parameters: '[home name]'
-      description: 传送到岛屿上。
-      teleport: '&a正在传送到岛屿。'
-      teleported: '&a正在传送到岛屿传送点&e[number]&a。'
-      unknown-home: '&c未知岛屿传送点。'
+      parameters: '<空岛>'
+      description: 传送到空岛上。
+      teleport: '&a正在传送到空岛……'
+      teleported: '&a正在传送到空岛传送点&e[number]&a。'
+      unknown-home: '&c未知空岛传送点。'
     help:
-      description: 岛屿命令。
+      description: 空岛命令。
     spawn:
-      description: 传送到出生岛屿（主城）。
-      teleporting: '&a正在传送到出生岛屿（主城）。'
-      no-spawn: '&c这个游戏模式里没有出生岛屿！'
+      description: 传送到出生空岛（主城）。
+      teleporting: '&a正在传送到出生空岛（主城）。'
+      no-spawn: '&c这个游戏模式里没有出生空岛！'
     create:
-      description: 使用可选的蓝图方案创建岛屿（有些蓝图可能需要权限）。
-      parameters: <blueprint>
-      too-many-islands: '&c这个世界太拥挤了，已经没有空余空间为你创建岛屿。'
-      cannot-create-island: '&c找不到合适的地点为你创建岛屿，请稍后重试……'
-      unable-create-island: '&c无法生成你的岛屿，请联系管理员。'
-      creating-island: '&a正在为你的岛屿寻找合适的地点……'
-      you-cannot-make: '&c你不能再建造任何岛屿了！'
+      description: 使用可选的蓝图方案创建空岛（有些蓝图可能需要权限）。
+      parameters: <蓝图>
+      too-many-islands: '&c这个世界太拥挤了，已经没有空余空间为你创建空岛。'
+      cannot-create-island: '&c找不到合适的地点为你创建空岛，请稍后重试……'
+      unable-create-island: '&c无法生成你的空岛，请联系管理员。'
+      creating-island: '&a正在为你的空岛寻找合适的地点……'
+      you-cannot-make: '&c你不能再建造任何空岛了！'
       pasting:
         estimated-time: '&b预计用时：&e[number]&a秒。'
         blocks: '&b正在构建：&a总共需要构建&e[number]&a个方块……'
         entities: '&b填充实体：&a总共需要填充&e[number]&a个实体……'
-        dimension-done: '[world]中的一座岛屿已建成。'
-        done: '&a完成！你的岛屿已准备就绪！'
-      pick: '&9&l选择岛屿方案。'
+        dimension-done: '[world]中的一座空岛已建成。'
+        done: '&a完成！你的空岛已准备就绪！'
+      pick: '&9&l选择空岛方案。'
       unknown-blueprint: '&c该蓝图方案尚未加载。'
-      on-first-login: '&a欢迎！我们将在几秒钟内开始创建你的岛屿！'
-      you-can-teleport-to-your-island: '&a你可以在任何时传送到你的岛屿。'
+      on-first-login: '&a欢迎！我们将在几秒钟内开始创建你的空岛！'
+      you-can-teleport-to-your-island: '&a你可以在任何时传送到你的空岛。'
     deletehome:
-      description: 删除岛屿传送点。
-      parameters: '[home name]'
+      description: 删除空岛传送点。
+      parameters: '<空岛>'
     homes:
       description: 列出你的家。
     info:
-      description: 显示所处岛屿或给定玩家的岛屿信息。
+      description: 显示所处空岛或给定玩家的空岛信息。
       parameters: <玩家>
     near:
-      description: 显示你附近的岛屿的名称。
-      the-following-islands: '&a这些岛屿在你附近：'
+      description: 显示你附近的空岛的名称。
+      the-following-islands: '&a这些空岛在你附近：'
       syntax: '&6- [direction]：&a[name]。'
       north: 北方。
       south: 南方。
       east: 东方。
       west: 西方。
-      no-neighbors: '&你附近没有岛屿！'
+      no-neighbors: '&你附近没有空岛！'
     reset:
-      description: 重新开始你的岛屿生涯。
-      parameters: <blueprint>
+      description: 重新开始你的空岛生涯。
+      parameters: <蓝图>
       none-left: '&c你没有重置机会了！'
       resets-left: '&c你还有&b[number]&c次重置机会。'
       confirmation: |-
         &c你确定要重新开始吗？
-        &c岛上所有成员都会被踢出岛屿，之后如果你需要他们，必须重新邀请他们。
-        &c没有回头路：一旦删除了岛屿就再也不能恢复了。
-      kicked-from-island: '&c你被踢出了&b[gamemode]&c的岛屿，因为岛主正在重置岛屿。'
+        &c岛上所有成员都会被踢出空岛，之后如果你需要他们，必须重新邀请他们。
+        &c没有回头路：一旦删除了空岛就再也不能恢复了。
+      kicked-from-island: '&c你被踢出了&b[gamemode]&c的空岛，因为岛主正在重置空岛。'
     sethome:
-      description: 设置岛屿传送点。
+      description: 设置空岛传送点。
       must-be-on-your-island: '&c你必须在自己的岛上才能设置传送点！'
-      too-many-homes: '&c无法设置 - 你的岛屿最多只能有&b[number]&c个传送点。'
-      home-set: '&6你已在所处位置设置了岛屿传送点。'
-      homes-are: '&6你的岛屿传送点有：'
+      too-many-homes: '&c无法设置 - 你的空岛最多只能有&b[number]&c个传送点。'
+      home-set: '&6你已在所处位置设置了空岛传送点。'
+      homes-are: '&6你的空岛传送点有：'
       home-list-syntax: '&6- [name]。'
       nether:
-        not-allowed: '&c不允许在下界设置岛屿传送点。'
-        confirmation: '&c你确定要在下界设置岛屿传送点吗？'
+        not-allowed: '&c不允许在下界设置空岛传送点。'
+        confirmation: '&c你确定要在下界设置空岛传送点吗？'
       the-end:
-        not-allowed: '&c不允许在末地设置岛屿传送点。'
-        confirmation: '&c你确定要在末地设置岛屿传送点吗？'
+        not-allowed: '&c不允许在末地设置空岛传送点。'
+        confirmation: '&c你确定要在末地设置空岛传送点吗？'
       parameters: '[home number]'
     setname:
-      description: 为你的岛屿取一个好听的名字。
+      description: 为你的空岛取一个好听的名字。
       name-too-short: '&c太短了，名字至少应该有&b[number]&c个字符。'
       name-too-long: '&c太长了，名字最多只能有&b[number]&c个字符。'
-      name-already-exists: '&c已经有一个该名称的岛屿了。'
+      name-already-exists: '&c已经有一个该名称的空岛了。'
       parameters: <名称>
-      success: '&a成功为你的岛屿取名为&b[name]&a。'
+      success: '&a成功为你的空岛取名为&b[name]&a。'
     renamehome:
-      description: 重命名岛屿传送点。
-      parameters: '[home name]'
+      description: 重命名空岛传送点。
+      parameters: '<空岛>'
       enter-new-name: '&6输入新名称。'
       already-exists: '&c该名称已存在，请输入一个不同的名称。'
     resetname:
-      description: 重置岛屿名称。
-      success: '&a已成功重置岛屿名称。'
+      description: 重置空岛名称。
+      success: '&a已成功重置空岛名称。'
     team:
-      description: 管理你的岛屿团队。
+      description: 管理你的空岛团队。
       info:
-        description: 显示你的岛屿团队详细信息。
+        description: 显示你的空岛团队详细信息。
         member-layout:
           online: '&a&l o&f[name]。'
           offline: '&7&l o&7[name]（[last_seen]）。'
@@ -604,11 +604,11 @@ commands:
         description: 解除与玩家的协作关系。
         parameters: <玩家>
         cannot-uncoop-yourself: '&c你不能对自己解除协作关系。'
-        cannot-uncoop-member: '&c你不能对岛屿成员解除协作关系。'
+        cannot-uncoop-member: '&c你不能对空岛成员解除协作关系。'
         player-not-cooped: '&c该玩家不是你的协作者。'
         you-are-no-longer-a-coop-member: '&c你不再是&b[name]&c的协作者了。'
         all-members-logged-off: |-
-          &c玩家&b[name]&c的所有岛屿成员都已下线，
+          &c玩家&b[name]&c的所有空岛成员都已下线，
           &c因此你与他自动解除了协作关系。
         success: '&b[name]&a不再是你的协作者了。'
         is-full: '&c你协作者名额已经满了！'
@@ -625,55 +625,55 @@ commands:
         description: 将玩家从你的可信者里排除。
         parameters: <玩家>
         cannot-untrust-yourself: '&c你不能把自己从可信者里排除。'
-        cannot-untrust-member: '&c你不能把岛屿成员从可信者里排除。'
+        cannot-untrust-member: '&c你不能把空岛成员从可信者里排除。'
         player-not-trusted: '&c该玩家不是你的可信者。'
         you-are-no-longer-trusted: '&c你不再是&b[name]&c的可信者了！'
         success: '&b[name]&a不再是你的可信者了。'
       invite:
-        description: 邀请玩家加入你的岛屿。
+        description: 邀请玩家加入你的空岛。
         invitation-sent: '&a邀请已发送给&b[name]&a。'
         removing-invite: '&c邀请已取消。'
-        name-has-invited-you: '&b[name]&a邀请你加入他的岛屿。'
+        name-has-invited-you: '&b[name]&a邀请你加入他的空岛。'
         to-accept-or-reject: '&a输入&b/[label]team accept&a接受邀请，输入&b/[label]team reject&a拒绝邀请。'
-        you-will-lose-your-island: '&c注意，接受邀请后你将失去自己的岛屿。'
+        you-will-lose-your-island: '&c注意，接受邀请后你将失去自己的空岛。'
         errors:
           cannot-invite-self: '&c你不能邀请自己！'
           cooldown: '&c邀请冷却中，&b[number]&c秒后才能再次发出邀请。'
-          island-is-full: '&c你的岛屿成员数量已满，无法再发起邀请。'
+          island-is-full: '&c你的空岛成员数量已满，无法再发起邀请。'
           none-invited-you: '&c现在没有人邀请你。'
-          you-already-are-in-team: '&c你已经有岛屿了，无法接受邀请。'
-          already-on-team: '&c该玩家本身已经有岛屿了，不能接受你的邀请。'
+          you-already-are-in-team: '&c你已经有空岛了，无法接受邀请。'
+          already-on-team: '&c该玩家本身已经有空岛了，不能接受你的邀请。'
           invalid-invite: '&c抱歉，该邀请已失效。'
           you-have-already-invited: '&c你刚刚已经邀请过该玩家！'
         parameters: <玩家>
         you-can-invite: '&a你可以再邀请&b[number]&a个玩家。'
         accept:
           description: 接受邀请。
-          you-joined-island: '&a你加入了岛屿！使用&b/[label]team&a查看岛屿其他成员。'
-          name-joined-your-island: '&a[name]加入了你的岛屿！'
+          you-joined-island: '&a你加入了空岛！使用&b/[label]team&a查看空岛其他成员。'
+          name-joined-your-island: '&a[name]加入了你的空岛！'
           confirmation: |-
             &c你确定要接受邀请吗？
-            &c&l如果你有岛屿，你将&n失去&r&c&l自己的岛屿！
+            &c&l如果你有空岛，你将&n失去&r&c&l自己的空岛！
         reject:
           description: 拒绝邀请。
-          you-rejected-invite: '&a你拒绝了加入岛屿的邀请。'
+          you-rejected-invite: '&a你拒绝了加入空岛的邀请。'
           name-rejected-your-invite: '&b[name]&c拒绝了你的邀请。'
         cancel:
           description: 取消尚未得到回应的邀请。
       leave:
-        cannot-leave: '&c岛主要退出岛屿，请先转让岛屿，或解散所有成员。'
-        description: 退出岛屿。
-        left-your-island: '&c[name]&c退出了岛屿。'
-        success: '&a你退出了这个岛屿。'
+        cannot-leave: '&c岛主要退出空岛，请先转让空岛，或解散所有成员。'
+        description: 退出空岛。
+        left-your-island: '&c[name]&c退出了空岛。'
+        success: '&a你退出了这个空岛。'
       kick:
-        description: 将成员从你的岛屿中踢出。
+        description: 将成员从你的空岛中踢出。
         parameters: <玩家>
         player-kicked: '&c[name]在[gamemode]将你踢出了岛上！'
         cannot-kick: '&c你不能踢你自己！'
         cannot-kick-rank: '&c你的等级不允许踢[名字]！'
-        success: '&a已将&b[name]&a踢出了岛屿。'
+        success: '&a已将&b[name]&a踢出了空岛。'
       demote:
-        description: 将你的岛屿成员降级。
+        description: 将你的空岛成员降级。
         parameters: <玩家>
         errors:
           cant-demote-yourself: '&c你不能将自己降级！'
@@ -681,7 +681,7 @@ commands:
         failure: '&c该玩家已经不能再降级了！'
         success: '&a已将玩家&b[name]&a降级为&b[rank]。'
       promote:
-        description: 将你的岛屿成员升级。
+        description: 将你的空岛成员升级。
         parameters: <玩家>
         errors:
           cant-promote-yourself: '&c你无法推销自己！'
@@ -689,53 +689,53 @@ commands:
         failure: '&c该玩家已经不能再升级了！'
         success: '&a已将玩家&b[name]&a升级为&b[rank]。'
       setowner:
-        description: 将你的岛屿所有权转让给成员。
+        description: 将你的空岛所有权转让给成员。
         errors:
           cant-transfer-to-yourself: '&c没有必要把所有权转让给自己！'
-          target-is-not-member: '&c该玩家不是你的岛屿成员！'
-          at-max: '&c该玩家已经拥有了允许的最大岛屿数量！'
+          target-is-not-member: '&c该玩家不是你的空岛成员！'
+          at-max: '&c该玩家已经拥有了允许的最大空岛数量！'
         name-is-the-owner: '&b[name]&a现在是岛主了！'
         parameters: <玩家>
         you-are-the-owner: '&a你现在是岛主了！'
     ban:
-      description: 把玩家列入你的岛屿黑名单。
+      description: 把玩家列入你的空岛黑名单。
       parameters: <玩家>
       cannot-ban-yourself: '&c你不能对自己进行黑名单操作！'
-      cannot-ban: '&c该玩家不能被列入岛屿黑名单。'
-      cannot-ban-member: '&c如果要拉黑岛屿成员，请先从岛屿上把他踢出去。'
-      cannot-ban-more-players: '&c你的岛屿黑名单已达到上限，无法再列入玩家了。'
+      cannot-ban: '&c该玩家不能被列入空岛黑名单。'
+      cannot-ban-member: '&c如果要拉黑空岛成员，请先从空岛上把他踢出去。'
+      cannot-ban-more-players: '&c你的空岛黑名单已达到上限，无法再列入玩家了。'
       player-already-banned: '&c该玩家之前已被你列入黑名单。'
-      player-banned: '&b[name]&c已被你列入黑名单，从现在开始他不能再进入你的岛屿。'
-      owner-banned-you: '&c你已被&b[name]&c列入黑名单，从现在开始你不能再进入他的岛屿！'
-      you-are-banned: '&b你已被禁止进入这个岛屿！'
+      player-banned: '&b[name]&c已被你列入黑名单，从现在开始他不能再进入你的空岛。'
+      owner-banned-you: '&c你已被&b[name]&c列入黑名单，从现在开始你不能再进入他的空岛！'
+      you-are-banned: '&b你已被禁止进入这个空岛！'
     unban:
-      description: 把玩家从你的岛屿黑名单中删除。
+      description: 把玩家从你的空岛黑名单中删除。
       parameters: <玩家>
       cannot-unban-yourself: '&c你不能对自己进行黑名单操作！'
-      player-not-banned: '&c该玩家没有被列入岛屿黑名单。'
-      player-unbanned: '&b[name]&a已从你的岛屿黑名单中删除。'
-      you-are-unbanned: '&a你已被&b[name]&a从他的岛屿黑名单中删除。'
+      player-not-banned: '&c该玩家没有被列入空岛黑名单。'
+      player-unbanned: '&b[name]&a已从你的空岛黑名单中删除。'
+      you-are-unbanned: '&a你已被&b[name]&a从他的空岛黑名单中删除。'
     banlist:
-      description: 列出岛屿黑名单中的玩家。
-      noone: '&a岛屿黑名单中没有玩家。'
-      the-following: '&b下列玩家在你的岛屿黑名单中：'
+      description: 列出空岛黑名单中的玩家。
+      noone: '&a空岛黑名单中没有玩家。'
+      the-following: '&b下列玩家在你的空岛黑名单中：'
       names: '&c- [line]'
-      you-can-ban: '&b你的岛屿黑名单能够容纳&e[number]&b个玩家。'
+      you-can-ban: '&b你的空岛黑名单能够容纳&e[number]&b个玩家。'
     settings:
-      description: 显示岛屿设置。
+      description: 显示空岛设置。
     language:
       description: 选择语言。
-      parameters: '[language]'
+      parameters: '<语言>'
       not-available: '&c这不是可用的语言。'
       already-selected: '&c你原本已经在使用这种语言了。'
     expel:
-      description: 将玩家驱逐出你的岛屿
+      description: 将玩家驱逐出你的空岛
       parameters: <玩家>
       cannot-expel-yourself: '&c你不能驱逐自己！'
       cannot-expel: '&c该玩家不能被驱逐！'
-      cannot-expel-member: '&c你不能驱逐岛屿成员！'
+      cannot-expel-member: '&c你不能驱逐空岛成员！'
       not-on-island: '&c该玩家不在你的岛上！'
-      player-expelled-you: '&c你被&b[name]&c驱逐出他的岛屿！'
+      player-expelled-you: '&c你被&b[name]&c驱逐出他的空岛！'
       success: '&a已把&b[name]&a从你的岛上驱逐出去。'
 ranks:
   owner: 岛主。
@@ -922,7 +922,7 @@ protection:
       hint: '&c已被禁止使用紫颂果进行传送。'
     CLEAN_SUPER_FLAT:
       description: |-
-        &7是否允许清理岛屿世界的超平坦地形？
+        &7是否允许清理空岛世界的超平坦地形？
         &7超平坦地形一般是由于世界生成器
         &7发生错误导致的。
       name: '&a&l清理超平坦地形。'
@@ -1018,13 +1018,13 @@ protection:
       name: '&a&l使用末影珍珠。'
       hint: '&c已被禁止使用末影珍珠。'
     ENTER_EXIT_MESSAGES:
-      description: 允许/禁止显示进出岛屿的提示。
-      island: '[name]的岛屿。'
-      name: '&a&l进出岛屿提示。'
+      description: 允许/禁止显示进出空岛的提示。
+      island: '[name]的空岛。'
+      name: '&a&l进出空岛提示。'
       now-entering: '&a你已进入&b[name]&a。'
-      now-entering-your-island: '&a你已进入自己的岛屿，&b[name]。'
+      now-entering-your-island: '&a你已进入自己的空岛，&b[name]。'
       now-leaving: '&6你已离开&b[name]&a。'
-      now-leaving-your-island: '&6你已离开自己的岛屿，&b[name]。'
+      now-leaving-your-island: '&6你已离开自己的空岛，&b[name]。'
     EXPERIENCE_BOTTLE_THROWING:
       name: '&a&l投掷经验瓶。'
       description: 允许/禁止在岛上扔经验瓶。
@@ -1066,8 +1066,8 @@ protection:
       hint: '&c已被禁止使用栅栏门。'
     GEO_LIMIT_MOBS:
       description: |-
-        &7允许/禁止移除岛屿范围外的生物，
-        &7并将生物生成限制在岛屿范围内。
+        &7允许/禁止移除空岛范围外的生物，
+        &7并将生物生成限制在空岛范围内。
       name: '&e&l生物分布限制。'
     HARVEST:
       description: |-
@@ -1108,8 +1108,8 @@ protection:
     ISLAND_RESPAWN:
       description: |-
         &7允许/禁止玩家死亡后
-        &7在自己的岛屿上重生。
-      name: '&a&l在岛屿上重生。'
+        &7在自己的空岛上重生。
+      name: '&a&l在空岛上重生。'
     ITEM_DROP:
       description: 允许/禁止丢弃物品。
       name: '&a&l丢弃物品。'
@@ -1146,16 +1146,16 @@ protection:
     LIQUIDS_FLOWING_OUT:
       name: '&a&l液体溢出。'
       description: |-
-        &7允许/禁止液体流到岛屿保护范围外。
+        &7允许/禁止液体流到空岛保护范围外。
         &c注意，该选项仅能控制水平流动的液体。
     LOCK:
-      description: 选择岛屿对哪些对象开放。
-      name: '&6&l锁定岛屿。'
+      description: 选择空岛对哪些对象开放。
+      name: '&6&l锁定空岛。'
     CHANGE_SETTINGS:
       name: 更改设置。
       description: |-
         &a允许切换哪个成员角色
-        &a可以改变岛屿设置。
+        &a可以改变空岛设置。
     MILKING:
       description: 允许/禁止挤牛奶。
       name: '&a&l挤牛奶。'
@@ -1183,7 +1183,7 @@ protection:
     NATURAL_SPAWNING_OUTSIDE_RANGE:
       name: '&a&l岛外自然生成生物。'
       description: |-
-        &7允许/禁止生物（动物和怪物）在岛屿
+        &7允许/禁止生物（动物和怪物）在空岛
         &7保护范围外自然生成。
         &c这不会阻止刷怪笼和生成蛋生成生物。
     NOTE_BLOCK:
@@ -1202,23 +1202,23 @@ protection:
     OFFLINE_GROWTH:
       description: |-
         &7允许/禁止所有成员都已离线
-        &7的岛屿上的植物继续生长。
+        &7的空岛上的植物继续生长。
         &a这可以帮助减少性能开销
       name: '&a&l离线生长。'
     OFFLINE_REDSTONE:
       description: |-
         &7允许/禁止所有成员都已离线
-        &7的岛屿上的红石设备继续运行。
+        &7的空岛上的红石设备继续运行。
         &a这可以帮助减少性能开销
-        &a这个设置不会影响出生岛屿（主城）。
+        &a这个设置不会影响出生空岛（主城）。
       name: '&a&l离线红石。'
     PETS_STAY_AT_HOME:
       description: |-
         &7允许/禁止驯服的宠物始终待在自
         &7己的岛上，不会到别人的岛上去。
-      name: '&a&l宠物不离开岛屿。'
+      name: '&a&l宠物不离开空岛。'
     PISTON_PUSH:
-      description: 允许/禁止活塞将方块推出岛屿范围。
+      description: 允许/禁止活塞将方块推出空岛范围。
       name: '&a&l活塞推动保护。'
     PLACE_BLOCKS:
       description: 允许/禁止在岛上放置方块。
@@ -1275,7 +1275,7 @@ protection:
       name: '&a&l移除末影龙。'
     REMOVE_MOBS:
       description: |-
-        &7允许/禁止玩家回到岛屿时
+        &7允许/禁止玩家回到空岛时
         &7移除怪物。
         &a这有助于玩家安全回到岛上。
       name: '&a&l移除怪物。'
@@ -1334,7 +1334,7 @@ protection:
     TREES_GROWING_OUTSIDE_RANGE:
       name: '&a&l岛外的树木。'
       description: |-
-        &7允许/禁止树木生长到岛屿保护范围外。
+        &7允许/禁止树木生长到空岛保护范围外。
         &7这不仅可以防止岛保护范围之外的
         &7树苗生长，还能防止岛外的树木
         &7被砍伐后，树叶变枯萎。
@@ -1354,7 +1354,7 @@ protection:
       name: '&a&l阻止坠落时传送。'
       description: |-
         &7允许/禁止阻止玩家在下坠时传送，
-        &7例如用/is go传送到岛屿上。
+        &7例如用/is go传送到空岛上。
         &c允许即为阻止传送。
       hint: '&c已禁止在下坠时进行传送。'
     VISITOR_KEEP_INVENTORY:
@@ -1362,13 +1362,13 @@ protection:
       description: |-
         &a防止游客玩家因死亡
         &a而失去他们的物品和经验。
-        &a一个岛屿成员如果死在他自己的岛上，
+        &a一个空岛成员如果死在他自己的岛上，
         &a仍然会丢失他的物品！
     VISITOR_TRIGGER_RAID:
       name: 访客引发袭击。
       description: |-
         &a切换访客是否可以开始
-        &a对他们所在的岛屿进行突袭来访。
+        &a对他们所在的空岛进行突袭来访。
         &a不祥之兆效果将被移除！
     ENTITY_PORTAL_TELEPORT:
       name: 实体门户使用情况。
@@ -1385,15 +1385,15 @@ protection:
       description: |-
         &a允许床和重生锚
         &a打破方块
-        &a和损坏岛屿限制之外的实体。
+        &a和损坏空岛限制之外的实体。
       name: 世界方块爆炸伤害。
     WORLD_TNT_DAMAGE:
       description: |-
-        &7允许/禁止岛屿保护范围外的TNT
+        &7允许/禁止空岛保护范围外的TNT
         &7和TNT矿车破坏方块和实体。
       name: '&a&l世界TNT伤害。'
-  locked: '&c这个岛屿已被锁定！'
-  protected: '&6岛屿保护：[description]&6。'
+  locked: '&c这个空岛已被锁定！'
+  protected: '&6空岛保护：[description]&6。'
   world-protected: '&6世界保护：[description]&6。'
   spawn-protected: '&6出生点保护：[description]&6。'
   panel:
@@ -1415,16 +1415,16 @@ protection:
       description: '&7将&e所有&7设置项恢复为默认值。'
     PROTECTION:
       title: '&5&l保护。'
-      description: '&7适用于该岛屿的保护设定。'
+      description: '&7适用于该空岛的保护设定。'
     SETTING:
       title: '&5&l设置。'
-      description: '&7适用于该岛屿的一般设置项。'
+      description: '&7适用于该空岛的一般设置项。'
     WORLD_SETTING:
       title: '&5&l用于&3&l[world_name]&5&l的一般设置。'
       description: '&7这些设置项适用于全部游戏世界。'
     WORLD_DEFAULTS:
       title: '&5&l用于&3&l[world_name]&5&l的保护设定。'
-      description: '&7岛屿范围外适用的保护设定。'
+      description: '&7空岛范围外适用的保护设定。'
     flag-item:
       name-layout: '&a&l[name]。'
       description-layout: |-
@@ -1471,7 +1471,7 @@ management:
         gamemode:
           name: '&6[name]。'
           description: |
-            &a岛屿数量：&b[islands]。
+            &a空岛数量：&b[islands]。
       addons:
         name: '&6附加组件。'
         description: '&e点击&7显示所有已加载的附加组件。'

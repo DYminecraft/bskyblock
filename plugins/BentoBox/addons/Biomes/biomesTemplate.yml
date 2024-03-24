@@ -60,12 +60,12 @@ biomes:
   simple_ocean:
     biome: DEEP_OCEAN
     environment: NORMAL
-    name: '&f&l Deep Ocean'
+    name: '&f&l深海。'
     description: |-
-      &7 A deep dark ocean may
-      &7 provide some cod,
-      &7 but squids may wander
-      &7 in its depth.
+      &7 深邃黑暗的海洋可能  
+      &7 孕育着一些鳕鱼，  
+      &7 但鱿鱼也可能在其深处  
+      &7 游荡。  
     icon: COD
     change:
       mode: STATIC
@@ -76,12 +76,12 @@ biomes:
   warm_ocean:
     biome: WARM_OCEAN
     environment: NORMAL
-    name: '&f&l Warm Ocean'
+    name: '&f&l温暖海洋。'
     description: |-
-      &7 A warm ocean is
-      &7 ideal for swimming,
-      &7 and catching some
-      &7 colorfull fish.
+      &7 温暖的海洋是  
+      &7 游泳的理想之地，  
+      &7 也是捕捉一些  
+      &7 五彩斑斓的鱼的绝佳场所。 
     icon: TROPICAL_FISH
     unlock:
       level: 10
@@ -94,11 +94,10 @@ biomes:
   frozen_water:
     biome: FROZEN_OCEAN
     environment: NORMAL
-    name: '&f&l Cold Ocean'
+    name: '&f&l寒冷海洋。'
     description: |-
-      &7 A coldness of this
-      &7 ocean is matched
-      &7 only by its size.
+      &7 这片海洋的寒冷  
+      &7 与其辽阔程度相匹配。  
     icon: ICE
     unlock:
       level: 20
@@ -111,10 +110,10 @@ biomes:
   pretty_caves:
     biome: LUSH_CAVES
     environment: NORMAL
-    name: '&f&l Lush Caves'
+    name: '&f&l茂盛洞穴。'
     description: |-
-      &7 Deep underground are sill
-      &7 some places with greenery.
+      &7 在深深的地下，仍有  
+      &7 一些绿意盎然的地方。  
     icon: FLOWERING_AZALEA
     unlock:
       level: 50
@@ -127,10 +126,10 @@ biomes:
   fields:
     biome: PLAINS
     environment: NORMAL
-    name: '&f&l Plains'
+    name: '&f&l平原。'
     description: |-
-      &7 Flat but green, the best
-      &7 starting biome.
+      &7 平坦而绿意盎然，  
+      &7 是最佳的起始生物群系。 
     icon: GRASS_BLOCK
     change:
       mode: STATIC
@@ -139,12 +138,11 @@ biomes:
   taiga:
     biome: TAIGA
     environment: NORMAL
-    name: '&f&l Taiga'
+    name: '&f&l泰加林。'
     description: |-
-      &7 Cold but not snowy
-      &7 forest. Rabbits and
-      &7 foxes love this
-      &7 weather.
+      &7 寒冷但不积雪的  
+      &7 森林。兔子和  
+      &7 狐狸钟爱这种天气。  
     icon: FERN
     change:
       mode: STATIC
@@ -153,13 +151,12 @@ biomes:
   cold_fields:
     biome: SNOWY_TAIGA
     environment: NORMAL
-    name: '&f&l Snowy Taiga'
+    name: '&f&l雪原泰加林。'
     description: |-
-      &7 Cold and snowy place
-      &7 is not for everyone.
-      &7 But white foxes and
-      &7 rabbits has places
-      &7 where hide.
+      &7 寒冷且积雪的地方  
+      &7 并非人人都能适应。  
+      &7 但白狐和  
+      &7 白兔找到了它们的藏身之处。 
     icon: SNOW_BLOCK
     unlock:
       level: 50
@@ -170,11 +167,11 @@ biomes:
   mountain:
     biome: SNOWY_SLOPES
     environment: NORMAL
-    name: '&f&l Mountain Slopes'
+    name: '&f&l雪原斜坡。'
     description: |-
-      &7 Dangerous place where
-      &7 only crazy goats can
-      &7 survive.
+      &7 危险之地，  
+      &7 只有疯狂的山羊能  
+      &7 在此生存。 
     icon: SNOW_BLOCK
     unlock:
       level: 75
@@ -187,12 +184,12 @@ biomes:
   savanna:
     biome: SAVANNA_PLATEAU
     environment: NORMAL
-    name: '&f&l Savanna'
+    name: '&f&l热带草原。'
     description: |-
-      &7 Warm and almost dry
-      &7 place with rapid rains.
-      &7 Only chach trees can
-      &7 survive there.
+      &7 温暖且几乎干燥  
+      &7 的地方，偶尔有骤雨。  
+      &7 只有猴面包树能够  
+      &7 在那里生存。  
     icon: ACACIA_SAPLING
     unlock:
       level: 50
@@ -205,13 +202,12 @@ biomes:
   mooshroom:
     biome: MUSHROOM_FIELDS
     environment: NORMAL
-    name: '&f&l Infested Land'
+    name: '&f&l腐化之地。'
     description: |-
-      &7 Mycelium infested blocks
-      &7 that spreads faster then
-      &7 grass and infests everything
-      &7 in their way. Almost nothing
-      &7 can survive here.
+      &7 菌丝感染的方块  
+      &7 比草更快地扩散  
+      &7 并感染它们路上的所有东西。  
+      &7 这里几乎无法生存。 
     icon: MYCELIUM
     unlock:
       level: 150
@@ -226,11 +222,11 @@ biomes:
   jungle:
     biome: JUNGLE
     environment: NORMAL
-    name: '&f&l Jungle'
+    name: '&f&l丛林。'
     description: |-
-      &7 Hard to navigate and
-      &7 and rainy place.
-      &7 Ideal for ocelots.
+      &7 难以穿行且  
+      &7 多雨的地方。  
+      &7 是豹猫的理想栖息地。  
     icon: JUNGLE_SAPLING
     unlock:
       level: 50
@@ -241,11 +237,11 @@ biomes:
   beach:
     biome: BEACH
     environment: NORMAL
-    name: '&f&l Beach'
+    name: '&f&l海滩。'
     description: |-
-      &7 The best place for vacation.
-      &7 Get some suncream and a
-      &7 good mood.
+      &7 最佳度假胜地。  
+      &7 涂点防晒霜，保持  
+      &7 心情愉快。
     icon: WATER_BUCKET
     unlock:
       level: 25
@@ -256,11 +252,10 @@ biomes:
   desert:
     biome: DESERT
     environment: NORMAL
-    name: '&f&l Desert'
+    name: '&f&l沙漠。'
     description: |-
-      &7 Hot wasteland with no
-      &7 water. Even rain does
-      &7 not fall here.
+      &7 没有水源的炎热荒原。  
+      &7 甚至雨水都不会降落在这里。
     icon: SAND
     unlock:
       level: 25
@@ -271,12 +266,10 @@ biomes:
   forest:
     biome: FLOWER_FOREST
     environment: NORMAL
-    name: '&f&l Flower Forest'
+    name: '&f&l花海森林'
     description: |-
-      &7 A place where every
-      &7 bee would love to live.
-      &7 All flowers that you
-      &7 wished are here.
+      &7 每个蜜蜂都梦想居住的地方。  
+      &7 你所希望的所有花朵都在这里。 
     icon: ORANGE_TULIP
     unlock:
       level: 75
@@ -287,11 +280,10 @@ biomes:
   swamp:
     biome: SWAMP
     environment: NORMAL
-    name: '&f&l Swamp'
+    name: '&f&l沼泽。'
     description: |-
-      &7 A sticky place where
-      &7 you should not want
-      &7 to stay.
+      &7 一个黏糊糊的地方，  
+      &7 你不会想待在这里。
     icon: BLUE_ORCHID
     unlock:
       level: 75
@@ -303,10 +295,9 @@ biomes:
   hell:
     biome: NETHER_WASTES
     environment: NETHER
-    name: '&f&l Hell'
+    name: '&f&l地狱。'
     description: |-
-      &7 Not a place where
-      &7 living should wander.
+      &7 并非生物应该徘徊的地方。
     icon: NETHERRACK
     unlock:
       level: 250
@@ -317,12 +308,11 @@ biomes:
   basalt:
     biome: BASALT_DELTAS
     environment: NETHER
-    name: '&f&l Basalt Deltas'
+    name: '&f&l玄武岩三角洲。'
     description: |-
-      &7 A bit cooler place in
-      &7 hell where magma cubes
-      &7 wander and search
-      &7 for food.
+      &7 地狱中较为凉爽的地方，  
+      &7 岩浆怪在此徘徊并寻找  
+      &7 食物。
     icon: BASALT
     unlock:
       level: 250
@@ -335,11 +325,11 @@ biomes:
   lost_souls:
     biome: SOUL_SAND_VALLEY
     environment: NETHER
-    name: '&f&l Lost Soul Valley'
+    name: '&f&l灵魂沙谷。'
     description: |-
-      &7 Who stays here too long
-      &7 may stuck and never be
-      &7 able to leave.
+      &7 在这里逗留过久的人  
+      &7 可能会被困住，永远无法  
+      &7 离开。
     icon: SOUL_SAND
     unlock:
       level: 250
@@ -352,12 +342,12 @@ biomes:
   red_forest:
     biome: CRIMSON_FOREST
     environment: NETHER
-    name: '&f&l Red Forest'
+    name: '&f&l绯红森林。'
     description: |-
-      &7 Even in the hell you
-      &7 can fins some places
-      &7 where livings survive.
-      &7 Be aware of angry pigs.
+      &7 即使在地狱中，你也能  
+      &7 找到一些生物能够生存  
+      &7 的地方。  
+      &7 小心那些愤怒的猪灵。  
     icon: CRIMSON_FUNGUS
     unlock:
       level: 250
@@ -372,10 +362,10 @@ biomes:
   cyan_forest:
     biome: WARPED_FOREST
     environment: NETHER
-    name: '&f&l Cyan Forest'
+    name: '&f&l扭曲森林'
     description: |-
-      &7 Safe place in unsafe
-      &7 world.
+      &7 在这个不安全的世界中，  
+      &7 这是一个安全的地方。
     icon: WARPED_FUNGUS
     unlock:
       level: 250

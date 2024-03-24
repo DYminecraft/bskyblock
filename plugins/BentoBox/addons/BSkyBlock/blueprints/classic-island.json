@@ -1,11 +1,10 @@
 {
   "uniqueId": "classic-island",
   "icon": "DIRT_PATH",
-  "displayName": "&bClassic L Island",
+  "displayName": "&b经典L型岛屿。",
   "description": [
-    "&2The Classic &6L-Shaped",
-    "&2Skyblock Island!",
-    "&eVery hard!"
+    "&2经典的&6L型空岛！",
+    "&e非常困难!"
   ],
   "requirePermission": false,
   "blueprints": {

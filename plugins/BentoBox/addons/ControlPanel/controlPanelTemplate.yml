@@ -17,67 +17,67 @@
 panel-list:
   default:
     defaultPanel: true
-    panelName: '&1Commands'
+    panelName: '&1指令'
     permission: 'default'
     buttons:
       0:
-        name: 'Island'
+        name: '空岛'
         material: GRASS
         description:
-          - '&1Go to &5 your island'
+          - '&1去到&5你的空岛。'
         command: '[label] go'
       8:
-        name: 'Settings'
+        name: '设置'
         material: LAVA_BUCKET
         description:
-          - 'Open your island settings'
+          - '打开你的空岛设置。'
         command: '[label] settings'
       3:
-        name: 'Team'
+        name: '团队'
         material: SKULL_ITEM
         description:
-          - 'List team members'
+          - '列出空岛团队成员。'
         command: '[label] team'
       1:
-        name: 'Set Home'
+        name: '设置空岛的家（home）传送点'
         material: WHITE_BED
         description:
-          - 'Set your home here'
+          - '把空岛的家（home）传送点设置在当前位置。'
         command: '[label] sethome'
       9:
-        name: 'Calculate Level'
+        name: '计算空岛等级'
         material: ACACIA_STAIRS
         description:
-          - 'Island level'
-          - 'Level: %Level_[gamemode]_island_level%'
+          - '空岛等级：'
+          - '等级：%Level_[gamemode]_island_level%。'
         command: '[label] level'
       10:
-        name: 'Show top 10'
+        name: '显示排名前十'
         material: BOOK
         description:
-          - 'List the Top 10 islands'
+          - '显示空岛等级排名前十。'
         command: '[label] top'
       12:
-        name: 'Show warps'
+        name: '显示传送点（warp）'
         material: OAK_SIGN
         description:
-          - 'List warps available'
+          - '显示可用的传送点（warp）。'
         command: '[label] warps'
       5:
-        name: 'Spawn'
+        name: '主世界'
         material: BEDROCK
         description:
-          - 'Go to world spawn'
+          - '去到主世界'
         command: '[label] spawn'
       14:
-        name: 'Biomes'
+        name: '空岛生物群系'
         material: OAK_SAPLING
         description:
-          - 'Biomes'
+          - '管理空岛生物群系。'
         command: '[label] biomes'
       15:
-        name: 'Challenges'
+        name: '空岛挑战'
         material: ENCHANTING_TABLE
         description:
-          - 'Challenges'
+          - '显示空岛挑战。'
         command: '[label] challenges'

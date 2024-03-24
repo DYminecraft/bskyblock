@@ -1,11 +1,10 @@
 {
   "uniqueId": "double_island",
   "icon": "FURNACE",
-  "displayName": "&cDouble Island",
+  "displayName": "&c双空岛",
   "description": [
-    "&bTwo islands in one!",
-    "&bCan you reach the",
-    "&bdesert?"
+    "&b一岛双用!",
+    "&b你能到达另一座沙漠岛屿吗？"
   ],
   "requirePermission": false,
   "blueprints": {

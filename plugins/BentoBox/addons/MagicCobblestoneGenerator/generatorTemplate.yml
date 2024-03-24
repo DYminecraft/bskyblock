@@ -7,11 +7,11 @@ tiers:
   # generator ID
   starting_generator:
     # Display name for users
-    name: "&r&l初始刷石机"
+    name: "&r&l初始刷石机。"
     # Description in lore message
     description: |-
-       &7 为每个人提供的
-       &7 初始刷石机。
+      &7为每个人提供的
+      &7初始刷石机。
     # Icon used in GUI's
     icon: "COBBLESTONE:1"
     # Valid Generator types:
@@ -50,11 +50,11 @@ tiers:
   # You can set up multiple default generators.
   starting_nether_generator:
     # Display name for users
-    name: "&r&l初始下界刷石机"
+    name: "&r&l初始下界刷石机。"
     # Description in lore message
     description: |-
-      &7 现在灵魂沙和冰块
-      &7 可以生成下界岩。
+      &7现在灵魂沙和冰块
+      &7可以生成下界岩。
     # Icon used in GUI's
     icon: "BASALT:1"
     # Indicate that it is a default generator.
@@ -87,11 +87,11 @@ tiers:
   # List some more examples.
   coal_generator:
     # Display name for users
-    name: "&r&l煤矿刷石机"
+    name: "&r&l煤矿刷石机。"
     # Description in lore message
     description: |-
-      &7 现在岩浆和水
-      &7 可以生成煤矿。
+      &7现在岩浆和水
+      &7可以生成煤矿。
     # Icon used in GUI's
     icon: "COAL_ORE:1"
     # Generator type: COBBLESTONE, STONE or BASALT. Self explanatory.
@@ -133,11 +133,11 @@ tiers:
       amount: 1
   iron_generator:
     # Display name for users
-    name: "&r&l铁矿刷石机"
+    name: "&r&l铁矿刷石机。"
     # Description in lore message
     description: |-
-      &7 这里边有些
-      &7 有用的东西。
+      &7这里边有些
+      &7有用的东西。
     # Icon used in GUI's
     icon: "IRON_ORE:1"
     # Generator type: COBBLESTONE, STONE or BASALT. Self explanatory.
@@ -180,11 +180,11 @@ tiers:
       amount: 1
   gold_generator:
     # Display name for users
-    name: "&r&l金矿刷石机"
+    name: "&r&l金矿刷石机。"
     # Description in lore message
     description: |-
-      &7 石头之间好像有一些
-      &7 金闪闪的东西。
+      &7石头之间好像有一些
+      &7金闪闪的东西。
     # Icon used in GUI's
     icon: "GOLD_ORE:1"
     # Generator type: COBBLESTONE, STONE or BASALT. Self explanatory.
@@ -228,11 +228,11 @@ tiers:
       amount: 1
   redstone_generator:
     # Display name for users
-    name: "&r&l红石矿刷石机"
+    name: "&r&l红石矿刷石机。"
     # Description in lore message
     description: |-
-      &7 石头之中显现出一些
-      &7 红色的东西。
+      &7石头之中显现出一些
+      &7红色的东西。
     # Icon used in GUI's
     icon: "REDSTONE_ORE:1"
     # Generator type: COBBLESTONE, STONE or BASALT. Self explanatory.
@@ -274,11 +274,11 @@ tiers:
       amount: 1
   emerald_generator:
     # Display name for users
-    name: "&r&l绿宝石矿刷石机"
+    name: "&r&l绿宝石矿刷石机。"
     # Description in lore message
     description: |-
-      &7 绿宝石，现在有
-      &7 绿宝石了。
+      &7绿宝石，现在有
+      &7绿宝石了。
     # Icon used in GUI's
     icon: "EMERALD_ORE:1"
     # Generator type: COBBLESTONE, STONE or BASALT. Self explanatory.
@@ -320,11 +320,11 @@ tiers:
       amount: 1
   diamond_generator:
     # Display name for users
-    name: "&r&l钻石矿刷石机"
+    name: "&r&l钻石矿刷石机。"
     # Description in lore message
     description: |-
-      &7 终于，现在可以
-      &7 生成钻石了。
+      &7终于，现在可以
+      &7生成钻石了。
     # Icon used in GUI's
     icon: "DIAMOND_ORE:1"
     # Generator type: COBBLESTONE, STONE or BASALT. Self explanatory.
@@ -368,11 +368,11 @@ tiers:
   # One more nether generator
   nether_generator:
     # Display name for users
-    name: "&r&l下界刷石机"
+    name: "&r&l下界刷石机。"
     # Description in lore message
     description: |-
-      &7 只是比玄武岩
-      &7 多了一点东西。
+      &7只是比玄武岩
+      &7多了一点东西。
     # Icon used in GUI's
     icon: "BLACKSTONE:1"
     # Generator type: COBBLESTONE, STONE or BASALT. Self explanatory.

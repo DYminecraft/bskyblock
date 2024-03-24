@@ -31,7 +31,7 @@ quests:
     name: "&a把理想变为现实……"
     menu_item: COBBLESTONE
     description:
-      - "&b放置512个方块。可以是扩建岛屿、新建建筑……"
+      - "&b放置512个方块。可以是扩建空岛、新建建筑……"
       - "&b奖励&c500¥&b。"
     quest_type: PLACE
     required_amount: 512
