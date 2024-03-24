@@ -546,10 +546,10 @@ commands:
     sethome:
       description: 设置空岛传送点。
       must-be-on-your-island: '&c你必须在自己的岛上才能设置传送点！'
-      too-many-homes: '&c无法设置 - 你的空岛最多只能有&b[number]&c个传送点。'
+      too-many-homes: '&c无法设置————你的空岛最多只能有&b[number]&c个传送点。'
       home-set: '&6你已在所处位置设置了空岛传送点。'
       homes-are: '&6你的空岛传送点有：'
-      home-list-syntax: '&6- [name]。'
+      home-list-syntax: '&6 - [name]。'
       nether:
         not-allowed: '&c不允许在下界设置空岛传送点。'
         confirmation: '&c你确定要在下界设置空岛传送点吗？'

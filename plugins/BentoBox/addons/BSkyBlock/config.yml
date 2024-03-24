@@ -138,8 +138,8 @@ world:
     dragon-spawn: false
   # Mob white list - these mobs will NOT be removed when logging in or doing /island
   remove-mobs-whitelist:
-  - ENDERMAN
   - WITHER
+  - ENDERMAN
   - ZOMBIE_VILLAGER
   # World flags. These are boolean settings for various flags for this world
   flags:
@@ -344,7 +344,7 @@ island:
   max-trusted-size: 4
   # Default maximum number of homes a player can have. Min = 1
   # Accessed via /is sethome <number> or /is go <number>
-  max-homes: 1
+  max-homes: 10
   reset:
     # How many resets a player is allowed (manage with /bsbadmin reset add/remove/reset/set command)
     # Value of -1 means unlimited, 0 means hardcore - no resets.

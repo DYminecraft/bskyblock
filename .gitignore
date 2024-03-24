@@ -22,8 +22,12 @@
 /version_history.json
 /whitelist.json
 
+/plugins/BentoBox/addons/Challenges/default.json
+/plugins/BentoBox/addons/Challenges/template.yml
+
 /plugins/BentoBox/database
 /plugins/BentoBox/database_backup
+
 /plugins/BentoBox/locales/Bank/*
 !/plugins/BentoBox/locales/Bank/zh-CN.yml
 /plugins/BentoBox/locales/BentoBox/*

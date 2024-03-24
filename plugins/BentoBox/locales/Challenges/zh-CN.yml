@@ -32,7 +32,7 @@ challenges:
         parameters: <挑战ID> [次数]
   gui:
     titles:
-      player-gui: '&0&l挑战菜单。'
+      player-gui: '&0&l挑战菜单'
       gamemode-gui: '&0&l选择游戏模式。'
       multiple-gui: '&0&l多少次？'
       admin-gui: '&0&l挑战管理菜单。'
@@ -644,11 +644,11 @@ challenges:
     descriptions:
       challenge:
         lore: |-
-          [description]。
-          [status]。
-          [cooldown]。
-          [requirements]。
-          [rewards]。
+          [description]
+          [status]
+          [cooldown]
+          [requirements]
+          [rewards]
         status:
           completed: '&2&l已完成。'
           # 原来的time意思是如果完成复数次就是times，不是时间里秒的含义
@@ -657,8 +657,8 @@ challenges:
           completed-times-reached: '&2&l全部完成&7[max]&2次。'
         cooldown:
           lore: |-
-            [timeout]。
-            [wait-time]。
+            [timeout]
+            [wait-time]
           timeout: '&7&l冷却时间：&r&7[time]。'
           wait-time: '&c&l等待时间：&r&c[time]。'
           in-days: '[number]天。'
@@ -667,9 +667,9 @@ challenges:
           in-seconds: '[number]秒。'
         requirements:
           lore: |-
-            [environment]。
-            [type-requirement]。
-            [permission]。
+            [environment]
+            [type-requirement]
+            [permission]
           environment-single: '&7限于[environment]。'
           environment-title: '&7限于：'
           environment-list: '&7 - &e[environment]。'
@@ -678,11 +678,11 @@ challenges:
           permissions-list: '&c - [permission]。'
           island:
             lore: |-
-              [blocks]。
-              [entities]。
-              [search-radius]。
-              [warning-block]。
-              [warning-entity]。
+              [blocks]
+              [entities]
+              [search-radius]
+              [warning-block]
+              [warning-entity]
             blocks-title: '&7&l所需方块：'
             block-value: '&7 - &e[material]。'
             blocks-value: '&7 - &e[number] x [material]。'
@@ -694,19 +694,19 @@ challenges:
             warning-entity: '&e实体将被&c删除。'
           inventory:
             lore: |-
-              [items]。
-              [warning]。
+              [items]
+              [warning]
             item-title: '&7&l必填物品：'
             item-value: '&7 - &e[item]。'
             items-value: '&7 - &e[number] x [item]。'
             warning: '&e物品将被&c删除。'
           other:
             lore: |-
-              [experience]。
-              [experience-warning]。
-              [money]。
-              [money-warning]。
-              [level]。
+              [experience]
+              [experience-warning]
+              [money]
+              [money-warning]
+              [level]
             experience: '&7&l所需经验：&r&e[number]。'
             experience-warning: '&e经验将被&c移除。'
             money: '&7&l所需资金：&r&e[number]。'
@@ -714,8 +714,8 @@ challenges:
             level: '&7&l所需空岛等级：&r&e[number]。'
           statistic:
             lore: |-
-              [statistic]。
-              [warning]。
+              [statistic]
+              [warning]
             multiple-target: '&7&l[statistic]：&r&e[number] x [target]。'
             single-target: '&7&l[statistic]：&r&e[target]。'
             statistic: '&7&l[statistic]&r&e[number]。'
@@ -723,11 +723,11 @@ challenges:
         rewards:
           lore: |-
             &7&l奖励：
-            [text]。
-            [items]。
-            [experience]。
-            [money]。
-            [commands]。
+            [text]
+            [items]
+            [experience]
+            [money]
+            [commands]
           item-title: '&7物品：'
           item-value: '&7 - &e[item]。'
           items-value: '&7 - &e[number] x [item]。'
@@ -737,10 +737,10 @@ challenges:
           command: '&7 - &e[command]。'
       level:
         lore: |-
-          [text]。
-          [status]。
-          [waiver]。
-          [rewards]。
+          [text]
+          [status]
+          [waiver]
+          [rewards]
         status:
           completed: '&2&l已完成。'
           completed-challenges-of: |-
@@ -756,11 +756,11 @@ challenges:
         rewards:
           lore: |-
             &7&l奖励：
-            [text]。
-            [items]。
-            [experience]。
-            [money]。
-            [commands]。
+            [text]
+            [items]
+            [experience]
+            [money]
+            [commands]
           item-title: '&7物品：'
           item-value: '&7 - &e[item]。'
           items-value: '&7 - &e[number] x [item]。'
