@@ -12,7 +12,7 @@ player_interface:
   disable_status: false
   # the 3 following lines will not be used if disable_status is set to true
   status: "&e状态："
-  progress: "&e进行中…… (&a%progress%&e/&c%required%&e)"
+  progress: "&e进行中…… （&a%progress%&e/&c%required%&e）"
   achieved: "&a已完成。"
   # if you want to glow the item when the quest is achieved
   glowing_if_achieved: true

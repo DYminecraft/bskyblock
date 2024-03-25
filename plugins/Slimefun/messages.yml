@@ -232,7 +232,7 @@ messages:
     success: '&a成功为此物品添加了随机的可用附魔属性。'
   research:
     start: '&7古老的灵魂正向你低语其中的神秘！'
-    progress: '&7你逐渐开始理解研究&b%research%&e(%progress%)。'
+    progress: '&7你逐渐开始理解研究&b%research%&e（%progress%）。'
   tape-measure:
     no-anchor: '&c在开始测量之前请先选定测量起点！'
     wrong-world: '&c你设置的起点似乎在另一个世界！'
@@ -277,21 +277,21 @@ machines:
   ignition-chamber-no-flint: '&c自动点火机缺少打火石。'
   inventory-empty: '&6你成功制造了一台多方块结构的机器。 将物品按合成配方放入发射器内，然后再右键我一次合成！'
   ANCIENT_ALTAR:
-    not-enough-pedestals: '&4古代基座不足。目前已摆放的基座数：&c(%pedestals%/8)。'
+    not-enough-pedestals: '&4古代基座不足。目前已摆放的基座数：&c（%pedestals%/8）。'
     unknown-catalyst: '&4无效的催化剂！&c请按照合成配方正确摆放物品！'
     unknown-recipe: '&4未知合成表！&c请按照合成配方正确摆放物品！'
   ANCIENT_PEDESTAL:
     obstructed: '&4基座被挡住了！&c把基座上面的东西移开！'
     in-use: '&4基座上还有东西没拿下来！'
   HOLOGRAM_PROJECTOR:
-    enter-text: '&7请写下想显示在全息文本上的话。&r(支持颜色代码)'
+    enter-text: '&7请写下想显示在全息文本上的话。&r（支持颜色代码）'
     inventory-title: 全息图像编辑器。
   ELEVATOR:
     no-destinations: '&4找不到上下楼。'
     pick-a-floor: '&3-选择一个楼层-'
     current-floor: '&e你现在所在的楼层：'
     click-to-teleport: '&e单击&7传送至楼层：'
-    enter-name: '&7请为你的楼层起个名字吧！&f(支持颜色代码)'
+    enter-name: '&7请为你的楼层起个名字吧！&f（支持颜色代码）'
     named: '&2成功将此层命名为：&f%floor%。'
     editor-title: 电梯设置。
   TELEPORTER:
@@ -348,14 +348,14 @@ gps:
   status-online: 在线。
   status-offline: 离线
   waypoint:
-    new: '&e给你的路径点起个名字吧。&7(支持彩色代码！)'
+    new: '&e给你的路径点起个名字吧。&7（支持彩色代码！）'
     added: '&a成功添加了新的传送点。'
     max: '&4你已到达设置传送点个数的最大上限。'
     duplicate: '&4已经有相同名字的传送点了：&f%waypoint%。'
   insufficient-complexity:
   - '&4GPS网络复杂度不足：&c%complexity%。'
-  - '&4a)你还没有设置一个GPS网络。'
-  - '&4b)你的GPS网络复杂度不够，多放置几个GPS信号发射机。'
+  - '&4a）你还没有设置一个GPS网络。'
+  - '&4b）你的GPS网络复杂度不够，多放置几个GPS信号发射机。'
   geo:
     scan-required: '&4需要先进行自然资源扫描！&c请先使用自然资源扫描器！'
 inventory:
@@ -383,9 +383,9 @@ android:
       MOVE_AND_DIG_FORWARD: '&b向前挖并移动。'
       MOVE_AND_DIG_DOWN: '&b向下挖并移动。'
       ATTACK_MOBS_ANIMALS: '&4攻击&c（怪物或动物）。'
-      ATTACK_MOBS: '&4攻击&c(怪物)。'
-      ATTACK_ANIMALS: '&4攻击&c(动物)。'
-      ATTACK_ANIMALS_ADULT: '&4攻击&c(成年动物)。'
+      ATTACK_MOBS: '&4攻击&c（怪物）。'
+      ATTACK_ANIMALS: '&4攻击&c（动物）。'
+      ATTACK_ANIMALS_ADULT: '&4攻击&c（成年动物）。'
       CHOP_TREE: '&c砍树并补种树苗。'
       CATCH_FISH: '&b钓鱼。'
       FARM_FORWARD: '&b自动采收并补种作物。'
@@ -441,8 +441,8 @@ languages:
   id: 印尼语。
   el: 希腊语。
   he: 希伯来语。
-  pt: 葡萄牙语 (葡萄牙)。
-  pt-BR: 葡萄牙语 (巴西)。
+  pt: 葡萄牙语（葡萄牙）。
+  pt-BR: 葡萄牙语（巴西）。
   ar: 阿拉伯语。
   af: 南非语。
   da: 丹麦语。

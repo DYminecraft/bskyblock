@@ -95,7 +95,7 @@ commands:
         unowned-islands: '&a找到&b[number]&a个被遗弃（无主）的空岛。'
       status:
         description: 显示清理状态。
-        status: '&a共有&b[purgeable]&a个可清理，已清理&b[purged]&a个&7(&b[percentage]%&7)&a。'
+        status: '&a共有&b[purgeable]&a个可清理，已清理&b[purged]&a个&7（&b[percentage]%&7）&a。'
     team:
       description: 管理团队。
       add:
@@ -454,8 +454,8 @@ commands:
       description: 显示BentoBox和附加组件版本。
       loaded-addons: 已载入的附加组件：
       loaded-game-worlds: 已载入的游戏世界：
-      addon-syntax: '&2[name] &3[version] &7(&3[state]&7)。'
-      game-world: '&2[name] &7(&3[addon]&7)：&3[worlds]。'
+      addon-syntax: '&2[name] &3[version]&7（&3[state]&7）。'
+      game-world: '&2[name]&7（&3[addon]&7）：&3[worlds]。'
       server: '&2服务器：&3[name] [version]&2。'
       database: '&2数据库：&3[database]。'
     manage:
