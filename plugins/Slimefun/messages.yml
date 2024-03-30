@@ -69,9 +69,9 @@ guide:
     message: '&b今天要搜些什么？'
     name: '&7搜索……'
     tooltip: '&b单击搜索物品。'
-    inventory: '正在搜索: %item%。'
+    inventory: '正在搜索: %item%'
   tooltips:
-    open-itemgroup: 单击打开。
+    open-itemgroup: 单击打开
     versions-notice: 在反馈问题时这些很重要！
     wiki: 在非官方中文Slimefun维基上查看此物品。
     recipes:
@@ -86,7 +86,7 @@ guide:
     previous: 上一页。
     next: 下一页。
   back:
-    title: 返回。
+    title: 返回
     guide: 返回Slimefun指南。
     settings: 返回设置面板。
   languages:
@@ -122,8 +122,8 @@ guide:
         - '&7的过程了。'
         click: '&e单击启用解锁研究动画。'
   title:
-    main: Slimefun指南。
-    settings: 设置和详情。
+    main: Slimefun指南
+    settings: 设置和详情
     languages: 选择你想要更改的语言。
     credits: Slimefun4贡献者。
     wiki: Slimefun4维基。

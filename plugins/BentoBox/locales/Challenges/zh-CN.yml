@@ -893,3 +893,18 @@ challenges:
       name: 空岛挑战限制。
       hint: 空岛外无挑战。
 version: 11
+protection:
+  flags:
+    CHALLENGES_ISLAND_PROTECTION:
+      description: |-
+        &5 &o 切换谁可以
+        &5 &o 完成挑战
+      name: 挑战保护
+    CHALLENGES_WORLD_PROTECTION:
+      description: |-
+        &5 &o 启用 / 禁用
+        &5 &o 玩家们在自己
+        &5 &o 岛屿中完成挑
+        &5 &o 战的需求。
+      name: 岛屿挑战限制
+      hint: 岛屿外无挑战

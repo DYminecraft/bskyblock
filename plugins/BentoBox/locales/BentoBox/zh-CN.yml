@@ -33,9 +33,9 @@ general:
     must-be-positive-number: '&c“[number]”不是有效的正数。'
     not-on-island: '&c你不在岛上！'
   worlds:
-    overworld: 主世界。
-    nether: 下界。
-    the-end: 末地。
+    overworld: 主世界
+    nether: 下界
+    the-end: 末地
 commands:
   help:
     header: '&7=========== &c[label]帮助 &7==========='
@@ -540,8 +540,9 @@ commands:
       resets-left: '&c你还有&b[number]&c次重置机会。'
       confirmation: |-
         &c你确定要重新开始吗？
-        &c岛上所有成员都会被踢出空岛，之后如果你需要他们，必须重新邀请他们。
-        &c没有回头路：一旦删除了空岛就再也不能恢复了。
+        &c岛上所有成员都会被踢出空岛。
+        &c如果要让他们再次加入你的空岛，你必须重新邀请他们。
+        &c没有回头路：空岛一旦被删除了，就再也不能恢复了。
       kicked-from-island: '&c你被踢出了&b[gamemode]&c的空岛，因为岛主正在重置空岛。'
     sethome:
       description: 设置空岛传送点。
@@ -1019,7 +1020,7 @@ protection:
       hint: '&c已被禁止使用末影珍珠。'
     ENTER_EXIT_MESSAGES:
       description: 允许/禁止显示进出空岛的提示。
-      island: '[name]的空岛。'
+      island: '[name]的空岛'
       name: '&a&l进出空岛提示。'
       now-entering: '&a你已进入&b[name]&a。'
       now-entering-your-island: '&a你已进入自己的空岛，&b[name]。'
